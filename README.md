@@ -1,4 +1,10 @@
-# Easyblocks
+# HeliumBlocks
+
+> Fork of Easyblocks used in Helium Builder.
+
+@heliumblocks/core -> https://www.npmjs.com/package/@heliumblocks/core
+@heliumblocks/editor -> https://www.npmjs.com/package/@heliumblocks/editor
+@heliumblocks/design-system -> https://www.npmjs.com/package/@heliumblocks/design-system
 
 The React toolkit for building completely customised visual page builders.
 
