@@ -3,7 +3,7 @@ import {
   Toaster,
   Typography,
   useToaster,
-} from "@easyblocks/design-system";
+} from "@heliumblocks/design-system";
 
 export function ToastStories() {
   const toaster = useToaster();

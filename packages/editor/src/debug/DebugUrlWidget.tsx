@@ -1,7 +1,7 @@
 import React from "react";
-import { InlineTypeWidgetComponentProps } from "@easyblocks/core";
+import { InlineTypeWidgetComponentProps } from "@heliumblocks/core";
 import { useEffect, useState } from "react";
-import { Input } from "@easyblocks/design-system";
+import { Input } from "@heliumblocks/design-system";
 
 export function DebugUrlWidget(props: InlineTypeWidgetComponentProps<string>) {
   const [active, setActive] = useState(false);

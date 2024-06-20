@@ -1,5 +1,5 @@
 {
-  "name": "@easyblocks/reduce-css-calc",
+  "name": "@heliumblocks/reduce-css-calc",
   "version": "1.0.6",
   "private": true,
   "description": "Reduce CSS calc() function to the maximum",

@@ -6,7 +6,7 @@ import { linkDefinition } from "@/app/easyblocks/components/Link/Link.definition
 import { productCardDefinition } from "@/app/easyblocks/components/ProductCard/ProductCard.definition";
 import { vimeoPlayerEditableComponent } from "@/app/easyblocks/components/VimeoPlayer/VimeoPlayer.definition";
 import { mockVideoWidget } from "@/app/easyblocks/externalData/mockMedia/mockVideoWidget";
-import { Config, EasyblocksBackend } from "@easyblocks/core";
+import { Config, EasyblocksBackend } from "@heliumblocks/core";
 import { buttonComponentDefinition } from "./components/Button/Button.definition";
 import { buttonGroupDefinition } from "./components/ButtonGroup/ButtonGroup.definition";
 import { codeDefinition } from "./components/Code/Code.definition";
@@ -69,11 +69,11 @@ export const easyblocksConfig: Config = {
     codeDefinition,
   ],
   types: {
-    "@easyblocks/image": {
+    "@heliumblocks/image": {
       type: "external",
       widgets: [mockImageWidget, pexelsImageWidget, productWidget],
     },
-    "@easyblocks/video": {
+    "@heliumblocks/video": {
       type: "external",
       widgets: [mockVideoWidget],
     },

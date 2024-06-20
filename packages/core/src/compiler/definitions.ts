@@ -1,4 +1,4 @@
-import { uniqueId } from "@easyblocks/utils";
+import { uniqueId } from "@heliumblocks/utils";
 import { SetOptional } from "type-fest";
 import { isLocalValue } from "..";
 import { getFallbackForLocale, getFallbackLocaleForLocale } from "../locales";
@@ -224,7 +224,7 @@ const textProvider: SchemaPropDefinitionProviders["text"] = (
             [compilationContext.contextParams.locale]:
               schemaProp.defaultValue ?? "Lorem ipsum",
           },
-          widgetId: "@easyblocks/local-text",
+          widgetId: "@heliumblocks/local-text",
         };
       }
 
@@ -250,14 +250,14 @@ const textProvider: SchemaPropDefinitionProviders["text"] = (
           return {
             id: x.id,
             value: fallbackValue,
-            widgetId: "@easyblocks/local-text",
+            widgetId: "@heliumblocks/local-text",
           };
         }
 
         return {
           id: x.id,
           value,
-          widgetId: "@easyblocks/local-text",
+          widgetId: "@heliumblocks/local-text",
         };
       }
 
@@ -1255,10 +1255,10 @@ export function normalizeComponent(
   });
 
   // RichText is a really specific component. It must have concrete shape to work properly.
-  // When using prop of type `component` with `accepts: ["@easyblocks/rich-text"]` it's going to be initialized with empty
+  // When using prop of type `component` with `accepts: ["@heliumblocks/rich-text"]` it's going to be initialized with empty
   // `elements` property which in result will cause RichText to not work properly. To fix this, we're going
   // to initialize `elements` with default template - the same that's being added when user adds RichText to Stack manually.
-  if (ret._component === "@easyblocks/rich-text") {
+  if (ret._component === "@heliumblocks/rich-text") {
     if (
       Object.keys(ret.elements).length === 0 ||
       ret.elements[compilationContext.contextParams.locale]?.length === 0

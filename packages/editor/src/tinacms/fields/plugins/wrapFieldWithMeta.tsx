@@ -10,19 +10,19 @@ import {
   isTrulyResponsiveValue,
   responsiveValueFindDeviceWithDefinedValue,
   responsiveValueForceGet,
-} from "@easyblocks/core";
+} from "@heliumblocks/core";
 import {
   InternalField,
   isExternalSchemaProp,
-} from "@easyblocks/core/_internals";
+} from "@heliumblocks/core/_internals";
 import {
   Fonts,
   Loader,
   Select,
   SelectItem,
   Typography,
-} from "@easyblocks/design-system";
-import { dotNotationGet, toArray, uniqueId } from "@easyblocks/utils";
+} from "@heliumblocks/design-system";
+import { dotNotationGet, toArray, uniqueId } from "@heliumblocks/utils";
 import React, { ReactNode, useState } from "react";
 import styled, { css } from "styled-components";
 import { useConfigAfterAuto } from "../../../ConfigAfterAutoContext";
@@ -223,7 +223,7 @@ export function FieldMetaWrapper<
                 schemaProp={schemaProp}
                 value={currentBreakpointFieldValues[0]}
                 onChange={(widgetId) => {
-                  if (widgetId === "@easyblocks/local-text") {
+                  if (widgetId === "@heliumblocks/local-text") {
                     const newFieldValue: LocalTextReference = {
                       id: `local.${uniqueId()}`,
                       value: {},
@@ -293,13 +293,13 @@ function WidgetsSelect({
   ).widgets;
   const availableWidgets = isRootComponent
     ? widgets.filter((w) => {
-        return w.id !== "@easyblocks/document-data";
+        return w.id !== "@heliumblocks/document-data";
       })
     : [...widgets];
 
   if (schemaProp.type === "text") {
     availableWidgets.unshift({
-      id: "@easyblocks/local-text",
+      id: "@heliumblocks/local-text",
       label: "Local text",
       component: () => {
         return null;

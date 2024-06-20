@@ -2,7 +2,7 @@ import {
   ChildComponentEditingInfo,
   NoCodeComponentDefinition,
   box,
-} from "@easyblocks/core";
+} from "@heliumblocks/core";
 
 const horizontalLayoutDefinition: NoCodeComponentDefinition = {
   id: "HorizontalLayout",

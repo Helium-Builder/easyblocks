@@ -1,6 +1,6 @@
-import { responsiveValueForceGet } from "@easyblocks/core";
-import { Colors, Fonts, Icons } from "@easyblocks/design-system";
-import { dotNotationGet, toArray } from "@easyblocks/utils";
+import { responsiveValueForceGet } from "@heliumblocks/core";
+import { Colors, Fonts, Icons } from "@heliumblocks/design-system";
+import { dotNotationGet, toArray } from "@heliumblocks/utils";
 import React from "react";
 import styled from "styled-components";
 import { useConfigAfterAuto } from "../../../../ConfigAfterAutoContext";

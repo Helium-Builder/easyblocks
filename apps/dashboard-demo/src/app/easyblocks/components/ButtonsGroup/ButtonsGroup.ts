@@ -1,4 +1,4 @@
-import { NoCodeComponentDefinition, box } from "@easyblocks/core";
+import { NoCodeComponentDefinition, box } from "@heliumblocks/core";
 
 const buttonsGroupDefinition: NoCodeComponentDefinition = {
   id: "ButtonsGroup",

@@ -1,4 +1,4 @@
-import { AnyTinaField } from "@easyblocks/core";
+import { AnyTinaField } from "@heliumblocks/core";
 import {
   CompilationCache,
   CompilationCacheItemValue,
@@ -8,8 +8,8 @@ import {
   buildRichTextPartComponentConfig,
   compileInternal,
   normalize,
-} from "@easyblocks/core/_internals";
-import { dotNotationGet } from "@easyblocks/utils";
+} from "@heliumblocks/core/_internals";
+import { dotNotationGet } from "@heliumblocks/utils";
 import { EditorContextType } from "../../../EditorContext";
 import { isFieldPortal } from "../../../buildTinaFields";
 import { Form } from "../../../form";
@@ -297,7 +297,7 @@ describe("multiple fields", () => {
 });
 
 describe("rich text editor", () => {
-  test("updates when setting value for @easyblocks/rich-text-part", () => {
+  test("updates when setting value for @heliumblocks/rich-text-part", () => {
     const editorContext = createTestEditorContext();
 
     editorContext.focussedField.push(
@@ -318,7 +318,7 @@ describe("rich text editor", () => {
     expect(postMessageMock).toHaveBeenCalledTimes(1);
     expect(postMessageMock).toHaveBeenLastCalledWith(
       {
-        type: "@easyblocks-editor/rich-text-changed",
+        type: "@heliumblocks-editor/rich-text-changed",
         payload: {
           prop: "color",
           schemaProp: { prop: "color", type: "color" },
@@ -329,7 +329,7 @@ describe("rich text editor", () => {
     );
   });
 
-  test("updates when setting value for @easyblocks/rich-text-part using event", () => {
+  test("updates when setting value for @heliumblocks/rich-text-part using event", () => {
     const editorContext = createTestEditorContext();
 
     editorContext.focussedField.push(
@@ -350,7 +350,7 @@ describe("rich text editor", () => {
     expect(postMessageMock).toHaveBeenCalledTimes(1);
     expect(postMessageMock).toHaveBeenLastCalledWith(
       {
-        type: "@easyblocks-editor/rich-text-changed",
+        type: "@heliumblocks-editor/rich-text-changed",
         payload: {
           prop: "color",
           schemaProp: { prop: "color", type: "color" },
@@ -361,7 +361,7 @@ describe("rich text editor", () => {
     );
   });
 
-  test("updates when setting value for @easyblocks/rich-text-block-element", () => {
+  test("updates when setting value for @heliumblocks/rich-text-block-element", () => {
     const editorContext = createTestEditorContext();
 
     editorContext.focussedField.push("richText");
@@ -388,7 +388,7 @@ describe("rich text editor", () => {
     expect(getValue()).toBe("bulleted-list");
   });
 
-  test("updates when setting multiple values for different @easyblocks/rich-text-part", () => {
+  test("updates when setting multiple values for different @heliumblocks/rich-text-part", () => {
     const editorContext = createTestEditorContext();
 
     editorContext.focussedField.push(
@@ -415,7 +415,7 @@ describe("rich text editor", () => {
     expect(postMessageMock).toHaveBeenCalledTimes(1);
     expect(postMessageMock).toHaveBeenLastCalledWith(
       {
-        type: "@easyblocks-editor/rich-text-changed",
+        type: "@heliumblocks-editor/rich-text-changed",
         payload: {
           prop: "color",
           schemaProp: { prop: "color", type: "color" },

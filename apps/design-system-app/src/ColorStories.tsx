@@ -1,4 +1,4 @@
-import { Colors, Typography } from "@easyblocks/design-system";
+import { Colors, Typography } from "@heliumblocks/design-system";
 import { ReactNode } from "react";
 
 const Color: React.FC<{ color: string; children: ReactNode }> = ({

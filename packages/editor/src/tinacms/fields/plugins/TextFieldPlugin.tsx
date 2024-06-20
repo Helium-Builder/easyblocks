@@ -1,6 +1,6 @@
-import { LocalTextReference, ResponsiveValue } from "@easyblocks/core";
-import { InternalField, useTextValue } from "@easyblocks/core/_internals";
-import { Input } from "@easyblocks/design-system";
+import { LocalTextReference, ResponsiveValue } from "@heliumblocks/core";
+import { InternalField, useTextValue } from "@heliumblocks/core/_internals";
+import { Input } from "@heliumblocks/design-system";
 import React from "react";
 import { FieldRenderProps } from "react-final-form";
 import { useEditorContext } from "../../../EditorContext";

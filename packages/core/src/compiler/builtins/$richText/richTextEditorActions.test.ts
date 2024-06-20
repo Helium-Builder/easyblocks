@@ -1,4 +1,4 @@
-// import { uniqueId } from "@easyblocks/utils";
+// import { uniqueId } from "@heliumblocks/utils";
 import { createEditor, Editor, Transforms } from "slate";
 import { withReact } from "slate-react";
 import {
@@ -46,19 +46,19 @@ describe("updateSelection", () => {
     });
 
     expect(result?.elements).toEqual([
-      configContaining("@easyblocks/rich-text-block-element", {
+      configContaining("@heliumblocks/rich-text-block-element", {
         type: "paragraph",
         elements: [
-          configContaining("@easyblocks/rich-text-line-element", {
+          configContaining("@heliumblocks/rich-text-line-element", {
             elements: [
-              configContaining("@easyblocks/rich-text-part", {
+              configContaining("@heliumblocks/rich-text-part", {
                 value: "Lorem",
                 color: {
                   $res: true,
                   xl: "red",
                 },
               }),
-              configContaining("@easyblocks/rich-text-part", {
+              configContaining("@heliumblocks/rich-text-part", {
                 value: " ipsum",
                 color: {
                   $res: true,
@@ -112,19 +112,19 @@ describe("updateSelection", () => {
     });
 
     expect(result?.elements).toEqual([
-      configContaining("@easyblocks/rich-text-block-element", {
+      configContaining("@heliumblocks/rich-text-block-element", {
         type: "paragraph",
         elements: [
-          configContaining("@easyblocks/rich-text-line-element", {
+          configContaining("@heliumblocks/rich-text-line-element", {
             elements: [
-              configContaining("@easyblocks/rich-text-part", {
+              configContaining("@heliumblocks/rich-text-part", {
                 value: "Lorem",
                 font: {
                   $res: true,
                   xl: "Comic Sans",
                 },
               }),
-              configContaining("@easyblocks/rich-text-part", {
+              configContaining("@heliumblocks/rich-text-part", {
                 value: " ipsum",
                 font: {
                   $res: true,
@@ -182,17 +182,17 @@ describe("updateSelection", () => {
   //     );
 
   //     expect(result?.elements).toEqual([
-  //       configContaining("@easyblocks/rich-text-block-element", {
+  //       configContaining("@heliumblocks/rich-text-block-element", {
   //         type: "paragraph",
   //         elements: [
-  //           configContaining("@easyblocks/rich-text-line-element", {
+  //           configContaining("@heliumblocks/rich-text-line-element", {
   //             elements: [
   //               emptyTextPartConfig(),
   //               configContaining(
-  //                 "@easyblocks/rich-text-inline-wrapper-element",
+  //                 "@heliumblocks/rich-text-inline-wrapper-element",
   //                 {
   //                   elements: [
-  //                     configContaining("@easyblocks/rich-text-part", {
+  //                     configContaining("@heliumblocks/rich-text-part", {
   //                       value: "Lorem",
   //                     }),
   //                   ],
@@ -205,7 +205,7 @@ describe("updateSelection", () => {
   //                   textModifier: [],
   //                 }
   //               ),
-  //               configContaining("@easyblocks/rich-text-part", {
+  //               configContaining("@heliumblocks/rich-text-part", {
   //                 value: " ipsum",
   //               }),
   //             ],
@@ -292,17 +292,17 @@ describe("updateSelection", () => {
   //     );
 
   //     expect(result?.elements).toEqual([
-  //       configContaining("@easyblocks/rich-text-block-element", {
+  //       configContaining("@heliumblocks/rich-text-block-element", {
   //         type: "paragraph",
   //         elements: [
-  //           configContaining("@easyblocks/rich-text-line-element", {
+  //           configContaining("@heliumblocks/rich-text-line-element", {
   //             elements: [
   //               emptyTextPartConfig(),
   //               configContaining(
-  //                 "@easyblocks/rich-text-inline-wrapper-element",
+  //                 "@heliumblocks/rich-text-inline-wrapper-element",
   //                 {
   //                   elements: [
-  //                     configContaining("@easyblocks/rich-text-part", {
+  //                     configContaining("@heliumblocks/rich-text-part", {
   //                       value: "Lorem",
   //                     }),
   //                   ],
@@ -317,10 +317,10 @@ describe("updateSelection", () => {
   //               ),
   //               emptyTextPartConfig(),
   //               configContaining(
-  //                 "@easyblocks/rich-text-inline-wrapper-element",
+  //                 "@heliumblocks/rich-text-inline-wrapper-element",
   //                 {
   //                   elements: [
-  //                     configContaining("@easyblocks/rich-text-part", {
+  //                     configContaining("@heliumblocks/rich-text-part", {
   //                       value: " ipsum",
   //                     }),
   //                   ],
@@ -400,17 +400,17 @@ describe("updateSelection", () => {
   //     );
 
   //     expect(result?.elements).toEqual([
-  //       configContaining("@easyblocks/rich-text-block-element", {
+  //       configContaining("@heliumblocks/rich-text-block-element", {
   //         type: "paragraph",
   //         elements: [
-  //           configContaining("@easyblocks/rich-text-line-element", {
+  //           configContaining("@heliumblocks/rich-text-line-element", {
   //             elements: [
   //               emptyTextPartConfig(),
   //               configContaining(
-  //                 "@easyblocks/rich-text-inline-wrapper-element",
+  //                 "@heliumblocks/rich-text-inline-wrapper-element",
   //                 {
   //                   elements: [
-  //                     configContaining("@easyblocks/rich-text-part", {
+  //                     configContaining("@heliumblocks/rich-text-part", {
   //                       value: "Lorem ipsum",
   //                     }),
   //                   ],
@@ -531,17 +531,17 @@ describe("updateSelection", () => {
   //     );
 
   //     expect(result?.elements).toEqual([
-  //       configContaining("@easyblocks/rich-text-block-element", {
+  //       configContaining("@heliumblocks/rich-text-block-element", {
   //         type: "paragraph",
   //         elements: [
-  //           configContaining("@easyblocks/rich-text-line-element", {
+  //           configContaining("@heliumblocks/rich-text-line-element", {
   //             elements: [
   //               emptyTextPartConfig(),
   //               configContaining(
-  //                 "@easyblocks/rich-text-inline-wrapper-element",
+  //                 "@heliumblocks/rich-text-inline-wrapper-element",
   //                 {
   //                   elements: [
-  //                     configContaining("@easyblocks/rich-text-part", {
+  //                     configContaining("@heliumblocks/rich-text-part", {
   //                       value: "Lor",
   //                     }),
   //                   ],
@@ -555,14 +555,14 @@ describe("updateSelection", () => {
   //                   textModifier: [],
   //                 }
   //               ),
-  //               configContaining("@easyblocks/rich-text-part", {
+  //               configContaining("@heliumblocks/rich-text-part", {
   //                 value: "em ip",
   //               }),
   //               configContaining(
-  //                 "@easyblocks/rich-text-inline-wrapper-element",
+  //                 "@heliumblocks/rich-text-inline-wrapper-element",
   //                 {
   //                   elements: [
-  //                     configContaining("@easyblocks/rich-text-part", {
+  //                     configContaining("@heliumblocks/rich-text-part", {
   //                       value: "sum",
   //                     }),
   //                   ],
@@ -633,12 +633,12 @@ describe("updateSelection", () => {
   //     );
 
   //     expect(result?.elements).toEqual([
-  //       configContaining("@easyblocks/rich-text-block-element", {
+  //       configContaining("@heliumblocks/rich-text-block-element", {
   //         type: "paragraph",
   //         elements: [
-  //           configContaining("@easyblocks/rich-text-line-element", {
+  //           configContaining("@heliumblocks/rich-text-line-element", {
   //             elements: [
-  //               configContaining("@easyblocks/rich-text-part", {
+  //               configContaining("@heliumblocks/rich-text-part", {
   //                 value: "Lorem ipsum",
   //               }),
   //             ],
@@ -720,12 +720,12 @@ describe("updateSelection", () => {
   //     );
 
   //     expect(result?.elements).toEqual([
-  //       configContaining("@easyblocks/rich-text-block-element", {
+  //       configContaining("@heliumblocks/rich-text-block-element", {
   //         type: "paragraph",
   //         elements: [
-  //           configContaining("@easyblocks/rich-text-line-element", {
+  //           configContaining("@heliumblocks/rich-text-line-element", {
   //             elements: [
-  //               configContaining("@easyblocks/rich-text-part", {
+  //               configContaining("@heliumblocks/rich-text-part", {
   //                 value: "Lorem ",
   //                 font: {
   //                   $res: true,
@@ -735,10 +735,10 @@ describe("updateSelection", () => {
   //                 },
   //               }),
   //               configContaining(
-  //                 "@easyblocks/rich-text-inline-wrapper-element",
+  //                 "@heliumblocks/rich-text-inline-wrapper-element",
   //                 {
   //                   elements: [
-  //                     configContaining("@easyblocks/rich-text-part", {
+  //                     configContaining("@heliumblocks/rich-text-part", {
   //                       value: "ipsum",
   //                       font: {
   //                         $res: true,
@@ -750,7 +750,7 @@ describe("updateSelection", () => {
   //                   ],
   //                 }
   //               ),
-  //               configContaining("@easyblocks/rich-text-part", {
+  //               configContaining("@heliumblocks/rich-text-part", {
   //                 value: "",
   //                 font: {
   //                   $res: true,
@@ -782,7 +782,7 @@ function setup(
 }
 
 function emptyTextPartConfig() {
-  return configContaining("@easyblocks/rich-text-part", {
+  return configContaining("@heliumblocks/rich-text-part", {
     value: "",
   });
 }

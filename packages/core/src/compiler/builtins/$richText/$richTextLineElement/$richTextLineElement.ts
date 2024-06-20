@@ -18,7 +18,7 @@ const richTextLineElementEditableComponent: NoCodeComponentDefinition<
   RichTextLineCompiledComponentValues,
   RichTextLineParams
 > = {
-  id: "@easyblocks/rich-text-line-element",
+  id: "@heliumblocks/rich-text-line-element",
   schema: [
     {
       prop: "elements",

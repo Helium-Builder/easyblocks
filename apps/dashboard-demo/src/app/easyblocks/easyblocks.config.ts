@@ -1,5 +1,5 @@
 import { imageComponentDefinition } from "@/app/easyblocks/components/Image/Image";
-import { Config, EasyblocksBackend } from "@easyblocks/core";
+import { Config, EasyblocksBackend } from "@heliumblocks/core";
 import { appShellDefinition } from "./components/AppShell/AppShell";
 import { appShellFooterDefinition } from "./components/AppShell/AppShellFooter/AppShellFooter";
 import { appShellHeaderDefinition } from "./components/AppShell/AppShellHeader/AppShellHeader";
@@ -337,7 +337,7 @@ const easyblocksConfig: Config = {
                 label: {
                   id: "local.32f49045-e7eb-452b-bc64-4801ac4809cf",
                   value: { en: "Action" },
-                  widgetId: "@easyblocks/local-text",
+                  widgetId: "@heliumblocks/local-text",
                 },
                 Action: [],
               },

@@ -1,4 +1,4 @@
-import { ExternalData } from "@easyblocks/core";
+import { ExternalData } from "@heliumblocks/core";
 import React, { createContext, ReactNode, useContext } from "react";
 
 const ExternalDataContext = createContext<ExternalData>({});

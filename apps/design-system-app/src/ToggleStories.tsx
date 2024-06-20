@@ -1,4 +1,4 @@
-import { Toggle, Typography } from "@easyblocks/design-system";
+import { Toggle, Typography } from "@heliumblocks/design-system";
 
 export function ToggleStories() {
   return (

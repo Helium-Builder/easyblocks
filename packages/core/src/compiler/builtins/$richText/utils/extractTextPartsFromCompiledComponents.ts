@@ -11,7 +11,7 @@ function extractTextPartsFromCompiledComponents(
   traverseCompiledRichTextComponentConfig(
     compiledRichText,
     (compiledConfig) => {
-      if (compiledConfig._component === "@easyblocks/rich-text-part") {
+      if (compiledConfig._component === "@heliumblocks/rich-text-part") {
         extractedTextPartComponents.push(
           compiledConfig as RichTextPartCompiledComponentConfig
         );

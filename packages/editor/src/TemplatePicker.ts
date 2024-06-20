@@ -1,4 +1,4 @@
-import { ComponentDefinitionShared, Template } from "@easyblocks/core";
+import { ComponentDefinitionShared, Template } from "@heliumblocks/core";
 
 export type TemplatesDictionary = {
   [componentId: string]: {

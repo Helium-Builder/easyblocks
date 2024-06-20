@@ -1,4 +1,4 @@
-import { dotNotationGet, last } from "@easyblocks/utils";
+import { dotNotationGet, last } from "@heliumblocks/utils";
 import type { Selection } from "slate";
 import { parseFocusedRichTextPartConfigPath } from "./parseRichTextPartConfigPath";
 

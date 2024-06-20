@@ -1,4 +1,4 @@
-import type { NoCodeComponentStylesFunction } from "@easyblocks/core";
+import type { NoCodeComponentStylesFunction } from "@heliumblocks/core";
 
 export const rootSectionStackStyles: NoCodeComponentStylesFunction = ({
   values,

@@ -1,4 +1,4 @@
-import { NoCodeComponentEntry } from "@easyblocks/core";
+import { NoCodeComponentEntry } from "@heliumblocks/core";
 import { createTestCompilationContext } from "../testUtils";
 import { traverseComponents } from "./traverseComponents";
 import { CompilationContextType } from "./types";

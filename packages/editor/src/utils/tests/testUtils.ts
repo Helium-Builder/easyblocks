@@ -1,8 +1,8 @@
-import { Devices } from "@easyblocks/core";
+import { Devices } from "@heliumblocks/core";
 import {
   CompilationCache,
   createTestCompilationContext,
-} from "@easyblocks/core/_internals";
+} from "@heliumblocks/core/_internals";
 import { EditorContextType } from "../../EditorContext";
 import { Form } from "../../form";
 

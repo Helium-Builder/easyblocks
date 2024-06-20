@@ -1,4 +1,4 @@
-import { NoCodeComponentDefinition } from "@easyblocks/core";
+import { NoCodeComponentDefinition } from "@heliumblocks/core";
 import { VideoSrc } from "../../externalData/types";
 import { last } from "../../utils/last";
 import videoStyles from "./Video.styles";
@@ -27,7 +27,7 @@ const videoComponentDefinition: NoCodeComponentDefinition = {
     {
       prop: "image",
       label: "Video",
-      type: "@easyblocks/video",
+      type: "@heliumblocks/video",
       optional: true,
     },
     {

@@ -1,4 +1,4 @@
-import { DeviceRange, NoCodeComponentDefinition } from "@easyblocks/core";
+import { DeviceRange, NoCodeComponentDefinition } from "@heliumblocks/core";
 
 import { bannerCardDefinition } from "@/app/easyblocks/components/BannerCard/BannerCard.definition";
 import {
@@ -87,29 +87,6 @@ export const bannerSectionDefinition: NoCodeComponentDefinition<
       components: {
         ...sectionStyles.components,
         ...bannerCardStyles.components,
-      },
-    };
-  },
-  editing: ({ editingInfo, values, params, device }) => {
-    const sectionEditingInfo = sectionWrapperEditing({
-      editingInfo,
-      values,
-      params,
-      device,
-    });
-
-    const bannerCardEditing = bannerCardDefinition.editing!({
-      editingInfo,
-      values: getBannerCardValues(values, device),
-      params,
-      device,
-    });
-
-    return {
-      ...editingInfo,
-      components: {
-        ...sectionEditingInfo.components,
-        ...bannerCardEditing.components,
       },
     };
   },

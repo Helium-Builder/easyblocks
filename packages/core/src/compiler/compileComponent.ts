@@ -9,7 +9,7 @@ import {
   raiseError,
   toArray,
   uniqueId,
-} from "@easyblocks/utils";
+} from "@heliumblocks/utils";
 import CryptoJS from "crypto-js";
 import { isComponentConfig } from "../checkers";
 import {
@@ -125,7 +125,7 @@ export function compileComponent(
   if (!componentDefinition) {
     componentDefinition = assertDefined(
       findComponentDefinitionById(
-        "@easyblocks/missing-component",
+        "@heliumblocks/missing-component",
         compilationContext
       )
     );
@@ -329,8 +329,8 @@ export function compileComponent(
     );
 
     // We want to style block element based on the most common values from all text parts within all lines.
-    // Only for this component, we compile nested @easyblocks/rich-text-part components values.
-    if (editableElement._component === "@easyblocks/rich-text") {
+    // Only for this component, we compile nested @heliumblocks/rich-text-part components values.
+    if (editableElement._component === "@heliumblocks/rich-text") {
       if (compiledValues.isListStyleAuto) {
         const {
           mainColor = compiledValues.mainColor,
@@ -407,8 +407,8 @@ export function compileComponent(
           device: editorContext.devices.find(
             (device) => device.id === editorContext.breakpointIndex
           )!,
-          ...(componentDefinition.id === "@easyblocks/rich-text" ||
-          componentDefinition.id === "@easyblocks/rich-text-part"
+          ...(componentDefinition.id === "@heliumblocks/rich-text" ||
+          componentDefinition.id === "@heliumblocks/rich-text-part"
             ? {
                 __SECRET_INTERNALS__: {
                   pathPrefix: configPrefix,
@@ -474,7 +474,7 @@ export function compileComponent(
           },
           isEditing: !!compilationContext.isEditing,
           device,
-          ...(componentDefinition!.id === "@easyblocks/rich-text-part"
+          ...(componentDefinition!.id === "@heliumblocks/rich-text-part"
             ? { __COMPILATION_CONTEXT__: compilationContext }
             : {}),
         };
@@ -599,8 +599,8 @@ export function compileComponent(
         device: editorContext.devices.find(
           (device) => device.id === editorContext.breakpointIndex
         )!,
-        ...(componentDefinition.id === "@easyblocks/rich-text" ||
-        componentDefinition.id === "@easyblocks/rich-text-part"
+        ...(componentDefinition.id === "@heliumblocks/rich-text" ||
+        componentDefinition.id === "@heliumblocks/rich-text-part"
           ? {
               __SECRET_INTERNALS__: {
                 pathPrefix: configPrefix,
@@ -1647,8 +1647,8 @@ function convertEditingFieldToInternalEditingField(
   configPrefix: string | undefined
 ): NonNullable<InternalEditingFunctionResult["fields"]>[number] {
   if (
-    componentDefinition.id === "@easyblocks/rich-text" ||
-    componentDefinition.id === "@easyblocks/rich-text-part"
+    componentDefinition.id === "@heliumblocks/rich-text" ||
+    componentDefinition.id === "@heliumblocks/rich-text-part"
   ) {
     // This is a special case. Rich text components have a really nasty `editing` function implementation
     // relying on `editorContext`, absolute paths and multi field portals. Ideally it would best to address this,

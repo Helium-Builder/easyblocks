@@ -9,10 +9,13 @@ import {
   CompiledShopstoryComponentConfig,
   ComponentCollectionSchemaProp,
   SerializedRenderableComponentDefinition,
-} from "@easyblocks/core";
-import { parsePath, useEasyblocksMetadata } from "@easyblocks/core/_internals";
-import { Colors } from "@easyblocks/design-system";
-import { toArray } from "@easyblocks/utils";
+} from "@heliumblocks/core";
+import {
+  parsePath,
+  useEasyblocksMetadata,
+} from "@heliumblocks/core/_internals";
+import { Colors } from "@heliumblocks/design-system";
+import { toArray } from "@heliumblocks/utils";
 import React, { Fragment } from "react";
 import { SelectionFrameController } from "./SelectionFrameController";
 import {

@@ -22,7 +22,7 @@ import {
   normalizeInput,
   responsiveValueGet,
   validate,
-} from "@easyblocks/core";
+} from "@heliumblocks/core";
 import {
   CompilationContextType,
   ComponentPickerOpenedEvent,
@@ -33,9 +33,13 @@ import {
   findComponentDefinitionById,
   parsePath,
   traverseComponents,
-} from "@easyblocks/core/_internals";
-import { Colors, Fonts, useToaster } from "@easyblocks/design-system";
-import { dotNotationGet, uniqueId, useForceRerender } from "@easyblocks/utils";
+} from "@heliumblocks/core/_internals";
+import { Colors, Fonts, useToaster } from "@heliumblocks/design-system";
+import {
+  dotNotationGet,
+  uniqueId,
+  useForceRerender,
+} from "@heliumblocks/utils";
 import throttle from "lodash.throttle";
 import React, {
   ComponentType,
@@ -824,7 +828,7 @@ const EditorContent = ({
     actions,
     save: async (documentData) => {
       window.postMessage({
-        type: "@easyblocks/content-saved",
+        type: "@heliumblocks/content-saved",
         document: documentData,
       });
     },
@@ -887,7 +891,7 @@ const EditorContent = ({
     function handleEditorEvents(
       event: ComponentPickerOpenedEvent | ItemInsertedEvent | ItemMovedEvent
     ) {
-      if (event.data.type === "@easyblocks-editor/component-picker-opened") {
+      if (event.data.type === "@heliumblocks-editor/component-picker-opened") {
         actions
           .openComponentPicker({ path: event.data.payload.path })
           .then((config) => {
@@ -901,11 +905,11 @@ const EditorContent = ({
           });
       }
 
-      if (event.data.type === "@easyblocks-editor/item-inserted") {
+      if (event.data.type === "@heliumblocks-editor/item-inserted") {
         actions.insertItem(event.data.payload);
       }
 
-      if (event.data.type === "@easyblocks-editor/item-moved") {
+      if (event.data.type === "@heliumblocks-editor/item-moved") {
         const { fromPath, toPath, placement } = event.data.payload;
 
         const fromPathParseResult = parsePath(fromPath, editorContext.form);
@@ -1019,7 +1023,7 @@ const EditorContent = ({
 
                   window.postMessage(
                     {
-                      type: "@easyblocks/closed",
+                      type: "@heliumblocks/closed",
                     },
                     "*"
                   );

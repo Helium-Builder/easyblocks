@@ -1,4 +1,4 @@
-import { toArray } from "@easyblocks/utils";
+import { toArray } from "@heliumblocks/utils";
 import { NoCodeComponentEntry } from "../types";
 import {
   InternalComponentDefinition,

@@ -2,10 +2,10 @@ import {
   getExternalReferenceLocationKey,
   isResolvedCompoundExternalDataValue,
   type ExternalDataCompoundResourceResolvedResult,
-} from "@easyblocks/core";
-import { findComponentDefinitionById } from "@easyblocks/core/_internals";
-import { Typography } from "@easyblocks/design-system";
-import { assertDefined, dotNotationGet } from "@easyblocks/utils";
+} from "@heliumblocks/core";
+import { findComponentDefinitionById } from "@heliumblocks/core/_internals";
+import { Typography } from "@heliumblocks/design-system";
+import { assertDefined, dotNotationGet } from "@heliumblocks/utils";
 import React from "react";
 import {
   CompoundResourceValueSelect,
@@ -86,7 +86,7 @@ function DocumentDataWidgetComponent({
     editorContext.form.change(path, {
       id: options[0].id,
       key: options[0].key,
-      widgetId: "@easyblocks/document-data",
+      widgetId: "@heliumblocks/document-data",
     });
   }
 

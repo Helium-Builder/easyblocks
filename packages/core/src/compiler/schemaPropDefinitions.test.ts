@@ -1,4 +1,4 @@
-import { mockConsoleMethod } from "@easyblocks/test-utils";
+import { mockConsoleMethod } from "@heliumblocks/test-utils";
 import { isTrulyResponsiveValue, responsiveValueFill } from "../responsiveness";
 import {
   CompiledComponentConfig,
@@ -16,7 +16,7 @@ import {
   EditorContextType,
   InternalRenderableComponentDefinition,
 } from "./types";
-import { dotNotationSet } from "@easyblocks/utils";
+import { dotNotationSet } from "@heliumblocks/utils";
 import { createCompilationContext } from "./createCompilationContext";
 import { EasyblocksBackend } from "../EasyblocksBackend";
 
@@ -432,7 +432,7 @@ const testCompilationContext = createCompilationContext(
         type: "external",
         widgets: [
           {
-            id: "@easyblocks/document-data",
+            id: "@heliumblocks/document-data",
             label: "Document data",
           },
         ],
@@ -825,7 +825,7 @@ function localTextValue(id: string, value: Record<string, string>) {
   return {
     id,
     value,
-    widgetId: "@easyblocks/local-text",
+    widgetId: "@heliumblocks/local-text",
   };
 }
 
@@ -850,7 +850,7 @@ describe.skip("text", () => {
     superTest(x, localValue, localValue, localValue, {
       id: "local.123",
       value: "test",
-      widgetId: "@easyblocks/local-text",
+      widgetId: "@heliumblocks/local-text",
     });
 
     const externalValue = {
@@ -878,7 +878,7 @@ describe.skip("text", () => {
         value: {
           pl: "test",
         },
-        widgetId: "@easyblocks/local-text",
+        widgetId: "@heliumblocks/local-text",
       }
     );
 
@@ -1760,7 +1760,7 @@ describe.skip("color field", () => {
  * SPACE
  */
 
-const globalSpaceDefault = { value: "0px", widgetId: "@easyblocks/space" };
+const globalSpaceDefault = { value: "0px", widgetId: "@heliumblocks/space" };
 
 const spaceRefVal1 = {
   value: editorContext.theme.space.devSmall.value,
@@ -1927,7 +1927,7 @@ describe.skip("space field", () => {
 
 const globalFontDefault = {
   value: { fontFamily: "sans-serif", fontSize: 16 },
-  widgetId: "@easyblocks/font",
+  widgetId: "@heliumblocks/font",
 };
 
 const fontRefVal1 = {
@@ -2045,8 +2045,8 @@ function testIconWithDefaultIconAsResult(x: ReturnType<typeof build>) {
     superTest(
       x,
       nonExistentRef,
-      { ...nonExistentRef, widgetId: "@easyblocks/icon" },
-      { ...nonExistentRef, widgetId: "@easyblocks/icon" },
+      { ...nonExistentRef, widgetId: "@heliumblocks/icon" },
+      { ...nonExistentRef, widgetId: "@heliumblocks/icon" },
       "<svg>cat</svg>"
     );
   });
@@ -2058,7 +2058,7 @@ function testIconWithDefaultIconAsResult(x: ReturnType<typeof build>) {
     const rawValue = "<svg>test</svg>";
     const value = {
       value: rawValue,
-      widgetId: "@easyblocks/icon",
+      widgetId: "@heliumblocks/icon",
     };
 
     superTest(x, value, value, value, rawValue);
@@ -2096,7 +2096,7 @@ describe.skip("Icon field", () => {
     const defaultValueRaw = arrowRightIcon.value;
     const defaultValue = {
       value: defaultValueRaw,
-      widgetId: "@easyblocks/icon",
+      widgetId: "@heliumblocks/icon",
     };
 
     const x = build(
@@ -2120,7 +2120,7 @@ describe.skip("Icon field", () => {
       const nonExistentRef = {
         value: "<svg>cat</svg>",
         tokenId: "emptyRef",
-        widgetId: "@easyblocks/icon",
+        widgetId: "@heliumblocks/icon",
       };
       superTest(
         x,
@@ -2136,7 +2136,7 @@ describe.skip("Icon field", () => {
       const rawValue = "<svg>test</svg>";
       const value = {
         value: rawValue,
-        widgetId: "@easyblocks/icon",
+        widgetId: "@heliumblocks/icon",
       };
 
       superTest(x, value, value, value, rawValue);
@@ -2570,7 +2570,7 @@ test("[component] works with empty subcomponents", () => {
               value: {
                 en: "Lorem ipsum",
               },
-              widgetId: "@easyblocks/local-text",
+              widgetId: "@heliumblocks/local-text",
             },
           },
         ],
@@ -3079,7 +3079,7 @@ describe.skip("Missings", () => {
     ${"NotInTheSchema"}
     ${"WrongComponent"}
   `(
-    "given component of template '$missingTemplate' should compile it as @easyblocks/missing-component",
+    "given component of template '$missingTemplate' should compile it as @heliumblocks/missing-component",
     ({ missingTemplate }) => {
       const { compiled } = compileInternal(
         {
@@ -3091,7 +3091,7 @@ describe.skip("Missings", () => {
 
       expect(compiled).toMatchObject({
         _id: expect.any(String),
-        _component: "@easyblocks/missing-component",
+        _component: "@heliumblocks/missing-component",
         components: {},
         props: {},
         styled: {},

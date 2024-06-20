@@ -49,7 +49,7 @@ Below we're showing a code of a very simple No-Code Component: `SimpleBanner`:
 ```tsx
 // No-Code Component Definition
 
-import { NoCodeComponentDefinition } from "@easyblocks/core";
+import { NoCodeComponentDefinition } from "@heliumblocks/core";
 
 export const simpleBannerDefinition: NoCodeComponentDefinition = {
   id: "SimpleBanner",
@@ -86,7 +86,7 @@ export const simpleBannerDefinition: NoCodeComponentDefinition = {
       prop: "Title",
       type: "component",
       required: true,
-      accepts: ["@easyblocks/text"],
+      accepts: ["@heliumblocks/text"],
     },
     {
       prop: "Buttons",
@@ -184,11 +184,11 @@ Please read [External Data section](broken-reference) to learn more.
 
 ## Contact
 
-We'd love to hear your questions, issues or feedback! You can contact us by [email](mailto:andrzej@easyblocks.io), on [X/Twitter](https://twitter.com/ardabrowski), or on [Github](https://github.com/easyblockshq/easyblocks).
+We'd love to hear your questions, issues or feedback! You can contact us by [email](mailto:andrzej@heliumblocks.io), on [X/Twitter](https://twitter.com/ardabrowski), or on [Github](https://github.com/easyblockshq/easyblocks).
 
 #### Custom license & services
 
-In case AGPL3.0 license is too strict we can offer you a custom license. We can also help you with custom services. Let us know via [email](mailto:andrzej@easyblocks.io).
+In case AGPL3.0 license is too strict we can offer you a custom license. We can also help you with custom services. Let us know via [email](mailto:andrzej@heliumblocks.io).
 
 ## Project history
 

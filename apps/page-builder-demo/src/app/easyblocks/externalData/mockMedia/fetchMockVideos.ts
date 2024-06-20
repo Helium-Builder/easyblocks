@@ -1,4 +1,4 @@
-import { RequestedExternalData, ExternalData } from "@easyblocks/core";
+import { RequestedExternalData, ExternalData } from "@heliumblocks/core";
 import { MOCK_ASSETS } from "./mockAssets";
 
 export async function fetchMockVideos(
@@ -30,7 +30,7 @@ export async function fetchMockVideos(
     }
 
     results[fieldId] = {
-      type: "@easyblocks/video",
+      type: "@heliumblocks/video",
       value: {
         url: asset.url,
         alt: asset.title,

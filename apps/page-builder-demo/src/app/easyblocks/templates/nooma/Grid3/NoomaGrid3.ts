@@ -1,4 +1,4 @@
-import { Template } from "@easyblocks/core";
+import { Template } from "@heliumblocks/core";
 import entry from "./NoomaGrid3Entry.json";
 
 export const NoomaGrid3: Template = {

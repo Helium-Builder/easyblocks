@@ -1,5 +1,5 @@
-import { NoCodeComponentEntry } from "@easyblocks/core";
-import { deepClone } from "@easyblocks/utils";
+import { NoCodeComponentEntry } from "@heliumblocks/core";
+import { deepClone } from "@heliumblocks/utils";
 
 /**
  * Outputs comparable config that is FULL COPY of config

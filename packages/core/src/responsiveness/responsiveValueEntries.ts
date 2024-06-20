@@ -1,4 +1,4 @@
-import { entries } from "@easyblocks/utils";
+import { entries } from "@heliumblocks/utils";
 import { TrulyResponsiveValue } from "../types";
 
 function responsiveValueEntries<T>(

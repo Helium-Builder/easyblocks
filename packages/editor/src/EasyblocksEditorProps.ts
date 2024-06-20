@@ -5,7 +5,7 @@ import {
   ExternalData,
   InlineTypeWidgetComponentProps,
   WidgetComponentProps,
-} from "@easyblocks/core";
+} from "@heliumblocks/core";
 import React, { ComponentType } from "react";
 
 export type ExternalDataChangeHandler = (

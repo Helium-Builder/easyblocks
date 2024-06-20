@@ -1,4 +1,4 @@
-import { NoCodeComponentDefinition } from "@easyblocks/core";
+import { NoCodeComponentDefinition } from "@heliumblocks/core";
 
 export const simpleBannerDefinition: NoCodeComponentDefinition = {
   id: "SimpleBanner",
@@ -35,7 +35,13 @@ export const simpleBannerDefinition: NoCodeComponentDefinition = {
       prop: "Title",
       type: "component",
       required: true,
-      accepts: ["@easyblocks/rich-text"],
+      accepts: ["@heliumblocks/rich-text"],
+    },
+    {
+      prop: "Stack",
+      type: "component",
+      required: true,
+      accepts: ["Stack"],
     },
     {
       prop: "Buttons",
@@ -77,14 +83,6 @@ export const simpleBannerDefinition: NoCodeComponentDefinition = {
         Buttons: values.Buttons.map(() => ({
           direction: "horizontal",
         })),
-        Title: {
-          fields: [
-            {
-              ...editingInfo.fields.find((field) => field.path === "gap")!,
-              label: "Bottom gap",
-            },
-          ],
-        },
       },
     };
   },

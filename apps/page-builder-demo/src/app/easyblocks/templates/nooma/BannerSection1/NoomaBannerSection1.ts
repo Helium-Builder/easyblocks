@@ -1,4 +1,4 @@
-import { Template } from "@easyblocks/core";
+import { Template } from "@heliumblocks/core";
 import entry from "./NoomaBannerSection1Entry.json";
 
 export const NoomaBannerSection1: Template = {

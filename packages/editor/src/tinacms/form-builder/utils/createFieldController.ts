@@ -3,7 +3,7 @@ import {
   getFallbackLocaleForLocale,
   isTrulyResponsiveValue,
   responsiveValueGetDefinedValue,
-} from "@easyblocks/core";
+} from "@heliumblocks/core";
 import {
   CompilationCache,
   InternalAnyTinaField,
@@ -15,8 +15,8 @@ import {
   parsePath,
   richTextChangedEvent,
   traverseComponents,
-} from "@easyblocks/core/_internals";
-import { dotNotationGet, last, toArray } from "@easyblocks/utils";
+} from "@heliumblocks/core/_internals";
+import { dotNotationGet, last, toArray } from "@heliumblocks/utils";
 import { EditorContextType } from "../../../EditorContext";
 import { getUniqueValues } from "../../fields/components/getUniqueValues";
 import { isConfigPathRichTextPart } from "../../../utils/isConfigPathRichTextPart";
@@ -68,13 +68,13 @@ function createFieldController({
 
       if (focussedField.some(isConfigPathRichTextPart)) {
         // For editor selection we can safely pick a first field name because:
-        // * we only can select fields that are children of @easyblocks/rich-text-part
+        // * we only can select fields that are children of @heliumblocks/rich-text-part
         // * we only can update only single property
         const { templateId } = parsePath(normalizedFieldName[0], form);
 
         invalidateCache(normalizedFieldName[0], editorContext);
 
-        if (templateId === "@easyblocks/rich-text-part") {
+        if (templateId === "@heliumblocks/rich-text-part") {
           const schemaPropNameToUpdate = last(
             normalizedFieldName[0].split(".")
           );
@@ -393,7 +393,7 @@ type CacheInvalidator = (
   context: EditorContextType
 ) => Array<string>;
 
-// $richText and @easyblocks/rich-text-part uses a lot of portals to display correct fields within sidebar
+// $richText and @heliumblocks/rich-text-part uses a lot of portals to display correct fields within sidebar
 // Changing value through portal won't trigger the recompilation of component using that portal.
 // When we change any $richText related component we remove cache for that component (if it is $richText)
 // and for all of its ancestors.
@@ -409,16 +409,16 @@ const richTextCacheInvalidator: CacheInvalidator = (
   );
 
   const isRichTextOrRichTextAncestorComponent =
-    templateId.startsWith("@easyblocks/rich-text") ||
-    parent?.templateId.startsWith("@easyblocks/rich-text");
+    templateId.startsWith("@heliumblocks/rich-text") ||
+    parent?.templateId.startsWith("@heliumblocks/rich-text");
 
   if (isRichTextOrRichTextAncestorComponent) {
     const richTextPath =
-      templateId === "@easyblocks/rich-text" && fieldName
+      templateId === "@heliumblocks/rich-text" && fieldName
         ? changedPath.replace(`.${fieldName}`, "")
         : findPathOfFirstAncestorOfType(
             changedPath,
-            "@easyblocks/rich-text",
+            "@heliumblocks/rich-text",
             context.form
           );
 
@@ -427,7 +427,7 @@ const richTextCacheInvalidator: CacheInvalidator = (
     traverseComponents(richTextConfig, context, ({ componentConfig }) => {
       if (
         componentConfig &&
-        componentConfig._component.startsWith("@easyblocks/rich-text")
+        componentConfig._component.startsWith("@heliumblocks/rich-text")
       ) {
         cacheKeysToRemove.push(componentConfig._id!);
       }

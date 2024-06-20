@@ -1,4 +1,4 @@
-import { assertDefined } from "@easyblocks/utils";
+import { assertDefined } from "@heliumblocks/utils";
 import {
   AnyTinaField,
   BooleanSchemaProp,
@@ -340,7 +340,7 @@ function isValueLocalTextReference(
     !(
       "widgetId" in value &&
       typeof (value as { widgetId: unknown }).widgetId === "string" &&
-      (value as { widgetId: string }).widgetId === "@easyblocks/local-text"
+      (value as { widgetId: string }).widgetId === "@heliumblocks/local-text"
     )
   ) {
     return false;

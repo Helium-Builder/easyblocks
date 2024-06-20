@@ -1,12 +1,12 @@
-import { SchemaProp } from "@easyblocks/core";
+import { SchemaProp } from "@heliumblocks/core";
 import {
   CompilationContextType,
   InternalRenderableComponentDefinition,
   PathInfo,
   findComponentDefinitionById,
   parsePath,
-} from "@easyblocks/core/_internals";
-import { dotNotationGet } from "@easyblocks/utils";
+} from "@heliumblocks/core/_internals";
+import { dotNotationGet } from "@heliumblocks/utils";
 import { Form } from "../form";
 import { insertCommand } from "./insert";
 

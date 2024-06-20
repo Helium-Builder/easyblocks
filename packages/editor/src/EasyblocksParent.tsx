@@ -3,13 +3,13 @@ import {
   FetchOutputResources,
   InlineTypeWidgetComponentProps,
   WidgetComponentProps,
-} from "@easyblocks/core";
+} from "@heliumblocks/core";
 import {
   ModalContext,
   GlobalModalStyles,
   Toaster,
   TooltipProvider,
-} from "@easyblocks/design-system";
+} from "@heliumblocks/design-system";
 import isPropValid from "@emotion/is-prop-valid";
 import React, { ComponentType } from "react";
 import { ShouldForwardProp, StyleSheetManager } from "styled-components";
@@ -45,7 +45,7 @@ const shouldForwardProp: ShouldForwardProp<"web"> = (propName, target) => {
 const builtinWidgets: EasyblocksParentProps["widgets"] = {
   color: ColorTokenWidget,
   space: SpaceTokenWidget,
-  "@easyblocks/document-data": DocumentDataWidgetComponent as any,
+  "@heliumblocks/document-data": DocumentDataWidgetComponent as any,
 };
 
 export function EasyblocksParent(props: EasyblocksParentProps) {

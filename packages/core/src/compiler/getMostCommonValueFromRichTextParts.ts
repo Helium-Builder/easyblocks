@@ -1,4 +1,4 @@
-import { entries } from "@easyblocks/utils";
+import { entries } from "@heliumblocks/utils";
 import { getFallbackForLocale } from "../locales";
 import { DeviceRange } from "../types";
 import { CompilationCache } from "./CompilationCache";
@@ -13,7 +13,7 @@ import { findComponentDefinitionById } from "./findComponentDefinition";
 import { CompilationContextType, InternalComponentDefinition } from "./types";
 
 /**
- * Returns the most common value for given `prop` parameter among all @easyblocks/rich-text-part components from `richTextComponentConfig`.
+ * Returns the most common value for given `prop` parameter among all @heliumblocks/rich-text-part components from `richTextComponentConfig`.
  */
 function getMostCommonValueFromRichTextParts<
   RichTextPartProperty extends Extract<

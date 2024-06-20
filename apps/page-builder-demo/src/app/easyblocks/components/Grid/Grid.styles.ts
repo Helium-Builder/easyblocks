@@ -1,8 +1,8 @@
 import type {
   InferNoCodeComponentStylesFunctionInput,
   NoCodeComponentStylesFunctionResult,
-} from "@easyblocks/core";
-import { spacingToPx } from "@easyblocks/core";
+} from "@heliumblocks/core";
+import { spacingToPx } from "@heliumblocks/core";
 import {
   sectionWrapperCalculateMarginAndMaxWidth,
   sectionWrapperStyles,

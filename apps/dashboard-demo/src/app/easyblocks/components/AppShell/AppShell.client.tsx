@@ -1,4 +1,4 @@
-import { NoCodeComponentProps } from "@easyblocks/core";
+import { NoCodeComponentProps } from "@heliumblocks/core";
 
 function AppShell({
   Header,

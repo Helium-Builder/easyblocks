@@ -3,7 +3,7 @@ import {
   SelectInline,
   ToggleButton,
   Typography,
-} from "@easyblocks/design-system";
+} from "@heliumblocks/design-system";
 
 export function ToggleButtonStories() {
   const [selected, setSelected] = useState(false);

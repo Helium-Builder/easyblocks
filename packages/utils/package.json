@@ -1,5 +1,5 @@
 {
-  "name": "@easyblocks/utils",
+  "name": "@heliumblocks/utils",
   "version": "1.0.6",
   "private": true,
   "main": "src/index.ts",

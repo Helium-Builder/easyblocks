@@ -1,7 +1,6 @@
-import { useEffect } from "react";
-import { InlineTypeWidgetComponentProps } from "@easyblocks/core";
-import { Input } from "@easyblocks/design-system";
-import { useState } from "react";
+import { useEffect, useState } from "react";
+import { InlineTypeWidgetComponentProps } from "@heliumblocks/core";
+import { Input } from "@heliumblocks/design-system";
 
 function UrlWidget(props: InlineTypeWidgetComponentProps<string>) {
   const [active, setActive] = useState(false);

@@ -1,5 +1,9 @@
-import { InternalField } from "@easyblocks/core/_internals";
-import { Select, SelectItem, SelectSeparator } from "@easyblocks/design-system";
+import { InternalField } from "@heliumblocks/core/_internals";
+import {
+  Select,
+  SelectItem,
+  SelectSeparator,
+} from "@heliumblocks/design-system";
 import React from "react";
 import { FieldMixedValue } from "../../../types";
 import { FieldRenderProps } from "../../form-builder";

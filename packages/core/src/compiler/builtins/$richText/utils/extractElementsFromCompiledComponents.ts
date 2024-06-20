@@ -17,8 +17,8 @@ function extractElementsFromCompiledComponents(
     compiledRichText,
     (compiledConfig) => {
       if (
-        compiledConfig._component === "@easyblocks/rich-text-block-element" ||
-        compiledConfig._component === "@easyblocks/rich-text-line-element"
+        compiledConfig._component === "@heliumblocks/rich-text-block-element" ||
+        compiledConfig._component === "@heliumblocks/rich-text-line-element"
       ) {
         extractedCompiledElementComponents.push(
           compiledConfig as

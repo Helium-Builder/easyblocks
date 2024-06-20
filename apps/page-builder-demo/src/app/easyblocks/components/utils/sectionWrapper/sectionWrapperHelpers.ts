@@ -19,7 +19,7 @@ import {
   responsiveValueFlatten,
   responsiveValueMap,
   Devices,
-} from "@easyblocks/core";
+} from "@heliumblocks/core";
 
 export const sectionWrapperSchemaProps: {
   margins: SchemaProp[];

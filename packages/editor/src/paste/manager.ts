@@ -1,4 +1,4 @@
-import { NoCodeComponentEntry } from "@easyblocks/core";
+import { NoCodeComponentEntry } from "@heliumblocks/core";
 import { Destination } from "./destinationResolver";
 
 function pasteManager() {

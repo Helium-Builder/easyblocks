@@ -10,7 +10,7 @@ import {
   responsiveValueGetDefinedValue,
   responsiveValueGetFirstHigherValue,
   responsiveValueGetFirstLowerValue,
-} from "@easyblocks/core";
+} from "@heliumblocks/core";
 
 type ValueForWidth = { value: any; width: number; device: DeviceRange };
 

@@ -1,4 +1,4 @@
-import { NoCodeComponentDefinition } from "@easyblocks/core";
+import { NoCodeComponentDefinition } from "@heliumblocks/core";
 
 const appShellSidebarDefinition: NoCodeComponentDefinition = {
   id: "AppShellSidebar",

@@ -1,6 +1,6 @@
 import "@/styles/globals.css";
 import type { AppProps } from "next/app";
-import { GlobalModalStyles } from "@easyblocks/design-system";
+import { GlobalModalStyles } from "@heliumblocks/design-system";
 
 export default function App({ Component, pageProps }: AppProps) {
   return (

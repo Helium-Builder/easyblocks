@@ -1,5 +1,5 @@
-import { InternalAnyField, InternalField } from "@easyblocks/core/_internals";
-import { dotNotationGet } from "@easyblocks/utils";
+import { InternalAnyField, InternalField } from "@heliumblocks/core/_internals";
+import { dotNotationGet } from "@heliumblocks/utils";
 import { Config, FORM_ERROR, FormApi, FormState, createForm } from "final-form";
 import arrayMutators from "final-form-arrays";
 

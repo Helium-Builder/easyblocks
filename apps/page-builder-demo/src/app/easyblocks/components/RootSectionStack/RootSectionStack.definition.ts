@@ -3,7 +3,7 @@ import {
   EditingField,
   NoCodeComponentDefinition,
   Config,
-} from "@easyblocks/core";
+} from "@heliumblocks/core";
 import { rootSectionStackStyles } from "./RootSectionStack.styles";
 import { productWidget } from "@/app/easyblocks/externalData/product/productWidget";
 
@@ -69,6 +69,33 @@ const rootSectionStackDefinitionBase: NoCodeComponentDefinition = {
           },
         },
       ],
+    },
+    {
+      prop: "coverWidth",
+      label: "Width",
+      type: "select",
+      group: "Cover",
+      responsive: true,
+      params: {
+        options: ["25%", "33%", "40%", "50%", "60%", "66%", "75%"],
+      },
+      defaultValue: "50%",
+    },
+    {
+      prop: "padding",
+      label: "Pading",
+      type: "space",
+    },
+    {
+      prop: "gap",
+      label: "Gap",
+      type: "space",
+    },
+    {
+      prop: "snapCoverToEdges",
+      label: "Snap to edges",
+      group: "Cover",
+      type: "boolean",
     },
   ],
 };

@@ -2,18 +2,18 @@ import {
   NoCodeComponentEntry,
   ComponentSchemaProp,
   isNoCodeComponentOfType,
-} from "@easyblocks/core";
+} from "@heliumblocks/core";
 import {
   CompilationContextType,
   duplicateConfig,
   findComponentDefinitionById,
   parsePath,
-} from "@easyblocks/core/_internals";
+} from "@heliumblocks/core/_internals";
 import {
   dotNotationGet,
   last,
   preOrderPathComparator,
-} from "@easyblocks/utils";
+} from "@heliumblocks/utils";
 import { EditorContextType } from "./EditorContext";
 import { Form } from "./form";
 import { ResolveDestination } from "./paste/destinationResolver";
@@ -326,7 +326,7 @@ function removeItems(
     );
     const isTextWrapper =
       definition &&
-      isNoCodeComponentOfType(definition, "@easyblocks/text-wrapper");
+      isNoCodeComponentOfType(definition, "@heliumblocks/text-wrapper");
 
     // If we're removing item from the text wrapper field let's focus the component holding that field for better UX
     // TODO: We shouldn't decide based on the component type but rather on the source of the removal (canvas vs sidebar)

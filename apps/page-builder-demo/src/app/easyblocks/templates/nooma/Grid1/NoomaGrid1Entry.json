@@ -9,7 +9,7 @@
           "xl": {
             "value": "0px",
             "tokenId": "0",
-            "widgetId": "@easyblocks/space"
+            "widgetId": "@heliumblocks/space"
           }
         },
         "bottomMargin": {
@@ -17,7 +17,7 @@
           "xl": {
             "value": "32px",
             "tokenId": "32",
-            "widgetId": "@easyblocks/space"
+            "widgetId": "@heliumblocks/space"
           }
         }
       }
@@ -28,7 +28,7 @@
     "xl": {
       "value": { "$res": true, "md": "5vw", "lg": "8vw" },
       "tokenId": "containerMargin.standard",
-      "widgetId": "@easyblocks/space"
+      "widgetId": "@heliumblocks/space"
     }
   },
   "containerMaxWidth": {
@@ -119,34 +119,38 @@
   "fractionalItemWidth": { "$res": true, "xl": "1.25" },
   "columnGap": {
     "$res": true,
-    "xl": { "value": "0px", "tokenId": "0", "widgetId": "@easyblocks/space" }
+    "xl": { "value": "0px", "tokenId": "0", "widgetId": "@heliumblocks/space" }
   },
   "rowGap": {
     "$res": true,
-    "xl": { "value": "16px", "tokenId": "16", "widgetId": "@easyblocks/space" }
+    "xl": {
+      "value": "16px",
+      "tokenId": "16",
+      "widgetId": "@heliumblocks/space"
+    }
   },
   "verticalAlign": { "$res": true, "xl": "top" },
   "showSliderControls": { "$res": true, "xl": false },
   "shouldSliderItemsBeVisibleOnMargin": { "$res": true, "xl": true },
   "gridMainObjectAspectRatio": {
     "$res": true,
-    "xl": { "value": "1:1", "widgetId": "@easyblocks/aspectRatio" }
+    "xl": { "value": "1:1", "widgetId": "@heliumblocks/aspectRatio" }
   },
   "paddingTop": {
     "$res": true,
-    "xl": { "value": "0px", "tokenId": "0", "widgetId": "@easyblocks/space" }
+    "xl": { "value": "0px", "tokenId": "0", "widgetId": "@heliumblocks/space" }
   },
   "paddingBottom": {
     "$res": true,
-    "xl": { "value": "0px", "tokenId": "0", "widgetId": "@easyblocks/space" }
+    "xl": { "value": "0px", "tokenId": "0", "widgetId": "@heliumblocks/space" }
   },
   "paddingLeft": {
     "$res": true,
-    "xl": { "value": "0px", "tokenId": "0", "widgetId": "@easyblocks/space" }
+    "xl": { "value": "0px", "tokenId": "0", "widgetId": "@heliumblocks/space" }
   },
   "paddingRight": {
     "$res": true,
-    "xl": { "value": "0px", "tokenId": "0", "widgetId": "@easyblocks/space" }
+    "xl": { "value": "0px", "tokenId": "0", "widgetId": "@heliumblocks/space" }
   },
   "LeftArrow": [
     {
@@ -158,19 +162,19 @@
       "label": {
         "id": "local.69906a71-7fa3-4426-ae40-fc264f7e44ab",
         "value": { "en-US": "Click me" },
-        "widgetId": "@easyblocks/local-text"
+        "widgetId": "@heliumblocks/local-text"
       },
       "icon": {
         "value": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"red\" width=\"100px\" height=\"100px\"><path d=\"M20 11H7.83l5.59-5.59L12 4l-8 8 8 8 1.41-1.41L7.83 13H20v-2z\"/></svg>",
         "tokenId": "arrowLeft",
-        "widgetId": "@easyblocks/icon"
+        "widgetId": "@heliumblocks/icon"
       },
       "color": {
         "$res": true,
         "xl": {
           "tokenId": "black",
           "value": "#000000",
-          "widgetId": "@easyblocks/color"
+          "widgetId": "@heliumblocks/color"
         }
       },
       "minHeight": { "$res": true, "xl": "42" },
@@ -180,7 +184,7 @@
         "xl": {
           "value": "16px",
           "tokenId": "16",
-          "widgetId": "@easyblocks/space"
+          "widgetId": "@heliumblocks/space"
         }
       },
       "gap": {
@@ -188,7 +192,7 @@
         "xl": {
           "value": "6px",
           "tokenId": "6",
-          "widgetId": "@easyblocks/space"
+          "widgetId": "@heliumblocks/space"
         }
       },
       "cornerMode": { "$res": true, "xl": "circled" },
@@ -213,7 +217,7 @@
         "xl": {
           "tokenId": "transparent-grey-light",
           "value": "#D8D8D880",
-          "widgetId": "@easyblocks/color"
+          "widgetId": "@heliumblocks/color"
         }
       },
       "hasBorder": false,
@@ -223,7 +227,7 @@
         "xl": {
           "value": "#000000",
           "tokenId": "black",
-          "widgetId": "@easyblocks/color"
+          "widgetId": "@heliumblocks/color"
         }
       },
       "boxShadow": {
@@ -235,7 +239,7 @@
   "leftArrowPlacement": { "$res": true, "xl": "inside" },
   "leftArrowOffset": {
     "$res": true,
-    "xl": { "value": "0px", "tokenId": "0", "widgetId": "@easyblocks/space" }
+    "xl": { "value": "0px", "tokenId": "0", "widgetId": "@heliumblocks/space" }
   },
   "RightArrow": [
     {
@@ -247,19 +251,19 @@
       "label": {
         "id": "local.11e95d07-cf77-4e43-b676-ecf482ce8c6c",
         "value": { "en-US": "Click me" },
-        "widgetId": "@easyblocks/local-text"
+        "widgetId": "@heliumblocks/local-text"
       },
       "icon": {
         "tokenId": "arrowRight",
         "value": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"currentColor\"><path d=\"M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8-8-8z\"/></svg>",
-        "widgetId": "@easyblocks/icon"
+        "widgetId": "@heliumblocks/icon"
       },
       "color": {
         "$res": true,
         "xl": {
           "tokenId": "black",
           "value": "#000000",
-          "widgetId": "@easyblocks/color"
+          "widgetId": "@heliumblocks/color"
         }
       },
       "minHeight": { "$res": true, "xl": "42" },
@@ -269,7 +273,7 @@
         "xl": {
           "value": "16px",
           "tokenId": "16",
-          "widgetId": "@easyblocks/space"
+          "widgetId": "@heliumblocks/space"
         }
       },
       "gap": {
@@ -277,7 +281,7 @@
         "xl": {
           "value": "6px",
           "tokenId": "6",
-          "widgetId": "@easyblocks/space"
+          "widgetId": "@heliumblocks/space"
         }
       },
       "cornerMode": { "$res": true, "xl": "circled" },
@@ -302,7 +306,7 @@
         "xl": {
           "tokenId": "transparent-grey-light",
           "value": "#D8D8D880",
-          "widgetId": "@easyblocks/color"
+          "widgetId": "@heliumblocks/color"
         }
       },
       "hasBorder": false,
@@ -312,7 +316,7 @@
         "xl": {
           "value": "#000000",
           "tokenId": "black",
-          "widgetId": "@easyblocks/color"
+          "widgetId": "@heliumblocks/color"
         }
       },
       "boxShadow": {
@@ -324,7 +328,7 @@
   "rightArrowPlacement": { "$res": true, "xl": "inside" },
   "rightArrowOffset": {
     "$res": true,
-    "xl": { "tokenId": "0", "value": "0px", "widgetId": "@easyblocks/space" }
+    "xl": { "tokenId": "0", "value": "0px", "widgetId": "@heliumblocks/space" }
   },
   "headerMode": "1-stack",
   "layout1Stack": "center",
@@ -332,15 +336,27 @@
   "layout2StacksVerticalAlign": { "$res": true, "xl": "center" },
   "headerStacksGap": {
     "$res": true,
-    "xl": { "value": "12px", "tokenId": "12", "widgetId": "@easyblocks/space" }
+    "xl": {
+      "value": "12px",
+      "tokenId": "12",
+      "widgetId": "@heliumblocks/space"
+    }
   },
   "headerSectionGap": {
     "$res": true,
-    "xl": { "value": "24px", "tokenId": "24", "widgetId": "@easyblocks/space" }
+    "xl": {
+      "value": "24px",
+      "tokenId": "24",
+      "widgetId": "@heliumblocks/space"
+    }
   },
   "footerSectionGap": {
     "$res": true,
-    "xl": { "value": "12px", "tokenId": "12", "widgetId": "@easyblocks/space" }
+    "xl": {
+      "value": "12px",
+      "tokenId": "12",
+      "widgetId": "@heliumblocks/space"
+    }
   },
   "HeaderStack": [
     {
@@ -349,7 +365,7 @@
       "Items": [
         {
           "_id": "2a92e462-6494-46e8-877a-68a6af5c4dbe",
-          "_component": "@easyblocks/rich-text",
+          "_component": "@heliumblocks/rich-text",
           "_itemProps": {
             "Stack": {
               "Items": {
@@ -359,7 +375,7 @@
                   "xl": {
                     "value": "0px",
                     "tokenId": "0",
-                    "widgetId": "@easyblocks/space"
+                    "widgetId": "@heliumblocks/space"
                   }
                 },
                 "align": { "$res": true, "xl": "left" }
@@ -370,16 +386,16 @@
             "en-US": [
               {
                 "_id": "3195d494-95b3-42f5-884b-24d79f70307b",
-                "_component": "@easyblocks/rich-text-block-element",
+                "_component": "@heliumblocks/rich-text-block-element",
                 "type": "paragraph",
                 "elements": [
                   {
                     "_id": "4b940675-54d7-4b34-8f02-dc43c9acb9e8",
-                    "_component": "@easyblocks/rich-text-line-element",
+                    "_component": "@heliumblocks/rich-text-line-element",
                     "elements": [
                       {
                         "_id": "e99e70ba-7c72-46d0-bed5-91647c69a579",
-                        "_component": "@easyblocks/rich-text-part",
+                        "_component": "@heliumblocks/rich-text-part",
                         "value": "New arrivals",
                         "font": {
                           "$res": true,
@@ -398,7 +414,7 @@
                           "xl": {
                             "value": "#252525",
                             "tokenId": "grey_05",
-                            "widgetId": "@easyblocks/color"
+                            "widgetId": "@heliumblocks/color"
                           }
                         },
                         "TextWrapper": []
@@ -428,7 +444,7 @@
             "xl": {
               "value": "#252525",
               "tokenId": "grey_05",
-              "widgetId": "@easyblocks/color"
+              "widgetId": "@heliumblocks/color"
             }
           }
         }
@@ -445,6 +461,10 @@
   "Background__": [],
   "padding": {
     "$res": true,
-    "xl": { "value": "24px", "tokenId": "24", "widgetId": "@easyblocks/space" }
+    "xl": {
+      "value": "24px",
+      "tokenId": "24",
+      "widgetId": "@heliumblocks/space"
+    }
   }
 }

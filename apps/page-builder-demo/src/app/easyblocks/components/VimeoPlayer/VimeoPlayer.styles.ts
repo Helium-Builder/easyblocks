@@ -1,7 +1,7 @@
 import type {
   NoCodeComponentStylesFunctionInput,
   NoCodeComponentStylesFunctionResult,
-} from "@easyblocks/core";
+} from "@heliumblocks/core";
 import { getPaddingBottomFromAspectRatio } from "../utils/parseAspectRatio";
 
 export interface VimeoPlayerValues {

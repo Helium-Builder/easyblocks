@@ -1,4 +1,4 @@
-import { uniqueId } from "@easyblocks/utils";
+import { uniqueId } from "@heliumblocks/utils";
 import type { Text } from "slate";
 import type { RichTextComponentConfig } from "../$richText";
 import type { BlockElement } from "../$richText.types";
@@ -97,7 +97,7 @@ function getPlaceholderRichTextElements(): Array<BlockElement> {
               color: {
                 tokenId: "black",
                 value: "black",
-                widgetId: "@easyblocks/color",
+                widgetId: "@heliumblocks/color",
               },
               font: {
                 tokenId: "$body",

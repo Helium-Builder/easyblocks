@@ -1,6 +1,6 @@
-import { InternalField } from "@easyblocks/core/_internals";
-import { Colors, Fonts, Typography } from "@easyblocks/design-system";
-import { toArray } from "@easyblocks/utils";
+import { InternalField } from "@heliumblocks/core/_internals";
+import { Colors, Fonts, Typography } from "@heliumblocks/design-system";
+import { toArray } from "@heliumblocks/utils";
 import React, { useContext } from "react";
 import styled, { css } from "styled-components";
 import { useEditorContext } from "../../EditorContext";
@@ -155,6 +155,8 @@ export function FieldsBuilder({ form, fields }: FieldsBuilderProps) {
   const grouped: Record<string, Array<InternalField>> = {};
   const ungrouped: Array<InternalField> = [];
 
+  console.log("FieldsBuilder", { form, fields });
+
   fields.forEach((field) => {
     if (!shouldFieldBeDisplayed(field)) {
       return;
@@ -189,6 +191,8 @@ export function FieldsBuilder({ form, fields }: FieldsBuilderProps) {
   const breakpointIndex = panelContext
     ? editorContext.breakpointIndex
     : undefined;
+
+  console.log("identityField", identityField);
 
   return (
     <FieldsGroup>

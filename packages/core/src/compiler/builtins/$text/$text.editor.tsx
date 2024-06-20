@@ -1,5 +1,5 @@
 "use client";
-import { dotNotationGet } from "@easyblocks/utils";
+import { dotNotationGet } from "@heliumblocks/utils";
 import React, { ReactElement } from "react";
 import { InternalNoCodeComponentProps } from "../../../components/ComponentBuilder/ComponentBuilder";
 import { InlineTextarea } from "./InlineTextarea";

@@ -28,7 +28,7 @@ function EasyblocksEditorDialog({
     let savingRequest: Promise<Response> | undefined;
 
     function handleMessage(event: MessageEvent) {
-      if (event.data.type === "@easyblocks/closed") {
+      if (event.data.type === "@heliumblocks/closed") {
         const closingBlockingRequest = savingRequest
           ? savingRequest
           : Promise.resolve();
@@ -39,7 +39,7 @@ function EasyblocksEditorDialog({
         });
       }
 
-      if (event.data.type === "@easyblocks/content-saved") {
+      if (event.data.type === "@heliumblocks/content-saved") {
         savingRequest = fetch("/api/documents", {
           method: "POST",
           body: JSON.stringify({ ...event.data.document, cookieId }),

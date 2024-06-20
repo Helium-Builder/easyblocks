@@ -5,15 +5,15 @@ test("converts paragraph element with single line of text", () => {
   const expectedRichTextElements: Array<RichTextBlockElementComponentConfig> = [
     {
       _id: "1",
-      _component: "@easyblocks/rich-text-block-element",
+      _component: "@heliumblocks/rich-text-block-element",
       elements: [
         {
           _id: "1.1",
-          _component: "@easyblocks/rich-text-line-element",
+          _component: "@heliumblocks/rich-text-line-element",
           elements: [
             {
               _id: "1.1.1",
-              _component: "@easyblocks/rich-text-part",
+              _component: "@heliumblocks/rich-text-part",
               color: {
                 $res: true,
                 xl: {

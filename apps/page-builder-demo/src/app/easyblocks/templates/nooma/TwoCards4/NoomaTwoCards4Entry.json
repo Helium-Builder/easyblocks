@@ -9,7 +9,7 @@
           "xl": {
             "value": "0px",
             "tokenId": "0",
-            "widgetId": "@easyblocks/space"
+            "widgetId": "@heliumblocks/space"
           }
         },
         "bottomMargin": {
@@ -17,7 +17,7 @@
           "xl": {
             "value": "32px",
             "tokenId": "32",
-            "widgetId": "@easyblocks/space"
+            "widgetId": "@heliumblocks/space"
           }
         }
       }
@@ -32,7 +32,7 @@
         "lg": "8vw"
       },
       "tokenId": "containerMargin.standard",
-      "widgetId": "@easyblocks/space"
+      "widgetId": "@heliumblocks/space"
     }
   },
   "containerMaxWidth": {
@@ -77,7 +77,7 @@
                 "$res": true,
                 "xl": {
                   "value": "1:1",
-                  "widgetId": "@easyblocks/aspectRatio"
+                  "widgetId": "@heliumblocks/aspectRatio"
                 }
               }
             }
@@ -86,7 +86,7 @@
             "$res": true,
             "xl": {
               "value": "natural",
-              "widgetId": "@easyblocks/aspectRatio"
+              "widgetId": "@heliumblocks/aspectRatio"
             }
           },
           "enableBorder": {
@@ -97,7 +97,7 @@
             "$res": true,
             "xl": {
               "value": "#000000",
-              "widgetId": "@easyblocks/color",
+              "widgetId": "@heliumblocks/color",
               "tokenId": "black"
             }
           },
@@ -124,7 +124,7 @@
         "xl": {
           "value": "16px",
           "tokenId": "16",
-          "widgetId": "@easyblocks/space"
+          "widgetId": "@heliumblocks/space"
         }
       },
       "paddingRight": {
@@ -132,7 +132,7 @@
         "xl": {
           "value": "16px",
           "tokenId": "16",
-          "widgetId": "@easyblocks/space"
+          "widgetId": "@heliumblocks/space"
         }
       },
       "paddingTop": {
@@ -140,7 +140,7 @@
         "xl": {
           "value": "16px",
           "tokenId": "16",
-          "widgetId": "@easyblocks/space"
+          "widgetId": "@heliumblocks/space"
         }
       },
       "paddingBottom": {
@@ -148,7 +148,7 @@
         "xl": {
           "value": "16px",
           "tokenId": "16",
-          "widgetId": "@easyblocks/space"
+          "widgetId": "@heliumblocks/space"
         }
       },
       "noFillPaddingLeft": {
@@ -156,7 +156,7 @@
         "xl": {
           "value": "0px",
           "tokenId": "0",
-          "widgetId": "@easyblocks/space"
+          "widgetId": "@heliumblocks/space"
         }
       },
       "noFillPaddingRight": {
@@ -164,7 +164,7 @@
         "xl": {
           "value": "0px",
           "tokenId": "0",
-          "widgetId": "@easyblocks/space"
+          "widgetId": "@heliumblocks/space"
         }
       },
       "noFillPaddingTop": {
@@ -172,7 +172,7 @@
         "xl": {
           "value": "0px",
           "tokenId": "0",
-          "widgetId": "@easyblocks/space"
+          "widgetId": "@heliumblocks/space"
         }
       },
       "noFillPaddingBottom": {
@@ -180,7 +180,7 @@
         "xl": {
           "value": "0px",
           "tokenId": "0",
-          "widgetId": "@easyblocks/space"
+          "widgetId": "@heliumblocks/space"
         }
       },
       "paddingInternal": {
@@ -188,7 +188,7 @@
         "xl": {
           "value": "16px",
           "tokenId": "16",
-          "widgetId": "@easyblocks/space"
+          "widgetId": "@heliumblocks/space"
         }
       },
       "forceStandardHorizontalPaddings": {
@@ -203,7 +203,7 @@
         "$res": true,
         "xl": {
           "value": "#000000",
-          "widgetId": "@easyblocks/color",
+          "widgetId": "@heliumblocks/color",
           "tokenId": "black"
         }
       },
@@ -215,7 +215,7 @@
         "$res": true,
         "xl": {
           "value": "#000000",
-          "widgetId": "@easyblocks/color",
+          "widgetId": "@heliumblocks/color",
           "tokenId": "black"
         }
       },
@@ -234,7 +234,7 @@
           "Items": [
             {
               "_id": "9ac470ec-48c8-4dee-b6ce-d9e858210f29",
-              "_component": "@easyblocks/rich-text",
+              "_component": "@heliumblocks/rich-text",
               "_itemProps": {
                 "Stack": {
                   "Items": {
@@ -247,7 +247,7 @@
                       "xl": {
                         "value": "0px",
                         "tokenId": "0",
-                        "widgetId": "@easyblocks/space"
+                        "widgetId": "@heliumblocks/space"
                       }
                     },
                     "align": {
@@ -260,14 +260,14 @@
               "elements": {
                 "en-US": [
                   {
-                    "_component": "@easyblocks/rich-text-block-element",
+                    "_component": "@heliumblocks/rich-text-block-element",
                     "elements": [
                       {
-                        "_component": "@easyblocks/rich-text-line-element",
+                        "_component": "@heliumblocks/rich-text-line-element",
                         "elements": [
                           {
                             "_id": "842235d3-e7a6-48c5-83a9-90a8b9abd5b2",
-                            "_component": "@easyblocks/rich-text-part",
+                            "_component": "@heliumblocks/rich-text-part",
                             "color": {
                               "$res": true,
                               "xl": {
@@ -323,7 +323,7 @@
                 "xl": {
                   "value": "#252525",
                   "tokenId": "grey_05",
-                  "widgetId": "@easyblocks/color"
+                  "widgetId": "@heliumblocks/color"
                 }
               }
             }
@@ -367,7 +367,7 @@
                 "$res": true,
                 "xl": {
                   "value": "1:1",
-                  "widgetId": "@easyblocks/aspectRatio"
+                  "widgetId": "@heliumblocks/aspectRatio"
                 }
               }
             }
@@ -376,7 +376,7 @@
             "$res": true,
             "xl": {
               "value": "natural",
-              "widgetId": "@easyblocks/aspectRatio"
+              "widgetId": "@heliumblocks/aspectRatio"
             }
           },
           "enableBorder": {
@@ -387,7 +387,7 @@
             "$res": true,
             "xl": {
               "value": "#000000",
-              "widgetId": "@easyblocks/color",
+              "widgetId": "@heliumblocks/color",
               "tokenId": "black"
             }
           },
@@ -414,7 +414,7 @@
         "xl": {
           "value": "16px",
           "tokenId": "16",
-          "widgetId": "@easyblocks/space"
+          "widgetId": "@heliumblocks/space"
         }
       },
       "paddingRight": {
@@ -422,7 +422,7 @@
         "xl": {
           "value": "16px",
           "tokenId": "16",
-          "widgetId": "@easyblocks/space"
+          "widgetId": "@heliumblocks/space"
         }
       },
       "paddingTop": {
@@ -430,7 +430,7 @@
         "xl": {
           "value": "16px",
           "tokenId": "16",
-          "widgetId": "@easyblocks/space"
+          "widgetId": "@heliumblocks/space"
         }
       },
       "paddingBottom": {
@@ -438,7 +438,7 @@
         "xl": {
           "value": "16px",
           "tokenId": "16",
-          "widgetId": "@easyblocks/space"
+          "widgetId": "@heliumblocks/space"
         }
       },
       "noFillPaddingLeft": {
@@ -446,7 +446,7 @@
         "xl": {
           "value": "0px",
           "tokenId": "0",
-          "widgetId": "@easyblocks/space"
+          "widgetId": "@heliumblocks/space"
         }
       },
       "noFillPaddingRight": {
@@ -454,7 +454,7 @@
         "xl": {
           "value": "0px",
           "tokenId": "0",
-          "widgetId": "@easyblocks/space"
+          "widgetId": "@heliumblocks/space"
         }
       },
       "noFillPaddingTop": {
@@ -462,7 +462,7 @@
         "xl": {
           "value": "0px",
           "tokenId": "0",
-          "widgetId": "@easyblocks/space"
+          "widgetId": "@heliumblocks/space"
         }
       },
       "noFillPaddingBottom": {
@@ -470,7 +470,7 @@
         "xl": {
           "value": "0px",
           "tokenId": "0",
-          "widgetId": "@easyblocks/space"
+          "widgetId": "@heliumblocks/space"
         }
       },
       "paddingInternal": {
@@ -478,7 +478,7 @@
         "xl": {
           "value": "16px",
           "tokenId": "16",
-          "widgetId": "@easyblocks/space"
+          "widgetId": "@heliumblocks/space"
         }
       },
       "forceStandardHorizontalPaddings": {
@@ -493,7 +493,7 @@
         "$res": true,
         "xl": {
           "value": "#000000",
-          "widgetId": "@easyblocks/color",
+          "widgetId": "@heliumblocks/color",
           "tokenId": "black"
         }
       },
@@ -505,7 +505,7 @@
         "$res": true,
         "xl": {
           "value": "#000000",
-          "widgetId": "@easyblocks/color",
+          "widgetId": "@heliumblocks/color",
           "tokenId": "black"
         }
       },
@@ -559,7 +559,7 @@
     "xl": {
       "tokenId": "0",
       "value": "0px",
-      "widgetId": "@easyblocks/space"
+      "widgetId": "@heliumblocks/space"
     }
   },
   "verticalGap": {
@@ -567,7 +567,7 @@
     "xl": {
       "value": "24px",
       "tokenId": "24",
-      "widgetId": "@easyblocks/space"
+      "widgetId": "@heliumblocks/space"
     }
   },
   "invertCollapsed": false,
@@ -586,7 +586,7 @@
     "xl": {
       "value": "12px",
       "tokenId": "12",
-      "widgetId": "@easyblocks/space"
+      "widgetId": "@heliumblocks/space"
     }
   },
   "headerSectionGap": {
@@ -594,7 +594,7 @@
     "xl": {
       "value": "12px",
       "tokenId": "12",
-      "widgetId": "@easyblocks/space"
+      "widgetId": "@heliumblocks/space"
     }
   },
   "footerSectionGap": {
@@ -602,7 +602,7 @@
     "xl": {
       "value": "12px",
       "tokenId": "12",
-      "widgetId": "@easyblocks/space"
+      "widgetId": "@heliumblocks/space"
     }
   },
   "HeaderStack": [
@@ -625,7 +625,7 @@
     "xl": {
       "value": "24px",
       "tokenId": "24",
-      "widgetId": "@easyblocks/space"
+      "widgetId": "@heliumblocks/space"
     }
   }
 }

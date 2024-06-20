@@ -1,4 +1,4 @@
-import { InternalField } from "@easyblocks/core/_internals";
+import { InternalField } from "@heliumblocks/core/_internals";
 import React from "react";
 
 export interface FieldPlugin {

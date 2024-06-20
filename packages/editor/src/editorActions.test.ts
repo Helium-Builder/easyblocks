@@ -1,6 +1,6 @@
 // @ts-ignore
-import { CompilationContextType } from "@easyblocks/core/_internals";
-import { dotNotationGet } from "@easyblocks/utils";
+import { CompilationContextType } from "@heliumblocks/core/_internals";
+import { dotNotationGet } from "@heliumblocks/utils";
 import {
   duplicateItems,
   logItems,

@@ -1,5 +1,5 @@
-import { NoCodeComponentEntry } from "@easyblocks/core";
-import { deepCompare } from "@easyblocks/utils";
+import { NoCodeComponentEntry } from "@heliumblocks/core";
+import { deepCompare } from "@heliumblocks/utils";
 
 const HISTORY_SIZE = 50;
 

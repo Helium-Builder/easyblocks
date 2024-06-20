@@ -1,8 +1,8 @@
 import type {
   NoCodeComponentStylesFunctionInput,
   NoCodeComponentStylesFunctionResult,
-} from "@easyblocks/core";
-import { spacingToPx } from "@easyblocks/core";
+} from "@heliumblocks/core";
+import { spacingToPx } from "@heliumblocks/core";
 import type { StackCompiledValues, StackParams } from "./Stack.types";
 
 export function stackStyles({
@@ -53,7 +53,7 @@ export function stackStyles({
 
     const isChildRichText =
       "_component" in item &&
-      item._component === "@easyblocks/rich-text" &&
+      item._component === "@heliumblocks/rich-text" &&
       !isEditing;
 
     outerItemWrappers.push({

@@ -1,9 +1,9 @@
 import {
   isTrulyResponsiveValue,
   responsiveValueForceGet,
-} from "@easyblocks/core";
-import { InternalField } from "@easyblocks/core/_internals";
-import { dotNotationGet, toArray } from "@easyblocks/utils";
+} from "@heliumblocks/core";
+import { InternalField } from "@heliumblocks/core/_internals";
+import { dotNotationGet, toArray } from "@heliumblocks/utils";
 import { EditorContextType } from "../../../../EditorContext";
 import { Form } from "../../../../form";
 

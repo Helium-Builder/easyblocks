@@ -28,7 +28,7 @@ test("converts empty elements to default editor value", () => {
               color: {
                 tokenId: "black",
                 value: "black",
-                widgetId: "@easyblocks/color",
+                widgetId: "@heliumblocks/color",
               },
               font: {
                 tokenId: "$body",

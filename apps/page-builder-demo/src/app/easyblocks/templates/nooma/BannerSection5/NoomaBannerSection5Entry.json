@@ -9,7 +9,7 @@
           "xl": {
             "value": "0px",
             "tokenId": "0",
-            "widgetId": "@easyblocks/space"
+            "widgetId": "@heliumblocks/space"
           }
         },
         "bottomMargin": {
@@ -17,7 +17,7 @@
           "xl": {
             "value": "32px",
             "tokenId": "32",
-            "widgetId": "@easyblocks/space"
+            "widgetId": "@heliumblocks/space"
           }
         }
       }
@@ -32,7 +32,7 @@
         "lg": "8vw"
       },
       "tokenId": "containerMargin.standard",
-      "widgetId": "@easyblocks/space"
+      "widgetId": "@heliumblocks/space"
     }
   },
   "containerMaxWidth": {
@@ -72,7 +72,7 @@
             "$res": true,
             "xl": {
               "value": "1:1",
-              "widgetId": "@easyblocks/aspectRatio"
+              "widgetId": "@heliumblocks/aspectRatio"
             }
           }
         }
@@ -81,7 +81,7 @@
         "$res": true,
         "xl": {
           "value": "natural",
-          "widgetId": "@easyblocks/aspectRatio"
+          "widgetId": "@heliumblocks/aspectRatio"
         }
       },
       "enableBorder": {
@@ -92,7 +92,7 @@
         "$res": true,
         "xl": {
           "value": "#000000",
-          "widgetId": "@easyblocks/color",
+          "widgetId": "@heliumblocks/color",
           "tokenId": "black"
         }
       },
@@ -119,7 +119,7 @@
     "xl": {
       "value": "16px",
       "tokenId": "16",
-      "widgetId": "@easyblocks/space"
+      "widgetId": "@heliumblocks/space"
     }
   },
   "paddingRight": {
@@ -127,7 +127,7 @@
     "xl": {
       "value": "16px",
       "tokenId": "16",
-      "widgetId": "@easyblocks/space"
+      "widgetId": "@heliumblocks/space"
     }
   },
   "paddingTop": {
@@ -135,7 +135,7 @@
     "xl": {
       "value": "16px",
       "tokenId": "16",
-      "widgetId": "@easyblocks/space"
+      "widgetId": "@heliumblocks/space"
     }
   },
   "paddingBottom": {
@@ -143,7 +143,7 @@
     "xl": {
       "value": "16px",
       "tokenId": "16",
-      "widgetId": "@easyblocks/space"
+      "widgetId": "@heliumblocks/space"
     }
   },
   "noFillPaddingLeft": {
@@ -151,7 +151,7 @@
     "xl": {
       "value": "0px",
       "tokenId": "0",
-      "widgetId": "@easyblocks/space"
+      "widgetId": "@heliumblocks/space"
     }
   },
   "noFillPaddingRight": {
@@ -159,7 +159,7 @@
     "xl": {
       "value": "0px",
       "tokenId": "0",
-      "widgetId": "@easyblocks/space"
+      "widgetId": "@heliumblocks/space"
     }
   },
   "noFillPaddingTop": {
@@ -167,7 +167,7 @@
     "xl": {
       "value": "0px",
       "tokenId": "0",
-      "widgetId": "@easyblocks/space"
+      "widgetId": "@heliumblocks/space"
     }
   },
   "noFillPaddingBottom": {
@@ -175,7 +175,7 @@
     "xl": {
       "value": "0px",
       "tokenId": "0",
-      "widgetId": "@easyblocks/space"
+      "widgetId": "@heliumblocks/space"
     }
   },
   "paddingInternal": {
@@ -183,7 +183,7 @@
     "xl": {
       "value": "16px",
       "tokenId": "16",
-      "widgetId": "@easyblocks/space"
+      "widgetId": "@heliumblocks/space"
     }
   },
   "forceStandardHorizontalPaddings": {
@@ -198,7 +198,7 @@
     "$res": true,
     "xl": {
       "value": "#000000",
-      "widgetId": "@easyblocks/color",
+      "widgetId": "@heliumblocks/color",
       "tokenId": "black"
     }
   },
@@ -210,7 +210,7 @@
     "$res": true,
     "xl": {
       "value": "#000000",
-      "widgetId": "@easyblocks/color",
+      "widgetId": "@heliumblocks/color",
       "tokenId": "black"
     }
   },
@@ -229,7 +229,7 @@
       "Items": [
         {
           "_id": "fd9184de-eb73-4e3b-bebd-e87746d081c5",
-          "_component": "@easyblocks/rich-text",
+          "_component": "@heliumblocks/rich-text",
           "_itemProps": {
             "Stack": {
               "Items": {
@@ -242,7 +242,7 @@
                   "xl": {
                     "tokenId": "64",
                     "value": "64px",
-                    "widgetId": "@easyblocks/space"
+                    "widgetId": "@heliumblocks/space"
                   }
                 },
                 "align": {
@@ -255,14 +255,14 @@
           "elements": {
             "en-US": [
               {
-                "_component": "@easyblocks/rich-text-block-element",
+                "_component": "@heliumblocks/rich-text-block-element",
                 "elements": [
                   {
-                    "_component": "@easyblocks/rich-text-line-element",
+                    "_component": "@heliumblocks/rich-text-line-element",
                     "elements": [
                       {
                         "_id": "a19185bb-7717-45cc-95a5-7c95a7087c63",
-                        "_component": "@easyblocks/rich-text-part",
+                        "_component": "@heliumblocks/rich-text-part",
                         "color": {
                           "$res": true,
                           "xl": {
@@ -318,13 +318,13 @@
             "xl": {
               "value": "#252525",
               "tokenId": "grey_05",
-              "widgetId": "@easyblocks/color"
+              "widgetId": "@heliumblocks/color"
             }
           }
         },
         {
           "_id": "1d8d7edf-5413-4f0e-81da-b8832eacaffc",
-          "_component": "@easyblocks/rich-text",
+          "_component": "@heliumblocks/rich-text",
           "_itemProps": {
             "Stack": {
               "Items": {
@@ -337,7 +337,7 @@
                   "xl": {
                     "tokenId": "32",
                     "value": "32px",
-                    "widgetId": "@easyblocks/space"
+                    "widgetId": "@heliumblocks/space"
                   }
                 },
                 "align": {
@@ -350,20 +350,20 @@
           "elements": {
             "en-US": [
               {
-                "_component": "@easyblocks/rich-text-block-element",
+                "_component": "@heliumblocks/rich-text-block-element",
                 "elements": [
                   {
-                    "_component": "@easyblocks/rich-text-line-element",
+                    "_component": "@heliumblocks/rich-text-line-element",
                     "elements": [
                       {
                         "_id": "407d8d39-897a-4886-9120-7b0dfd7f9f27",
-                        "_component": "@easyblocks/rich-text-part",
+                        "_component": "@heliumblocks/rich-text-part",
                         "color": {
                           "$res": true,
                           "xl": {
                             "tokenId": "grey_05",
                             "value": "#252525",
-                            "widgetId": "@easyblocks/color"
+                            "widgetId": "@heliumblocks/color"
                           }
                         },
                         "font": {
@@ -421,7 +421,7 @@
             "xl": {
               "value": "#252525",
               "tokenId": "grey_05",
-              "widgetId": "@easyblocks/color"
+              "widgetId": "@heliumblocks/color"
             }
           }
         },
@@ -440,7 +440,7 @@
                   "xl": {
                     "tokenId": "12",
                     "value": "12px",
-                    "widgetId": "@easyblocks/space"
+                    "widgetId": "@heliumblocks/space"
                   }
                 },
                 "align": {
@@ -459,13 +459,13 @@
             "xl": {
               "tokenId": "square",
               "value": "1:1",
-              "widgetId": "@easyblocks/aspectRatio"
+              "widgetId": "@heliumblocks/aspectRatio"
             }
           }
         },
         {
           "_id": "2a651be0-6852-4bdb-8727-96a0efcf6b91",
-          "_component": "@easyblocks/rich-text",
+          "_component": "@heliumblocks/rich-text",
           "_itemProps": {
             "Stack": {
               "Items": {
@@ -478,7 +478,7 @@
                   "xl": {
                     "tokenId": "48",
                     "value": "48px",
-                    "widgetId": "@easyblocks/space"
+                    "widgetId": "@heliumblocks/space"
                   }
                 },
                 "align": {
@@ -491,20 +491,20 @@
           "elements": {
             "en-US": [
               {
-                "_component": "@easyblocks/rich-text-block-element",
+                "_component": "@heliumblocks/rich-text-block-element",
                 "elements": [
                   {
-                    "_component": "@easyblocks/rich-text-line-element",
+                    "_component": "@heliumblocks/rich-text-line-element",
                     "elements": [
                       {
                         "_id": "80cef953-0aba-4f05-813e-c12d6174527a",
-                        "_component": "@easyblocks/rich-text-part",
+                        "_component": "@heliumblocks/rich-text-part",
                         "color": {
                           "$res": true,
                           "xl": {
                             "tokenId": "grey_05",
                             "value": "#252525",
-                            "widgetId": "@easyblocks/color"
+                            "widgetId": "@heliumblocks/color"
                           }
                         },
                         "font": {
@@ -552,13 +552,13 @@
             "xl": {
               "value": "#252525",
               "tokenId": "grey_05",
-              "widgetId": "@easyblocks/color"
+              "widgetId": "@heliumblocks/color"
             }
           }
         },
         {
           "_id": "4916402f-7c86-49fe-a953-f4436b80ad86",
-          "_component": "@easyblocks/rich-text",
+          "_component": "@heliumblocks/rich-text",
           "_itemProps": {
             "Stack": {
               "Items": {
@@ -571,7 +571,7 @@
                   "xl": {
                     "value": "0px",
                     "tokenId": "0",
-                    "widgetId": "@easyblocks/space"
+                    "widgetId": "@heliumblocks/space"
                   }
                 },
                 "align": {
@@ -584,20 +584,20 @@
           "elements": {
             "en-US": [
               {
-                "_component": "@easyblocks/rich-text-block-element",
+                "_component": "@heliumblocks/rich-text-block-element",
                 "elements": [
                   {
-                    "_component": "@easyblocks/rich-text-line-element",
+                    "_component": "@heliumblocks/rich-text-line-element",
                     "elements": [
                       {
                         "_id": "194ba920-f94a-414e-9f2e-df220cc87ead",
-                        "_component": "@easyblocks/rich-text-part",
+                        "_component": "@heliumblocks/rich-text-part",
                         "color": {
                           "$res": true,
                           "xl": {
                             "tokenId": "grey_05",
                             "value": "#252525",
-                            "widgetId": "@easyblocks/color"
+                            "widgetId": "@heliumblocks/color"
                           }
                         },
                         "font": {
@@ -645,7 +645,7 @@
             "xl": {
               "value": "#252525",
               "tokenId": "grey_05",
-              "widgetId": "@easyblocks/color"
+              "widgetId": "@heliumblocks/color"
             }
           }
         }
@@ -667,7 +667,7 @@
     "xl": {
       "value": "12px",
       "tokenId": "12",
-      "widgetId": "@easyblocks/space"
+      "widgetId": "@heliumblocks/space"
     }
   },
   "headerSectionGap": {
@@ -675,7 +675,7 @@
     "xl": {
       "value": "12px",
       "tokenId": "12",
-      "widgetId": "@easyblocks/space"
+      "widgetId": "@heliumblocks/space"
     }
   },
   "footerSectionGap": {
@@ -683,7 +683,7 @@
     "xl": {
       "value": "12px",
       "tokenId": "12",
-      "widgetId": "@easyblocks/space"
+      "widgetId": "@heliumblocks/space"
     }
   },
   "HeaderStack": [
@@ -706,7 +706,7 @@
     "xl": {
       "value": "24px",
       "tokenId": "24",
-      "widgetId": "@easyblocks/space"
+      "widgetId": "@heliumblocks/space"
     }
   }
 }

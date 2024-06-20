@@ -1,4 +1,4 @@
-import { NoCodeComponentProps } from "@easyblocks/core";
+import { NoCodeComponentProps } from "@heliumblocks/core";
 import React, { ReactElement } from "react";
 import {
   SectionProps,

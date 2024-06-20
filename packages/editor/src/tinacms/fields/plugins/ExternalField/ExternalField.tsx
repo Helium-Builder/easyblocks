@@ -5,9 +5,9 @@ import {
   isEmptyExternalReference,
   isIdReferenceToDocumentExternalValue,
   isResolvedCompoundExternalDataValue,
-} from "@easyblocks/core";
-import { Select, SelectItem } from "@easyblocks/design-system";
-import { dotNotationGet, toArray } from "@easyblocks/utils";
+} from "@heliumblocks/core";
+import { Select, SelectItem } from "@heliumblocks/design-system";
+import { dotNotationGet, toArray } from "@heliumblocks/utils";
 import React, { ComponentType, useLayoutEffect } from "react";
 import {
   EditorContextType,

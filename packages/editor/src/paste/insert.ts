@@ -3,13 +3,13 @@ import {
   NoCodeComponentEntry,
   ComponentSchemaProp,
   SchemaProp,
-} from "@easyblocks/core";
+} from "@heliumblocks/core";
 import {
   CompilationContextType,
   duplicateConfig,
   findComponentDefinition,
-} from "@easyblocks/core/_internals";
-import { includesAny } from "@easyblocks/utils";
+} from "@heliumblocks/core/_internals";
+import { includesAny } from "@heliumblocks/utils";
 import { Form } from "../form";
 import { normalizeToStringArray } from "../normalizeToStringArray";
 import { reconcile } from "./reconcile";

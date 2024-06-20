@@ -1,4 +1,4 @@
-import { NoCodeComponentDefinition } from "@easyblocks/core";
+import { NoCodeComponentDefinition } from "@heliumblocks/core";
 import { ImageSrc } from "../../externalData/types";
 import { last } from "../../utils/last";
 import { imageStyles } from "./Image.styles";
@@ -25,7 +25,7 @@ const imageComponentDefinition: NoCodeComponentDefinition = {
   schema: [
     {
       prop: "image",
-      type: "@easyblocks/image",
+      type: "@heliumblocks/image",
       label: "Source",
       optional: true,
     },

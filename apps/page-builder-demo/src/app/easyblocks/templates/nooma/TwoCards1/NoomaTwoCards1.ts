@@ -1,4 +1,4 @@
-import { Template } from "@easyblocks/core";
+import { Template } from "@heliumblocks/core";
 import entry from "./NoomaTwoCards1Entry.json";
 
 export const NoomaTwoCards1: Template = {

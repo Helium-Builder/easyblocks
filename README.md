@@ -41,6 +41,6 @@ Easyblocks is built by the team behind [Shopstory](https://shopstory.app) - a vi
 You can leave the questions or issues here. Alternatively, contact us via:
 
 1. [Twitter/X](https://twitter.com/ardabrowski)
-2. [E-mail](mailto:andrzej@easyblocks.io)
+2. [E-mail](mailto:andrzej@heliumblocks.io)
 
 High five! ✋

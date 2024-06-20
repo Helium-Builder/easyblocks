@@ -529,12 +529,12 @@ describe("snapping", () => {
     const b1Val = {
       tokenId: "xxx",
       value: "10px",
-      widgetId: "@easyblocks/space",
+      widgetId: "@heliumblocks/space",
     };
     const b5Val = {
       tokenId: "yyy",
       value: "50px",
-      widgetId: "@easyblocks/space",
+      widgetId: "@heliumblocks/space",
     };
 
     const result: any = linearizeSpace(
@@ -545,9 +545,9 @@ describe("snapping", () => {
 
     expect(result).toEqual({
       b1: b1Val,
-      b2: { tokenId: "24", value: "24px", widgetId: "@easyblocks/space" },
-      b3: { tokenId: "32", value: "32px", widgetId: "@easyblocks/space" },
-      b4: { tokenId: "48", value: "48px", widgetId: "@easyblocks/space" },
+      b2: { tokenId: "24", value: "24px", widgetId: "@heliumblocks/space" },
+      b3: { tokenId: "32", value: "32px", widgetId: "@heliumblocks/space" },
+      b4: { tokenId: "48", value: "48px", widgetId: "@heliumblocks/space" },
       b5: b5Val,
       $res: true,
     });

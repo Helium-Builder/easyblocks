@@ -8,7 +8,7 @@ const nextConfig = {
 
     return config;
   },
-  transpilePackages: ["@easyblocks/utils"],
+  transpilePackages: ["@heliumblocks/utils"],
 };
 
 module.exports = nextConfig;

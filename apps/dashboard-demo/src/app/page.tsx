@@ -1,6 +1,6 @@
 import { LiveDataUpdater } from "@/app/LiveDataUpdater";
 import { NoDocumentError } from "@/app/NoDocumentError";
-import { ComponentOverrides, buildDocument } from "@easyblocks/core";
+import { ComponentOverrides, buildDocument } from "@heliumblocks/core";
 import { cookies } from "next/headers";
 import { EasyblocksContent } from "./components/EasyblocksContent";
 import { buildAppShellContent } from "./easyblocks/buildAppShellContent";

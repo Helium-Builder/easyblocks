@@ -260,7 +260,7 @@ function getCompiledSubcomponents(
             event: ComponentPickerClosedEvent
           ) {
             if (
-              event.data.type === "@easyblocks-editor/component-picker-closed"
+              event.data.type === "@heliumblocks-editor/component-picker-closed"
             ) {
               window.removeEventListener(
                 "message",
@@ -301,12 +301,12 @@ export type ComponentBuilderProps = {
   };
   compiled: CompiledComponentConfig;
   components: {
-    "@easyblocks/missing-component": ComponentType<any>;
-    "@easyblocks/rich-text.client": ComponentType<any>;
-    "@easyblocks/rich-text-block-element": ComponentType<any>;
-    "@easyblocks/rich-text-line-element": ComponentType<any>;
-    "@easyblocks/rich-text-part": ComponentType<any>;
-    "@easyblocks/text.client": ComponentType<any>;
+    "@heliumblocks/missing-component": ComponentType<any>;
+    "@heliumblocks/rich-text.client": ComponentType<any>;
+    "@heliumblocks/rich-text-block-element": ComponentType<any>;
+    "@heliumblocks/rich-text-line-element": ComponentType<any>;
+    "@heliumblocks/rich-text-part": ComponentType<any>;
+    "@heliumblocks/text.client": ComponentType<any>;
     "EditableComponentBuilder.client": ComponentType<any>;
     [key: string]: ComponentType<any>;
   };
@@ -345,10 +345,10 @@ function ComponentBuilder(props: ComponentBuilderProps): ReactElement | null {
 
   const component = getComponent(componentDefinition, components, isEditing);
   const isMissingComponent =
-    compiled._component === "@easyblocks/missing-component";
+    compiled._component === "@heliumblocks/missing-component";
   const isMissingInstance = component === undefined;
   const isMissing = isMissingComponent || isMissingInstance;
-  const MissingComponent = components["@easyblocks/missing-component"];
+  const MissingComponent = components["@heliumblocks/missing-component"];
 
   if (isMissing) {
     if (!isEditing) {

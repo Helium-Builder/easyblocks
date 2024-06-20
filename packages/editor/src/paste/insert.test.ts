@@ -1,9 +1,9 @@
 import {
   NoCodeComponentEntry,
   NoCodeComponentDefinition,
-} from "@easyblocks/core";
-import * as internals from "@easyblocks/core/_internals";
-import { uniqueId } from "@easyblocks/utils";
+} from "@heliumblocks/core";
+import * as internals from "@heliumblocks/core/_internals";
+import { uniqueId } from "@heliumblocks/utils";
 import { Form } from "../form";
 import { insertCommand } from "./insert";
 import * as reconcile from "./reconcile";

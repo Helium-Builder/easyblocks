@@ -1,6 +1,6 @@
 "use client";
-import type { Widget, WidgetComponentProps } from "@easyblocks/core";
-import { SimplePicker } from "@easyblocks/design-system";
+import type { Widget, WidgetComponentProps } from "@heliumblocks/core";
+import { SimplePicker } from "@heliumblocks/design-system";
 
 import {
   pexelsApiFetch,

@@ -2,7 +2,7 @@ import {
   ChildComponentEditingInfo,
   NoCodeComponentDefinition,
   spacingToPx,
-} from "@easyblocks/core";
+} from "@heliumblocks/core";
 
 const maxWidthScale = ["max"];
 
@@ -56,7 +56,7 @@ const stackDefinition: NoCodeComponentDefinition = {
 
       const isChildRichText =
         "_component" in item &&
-        item._component === "@easyblocks/rich-text" &&
+        item._component === "@heliumblocks/rich-text" &&
         !isEditing;
 
       outerItemWrappers.push({

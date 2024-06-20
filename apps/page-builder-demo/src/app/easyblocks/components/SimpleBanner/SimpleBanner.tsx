@@ -6,10 +6,13 @@ type SimpleBannerProps = {
   Wrapper: ReactElement;
   Buttons: ReactElement[];
   ButtonsWrapper: ReactElement;
+  Stack: ReactElement;
 };
 
 export function SimpleBanner(props: SimpleBannerProps) {
-  const { Root, Title, Wrapper, Buttons, ButtonsWrapper } = props;
+  const { Root, Title, Wrapper, Buttons, ButtonsWrapper, Stack } = props;
+
+  console.log("SimpleBanner", props);
 
   return (
     <Root.type {...Root.props}>
@@ -20,6 +23,7 @@ export function SimpleBanner(props: SimpleBannerProps) {
             <Button.type {...Button.props} key={index} />
           ))}
         </ButtonsWrapper.type>
+        <Stack.type {...Stack.props} />
       </Wrapper.type>
     </Root.type>
   );

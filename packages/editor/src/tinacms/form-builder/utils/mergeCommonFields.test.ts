@@ -1,5 +1,5 @@
-import { AnyField } from "@easyblocks/core";
-import { last } from "@easyblocks/utils";
+import { AnyField } from "@heliumblocks/core";
+import { last } from "@heliumblocks/utils";
 import type { MergeCommonFieldsParameters } from "./mergeCommonFields";
 import { mergeCommonFields } from "./mergeCommonFields";
 

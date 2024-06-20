@@ -1,4 +1,4 @@
-import { RangeSlider } from "@easyblocks/design-system";
+import { RangeSlider } from "@heliumblocks/design-system";
 import React from "react";
 import { wrapFieldsWithMeta } from "./wrapFieldWithMeta";
 

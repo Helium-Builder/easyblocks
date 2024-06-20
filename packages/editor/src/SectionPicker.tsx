@@ -1,10 +1,10 @@
-import { Template } from "@easyblocks/core";
+import { Template } from "@heliumblocks/core";
 import {
   ButtonGhostColor,
   Colors,
   Fonts,
   Modal,
-} from "@easyblocks/design-system";
+} from "@heliumblocks/design-system";
 import React, { useRef } from "react";
 import styled from "styled-components";
 import { EditorContextType, useEditorContext } from "./EditorContext";

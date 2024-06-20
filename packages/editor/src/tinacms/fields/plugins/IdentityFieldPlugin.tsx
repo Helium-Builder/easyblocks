@@ -2,13 +2,13 @@ import {
   ComponentSchemaProp,
   Field,
   NoCodeComponentEntry,
-} from "@easyblocks/core";
+} from "@heliumblocks/core";
 import {
   findComponentDefinitionById,
   parsePath,
-} from "@easyblocks/core/_internals";
-import { ButtonGhost, Icons, Typography } from "@easyblocks/design-system";
-import { toArray } from "@easyblocks/utils";
+} from "@heliumblocks/core/_internals";
+import { ButtonGhost, Icons, Typography } from "@heliumblocks/design-system";
+import { toArray } from "@heliumblocks/utils";
 import React, { useContext } from "react";
 import type { FieldRenderProps } from "react-final-form";
 import { css } from "styled-components";
@@ -49,15 +49,15 @@ function IdentityField({ input, field }: IdentityFieldProps) {
   );
 
   const isNonRemovable =
-    (componentDefinition?.id.startsWith("@easyblocks/rich-text") &&
-      componentDefinition.id !== "@easyblocks/rich-text") ||
+    (componentDefinition?.id.startsWith("@heliumblocks/rich-text") &&
+      componentDefinition.id !== "@heliumblocks/rich-text") ||
     (parentSchemaProp
       ? parentSchemaProp.type === "component" &&
         (parentSchemaProp as ComponentSchemaProp).required
       : true);
 
   const isNonChangable =
-    componentDefinition?.id === "@easyblocks/rich-text-part" ||
+    componentDefinition?.id === "@heliumblocks/rich-text-part" ||
     componentDefinition?.id === editorContext.rootComponent.id;
 
   function handleChangeComponentType() {
@@ -109,6 +109,8 @@ function IdentityField({ input, field }: IdentityFieldProps) {
       {!isNonChangable && <Icons.ChevronDown size={16} />}
     </div>
   );
+
+  console.log("IdentityFieldComponent", { input, field });
 
   return (
     <div

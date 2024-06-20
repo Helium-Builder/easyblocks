@@ -35,7 +35,7 @@ test("returns whole component config when all text is selected", () => {
                 $res: true,
                 [testEditorContext.mainBreakpointIndex]: {
                   value: "#fff",
-                  widgetId: "@easyblocks/color",
+                  widgetId: "@heliumblocks/color",
                 },
               },
               font: {
@@ -57,7 +57,7 @@ test("returns whole component config when all text is selected", () => {
       $res: true,
       [testEditorContext.mainBreakpointIndex]: {
         value: "#fff",
-        widgetId: "@easyblocks/color",
+        widgetId: "@heliumblocks/color",
       },
     },
     mainFont: {
@@ -76,30 +76,30 @@ test("returns whole component config when all text is selected", () => {
 
   const expectedRichTextComponentConfigFragment: RichTextComponentConfig = {
     _id: testEditorContext.form.values._id,
-    _component: "@easyblocks/rich-text",
+    _component: "@heliumblocks/rich-text",
     accessibilityRole: "div",
     elements: {
       [testEditorContext.contextParams.locale]: [
         {
-          _component: "@easyblocks/rich-text-block-element",
+          _component: "@heliumblocks/rich-text-block-element",
           _id: testEditorContext.form.values.elements[
             testEditorContext.contextParams.locale
           ][0]._id,
           elements: [
             {
-              _component: "@easyblocks/rich-text-line-element",
+              _component: "@heliumblocks/rich-text-line-element",
               _id: testEditorContext.form.values.elements[
                 testEditorContext.contextParams.locale
               ][0].elements[0]._id,
               elements: [
                 {
                   _id: expect.any(String),
-                  _component: "@easyblocks/rich-text-part",
+                  _component: "@heliumblocks/rich-text-part",
                   color: {
                     $res: true,
                     [testEditorContext.mainBreakpointIndex]: {
                       value: "#fff",
-                      widgetId: "@easyblocks/color",
+                      widgetId: "@heliumblocks/color",
                     },
                   },
                   font: {
@@ -126,7 +126,7 @@ test("returns whole component config when all text is selected", () => {
       $res: true,
       [testEditorContext.mainBreakpointIndex]: {
         value: "#fff",
-        widgetId: "@easyblocks/color",
+        widgetId: "@heliumblocks/color",
       },
     },
     mainFont: {
@@ -243,25 +243,25 @@ test("returns fragment of component config when is bulleted list and only last l
 
   const expectedRichTextComponentConfigFragment: RichTextComponentConfig = {
     _id: testEditorContext.form.values._id,
-    _component: "@easyblocks/rich-text",
+    _component: "@heliumblocks/rich-text",
     accessibilityRole: "div",
     elements: {
       [testEditorContext.contextParams.locale]: [
         {
-          _component: "@easyblocks/rich-text-block-element",
+          _component: "@heliumblocks/rich-text-block-element",
           _id: testEditorContext.form.values.elements[
             testEditorContext.contextParams.locale
           ][0]._id,
           elements: [
             {
-              _component: "@easyblocks/rich-text-line-element",
+              _component: "@heliumblocks/rich-text-line-element",
               _id: testEditorContext.form.values.elements[
                 testEditorContext.contextParams.locale
               ][0].elements[2]._id,
               elements: [
                 {
                   _id: expect.any(String),
-                  _component: "@easyblocks/rich-text-part",
+                  _component: "@heliumblocks/rich-text-part",
                   color: {
                     $res: true,
                     [testEditorContext.mainBreakpointIndex]: {

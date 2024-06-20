@@ -1,4 +1,4 @@
-import { NavigationController, Typography } from "@easyblocks/design-system";
+import { NavigationController, Typography } from "@heliumblocks/design-system";
 
 export function NavigationControllerStories() {
   return (

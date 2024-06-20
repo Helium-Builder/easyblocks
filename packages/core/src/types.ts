@@ -963,12 +963,12 @@ export type LocalReference<Value = unknown> = {
 export type LocalTextReference = Omit<
   LocalReference<LocalizedText>,
   "id" | "widgetId"
-> & { id: `local.${string}`; widgetId: "@easyblocks/local-text" };
+> & { id: `local.${string}`; widgetId: "@heliumblocks/local-text" };
 
 export type CompiledLocalTextReference = Omit<
   LocalReference<string>,
   "id" | "widgetId"
-> & { id: `local.${string}`; widgetId: "@easyblocks/local-text" };
+> & { id: `local.${string}`; widgetId: "@heliumblocks/local-text" };
 
 export type ExternalReferenceEmpty = {
   id: null;

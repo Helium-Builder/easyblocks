@@ -1,4 +1,4 @@
-import { NoCodeComponentDefinition, TokenValue } from "@easyblocks/core";
+import { NoCodeComponentDefinition, TokenValue } from "@heliumblocks/core";
 import { solidColorStyles } from "./SolidColor.styles";
 
 const solidColorComponentDefinition: NoCodeComponentDefinition = {

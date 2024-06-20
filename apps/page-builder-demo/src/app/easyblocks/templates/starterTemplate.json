@@ -13,7 +13,7 @@
               "xl": {
                 "value": "0px",
                 "tokenId": "0",
-                "widgetId": "@easyblocks/space"
+                "widgetId": "@heliumblocks/space"
               }
             },
             "bottomMargin": {
@@ -21,7 +21,7 @@
               "xl": {
                 "value": "64px",
                 "tokenId": "64",
-                "widgetId": "@easyblocks/space"
+                "widgetId": "@heliumblocks/space"
               }
             }
           }
@@ -36,7 +36,7 @@
             "lg": "8vw"
           },
           "tokenId": "containerMargin.standard",
-          "widgetId": "@easyblocks/space"
+          "widgetId": "@heliumblocks/space"
         }
       },
       "containerMaxWidth": {
@@ -76,7 +76,7 @@
                 "$res": true,
                 "xl": {
                   "value": "1:1",
-                  "widgetId": "@easyblocks/aspectRatio"
+                  "widgetId": "@heliumblocks/aspectRatio"
                 }
               }
             }
@@ -86,7 +86,7 @@
             "xl": {
               "value": "1:1",
               "tokenId": "square",
-              "widgetId": "@easyblocks/aspectRatio"
+              "widgetId": "@heliumblocks/aspectRatio"
             }
           },
           "enableBorder": {
@@ -98,7 +98,7 @@
             "xl": {
               "value": "#000000",
               "tokenId": "black",
-              "widgetId": "@easyblocks/color"
+              "widgetId": "@heliumblocks/color"
             }
           },
           "borderLeft": "1",
@@ -124,7 +124,7 @@
         "xl": {
           "value": "16px",
           "tokenId": "16",
-          "widgetId": "@easyblocks/space"
+          "widgetId": "@heliumblocks/space"
         }
       },
       "paddingRight": {
@@ -132,7 +132,7 @@
         "xl": {
           "value": "16px",
           "tokenId": "16",
-          "widgetId": "@easyblocks/space"
+          "widgetId": "@heliumblocks/space"
         }
       },
       "paddingTop": {
@@ -140,7 +140,7 @@
         "xl": {
           "value": "64px",
           "tokenId": "64",
-          "widgetId": "@easyblocks/space"
+          "widgetId": "@heliumblocks/space"
         }
       },
       "paddingBottom": {
@@ -148,7 +148,7 @@
         "xl": {
           "value": "64px",
           "tokenId": "64",
-          "widgetId": "@easyblocks/space"
+          "widgetId": "@heliumblocks/space"
         }
       },
       "noFillPaddingLeft": {
@@ -156,7 +156,7 @@
         "xl": {
           "value": "0px",
           "tokenId": "0",
-          "widgetId": "@easyblocks/space"
+          "widgetId": "@heliumblocks/space"
         }
       },
       "noFillPaddingRight": {
@@ -164,7 +164,7 @@
         "xl": {
           "value": "0px",
           "tokenId": "0",
-          "widgetId": "@easyblocks/space"
+          "widgetId": "@heliumblocks/space"
         }
       },
       "noFillPaddingTop": {
@@ -172,7 +172,7 @@
         "xl": {
           "value": "0px",
           "tokenId": "0",
-          "widgetId": "@easyblocks/space"
+          "widgetId": "@heliumblocks/space"
         }
       },
       "noFillPaddingBottom": {
@@ -180,7 +180,7 @@
         "xl": {
           "value": "0px",
           "tokenId": "0",
-          "widgetId": "@easyblocks/space"
+          "widgetId": "@heliumblocks/space"
         }
       },
       "paddingInternal": {
@@ -188,7 +188,7 @@
         "xl": {
           "value": "24px",
           "tokenId": "24",
-          "widgetId": "@easyblocks/space"
+          "widgetId": "@heliumblocks/space"
         }
       },
       "forceStandardHorizontalPaddings": {
@@ -204,7 +204,7 @@
         "xl": {
           "value": "#FCF0C5",
           "tokenId": "yellow",
-          "widgetId": "@easyblocks/color"
+          "widgetId": "@heliumblocks/color"
         }
       },
       "enableBorder": {
@@ -216,7 +216,7 @@
         "xl": {
           "value": "#000000",
           "tokenId": "black",
-          "widgetId": "@easyblocks/color"
+          "widgetId": "@heliumblocks/color"
         }
       },
       "borderLeft": "1",
@@ -234,7 +234,7 @@
           "Items": [
             {
               "_id": "73e7a13a-09e4-4c4b-9127-cbe7b3752ae7",
-              "_component": "@easyblocks/rich-text",
+              "_component": "@heliumblocks/rich-text",
               "_itemProps": {
                 "Stack": {
                   "Items": {
@@ -247,7 +247,7 @@
                       "xl": {
                         "value": "32px",
                         "tokenId": "32",
-                        "widgetId": "@easyblocks/space"
+                        "widgetId": "@heliumblocks/space"
                       }
                     },
                     "align": {
@@ -261,16 +261,16 @@
                 "en-US": [
                   {
                     "_id": "e7748705-f893-4891-8f70-026e9a2fb024",
-                    "_component": "@easyblocks/rich-text-block-element",
+                    "_component": "@heliumblocks/rich-text-block-element",
                     "type": "paragraph",
                     "elements": [
                       {
                         "_id": "3e261432-fed5-4c38-bb71-2a53467ad45b",
-                        "_component": "@easyblocks/rich-text-line-element",
+                        "_component": "@heliumblocks/rich-text-line-element",
                         "elements": [
                           {
                             "_id": "edfb44af-2dda-44ab-b8e1-54eb4f9be7d8",
-                            "_component": "@easyblocks/rich-text-part",
+                            "_component": "@heliumblocks/rich-text-part",
                             "value": "Get comfy",
                             "font": {
                               "$res": true,
@@ -298,7 +298,7 @@
                               "xl": {
                                 "value": "#252525",
                                 "tokenId": "grey_05",
-                                "widgetId": "@easyblocks/color"
+                                "widgetId": "@heliumblocks/color"
                               }
                             },
                             "TextWrapper": []
@@ -331,13 +331,13 @@
                 "xl": {
                   "value": "#252525",
                   "tokenId": "grey_05",
-                  "widgetId": "@easyblocks/color"
+                  "widgetId": "@heliumblocks/color"
                 }
               }
             },
             {
               "_id": "54ab9a1a-b35c-401d-933a-9428d525aad0",
-              "_component": "@easyblocks/rich-text",
+              "_component": "@heliumblocks/rich-text",
               "_itemProps": {
                 "Stack": {
                   "Items": {
@@ -350,7 +350,7 @@
                       "xl": {
                         "value": "32px",
                         "tokenId": "32",
-                        "widgetId": "@easyblocks/space"
+                        "widgetId": "@heliumblocks/space"
                       }
                     },
                     "align": {
@@ -364,16 +364,16 @@
                 "en-US": [
                   {
                     "_id": "eddf060e-3092-462b-b1e3-100448d04dce",
-                    "_component": "@easyblocks/rich-text-block-element",
+                    "_component": "@heliumblocks/rich-text-block-element",
                     "type": "paragraph",
                     "elements": [
                       {
                         "_id": "e7ab7e45-94b7-45ac-b90e-03be072c18a6",
-                        "_component": "@easyblocks/rich-text-line-element",
+                        "_component": "@heliumblocks/rich-text-line-element",
                         "elements": [
                           {
                             "_id": "582446ed-838b-4647-a9d1-beafc892afbf",
-                            "_component": "@easyblocks/rich-text-part",
+                            "_component": "@heliumblocks/rich-text-part",
                             "value": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do this is cool and gets even cooler incididunt ut labore.",
                             "font": {
                               "$res": true,
@@ -392,7 +392,7 @@
                               "$res": true,
                               "xl": {
                                 "value": "#252525",
-                                "widgetId": "@easyblocks/color"
+                                "widgetId": "@heliumblocks/color"
                               }
                             },
                             "TextWrapper": []
@@ -425,7 +425,7 @@
                 "xl": {
                   "value": "#252525",
                   "tokenId": "grey_05",
-                  "widgetId": "@easyblocks/color"
+                  "widgetId": "@heliumblocks/color"
                 }
               }
             },
@@ -444,7 +444,7 @@
                       "xl": {
                         "value": "0px",
                         "tokenId": "0",
-                        "widgetId": "@easyblocks/space"
+                        "widgetId": "@heliumblocks/space"
                       }
                     },
                     "align": {
@@ -460,7 +460,7 @@
                 "xl": {
                   "value": "12px",
                   "tokenId": "12",
-                  "widgetId": "@easyblocks/space"
+                  "widgetId": "@heliumblocks/space"
                 }
               },
               "Buttons": [
@@ -479,18 +479,18 @@
                     "value": {
                       "en-US": "Show now"
                     },
-                    "widgetId": "@easyblocks/local-text"
+                    "widgetId": "@heliumblocks/local-text"
                   },
                   "icon": {
                     "value": "<svg viewBox=\"0 -960 960 960\"><path fill=\"currentColor\" d=\"m480-120-58-52q-101-91-167-157T150-447.5Q111-500 95.5-544T80-634q0-94 63-157t157-63q52 0 99 22t81 62q34-40 81-62t99-22q94 0 157 63t63 157q0 46-15.5 90T810-447.5Q771-395 705-329T538-172l-58 52Zm0-108q96-86 158-147.5t98-107q36-45.5 50-81t14-70.5q0-60-40-100t-100-40q-47 0-87 26.5T518-680h-76q-15-41-55-67.5T300-774q-60 0-100 40t-40 100q0 35 14 70.5t50 81q36 45.5 98 107T480-228Zm0-273Z\"/></svg>",
-                    "widgetId": "@easyblocks/icon"
+                    "widgetId": "@heliumblocks/icon"
                   },
                   "color": {
                     "$res": true,
                     "xl": {
                       "value": "#f9f8f3",
                       "tokenId": "grey_01",
-                      "widgetId": "@easyblocks/color"
+                      "widgetId": "@heliumblocks/color"
                     }
                   },
                   "minHeight": {
@@ -506,7 +506,7 @@
                     "xl": {
                       "value": "16px",
                       "tokenId": "16",
-                      "widgetId": "@easyblocks/space"
+                      "widgetId": "@heliumblocks/space"
                     }
                   },
                   "gap": {
@@ -514,7 +514,7 @@
                     "xl": {
                       "value": "6px",
                       "tokenId": "6",
-                      "widgetId": "@easyblocks/space"
+                      "widgetId": "@heliumblocks/space"
                     }
                   },
                   "cornerMode": {
@@ -551,7 +551,7 @@
                     "xl": {
                       "value": "#252525",
                       "tokenId": "grey_05",
-                      "widgetId": "@easyblocks/color"
+                      "widgetId": "@heliumblocks/color"
                     }
                   },
                   "hasBorder": false,
@@ -564,7 +564,7 @@
                     "xl": {
                       "value": "#000000",
                       "tokenId": "black",
-                      "widgetId": "@easyblocks/color"
+                      "widgetId": "@heliumblocks/color"
                     }
                   },
                   "boxShadow": {
@@ -589,18 +589,18 @@
                     "value": {
                       "en-US": "Learn more"
                     },
-                    "widgetId": "@easyblocks/local-text"
+                    "widgetId": "@heliumblocks/local-text"
                   },
                   "icon": {
                     "value": "<svg viewBox=\"0 -960 960 960\"><path fill=\"currentColor\" d=\"m480-120-58-52q-101-91-167-157T150-447.5Q111-500 95.5-544T80-634q0-94 63-157t157-63q52 0 99 22t81 62q34-40 81-62t99-22q94 0 157 63t63 157q0 46-15.5 90T810-447.5Q771-395 705-329T538-172l-58 52Zm0-108q96-86 158-147.5t98-107q36-45.5 50-81t14-70.5q0-60-40-100t-100-40q-47 0-87 26.5T518-680h-76q-15-41-55-67.5T300-774q-60 0-100 40t-40 100q0 35 14 70.5t50 81q36 45.5 98 107T480-228Zm0-273Z\"/></svg>",
-                    "widgetId": "@easyblocks/icon"
+                    "widgetId": "@heliumblocks/icon"
                   },
                   "color": {
                     "$res": true,
                     "xl": {
                       "value": "#252525",
                       "tokenId": "grey_05",
-                      "widgetId": "@easyblocks/color"
+                      "widgetId": "@heliumblocks/color"
                     }
                   },
                   "minHeight": {
@@ -616,7 +616,7 @@
                     "xl": {
                       "value": "16px",
                       "tokenId": "16",
-                      "widgetId": "@easyblocks/space"
+                      "widgetId": "@heliumblocks/space"
                     }
                   },
                   "gap": {
@@ -624,7 +624,7 @@
                     "xl": {
                       "value": "6px",
                       "tokenId": "6",
-                      "widgetId": "@easyblocks/space"
+                      "widgetId": "@heliumblocks/space"
                     }
                   },
                   "cornerMode": {
@@ -661,7 +661,7 @@
                     "xl": {
                       "value": "#f9f8f3",
                       "tokenId": "grey_01",
-                      "widgetId": "@easyblocks/color"
+                      "widgetId": "@heliumblocks/color"
                     }
                   },
                   "hasBorder": true,
@@ -674,7 +674,7 @@
                     "xl": {
                       "value": "#252525",
                       "tokenId": "grey_05",
-                      "widgetId": "@easyblocks/color"
+                      "widgetId": "@heliumblocks/color"
                     }
                   },
                   "boxShadow": {
@@ -705,7 +705,7 @@
         "xl": {
           "value": "12px",
           "tokenId": "12",
-          "widgetId": "@easyblocks/space"
+          "widgetId": "@heliumblocks/space"
         }
       },
       "headerSectionGap": {
@@ -713,7 +713,7 @@
         "xl": {
           "value": "12px",
           "tokenId": "12",
-          "widgetId": "@easyblocks/space"
+          "widgetId": "@heliumblocks/space"
         }
       },
       "footerSectionGap": {
@@ -721,7 +721,7 @@
         "xl": {
           "value": "12px",
           "tokenId": "12",
-          "widgetId": "@easyblocks/space"
+          "widgetId": "@heliumblocks/space"
         }
       },
       "HeaderStack": [
@@ -744,7 +744,7 @@
         "xl": {
           "value": "24px",
           "tokenId": "24",
-          "widgetId": "@easyblocks/space"
+          "widgetId": "@heliumblocks/space"
         }
       }
     },
@@ -759,7 +759,7 @@
               "xl": {
                 "value": "0px",
                 "tokenId": "0",
-                "widgetId": "@easyblocks/space"
+                "widgetId": "@heliumblocks/space"
               }
             },
             "bottomMargin": {
@@ -767,7 +767,7 @@
               "xl": {
                 "value": "128px",
                 "tokenId": "128",
-                "widgetId": "@easyblocks/space"
+                "widgetId": "@heliumblocks/space"
               }
             }
           }
@@ -782,7 +782,7 @@
             "lg": "8vw"
           },
           "tokenId": "containerMargin.standard",
-          "widgetId": "@easyblocks/space"
+          "widgetId": "@heliumblocks/space"
         }
       },
       "containerMaxWidth": {
@@ -915,7 +915,7 @@
         "xl": {
           "value": "0px",
           "tokenId": "0",
-          "widgetId": "@easyblocks/space"
+          "widgetId": "@heliumblocks/space"
         }
       },
       "rowGap": {
@@ -923,7 +923,7 @@
         "xl": {
           "value": "16px",
           "tokenId": "16",
-          "widgetId": "@easyblocks/space"
+          "widgetId": "@heliumblocks/space"
         }
       },
       "verticalAlign": {
@@ -942,7 +942,7 @@
         "$res": true,
         "xl": {
           "value": "1:1",
-          "widgetId": "@easyblocks/aspectRatio"
+          "widgetId": "@heliumblocks/aspectRatio"
         }
       },
       "paddingTop": {
@@ -950,7 +950,7 @@
         "xl": {
           "value": "0px",
           "tokenId": "0",
-          "widgetId": "@easyblocks/space"
+          "widgetId": "@heliumblocks/space"
         }
       },
       "paddingBottom": {
@@ -958,7 +958,7 @@
         "xl": {
           "value": "0px",
           "tokenId": "0",
-          "widgetId": "@easyblocks/space"
+          "widgetId": "@heliumblocks/space"
         }
       },
       "paddingLeft": {
@@ -966,7 +966,7 @@
         "xl": {
           "value": "0px",
           "tokenId": "0",
-          "widgetId": "@easyblocks/space"
+          "widgetId": "@heliumblocks/space"
         }
       },
       "paddingRight": {
@@ -974,7 +974,7 @@
         "xl": {
           "value": "0px",
           "tokenId": "0",
-          "widgetId": "@easyblocks/space"
+          "widgetId": "@heliumblocks/space"
         }
       },
       "LeftArrow": [
@@ -993,19 +993,19 @@
             "value": {
               "en-US": "Click me"
             },
-            "widgetId": "@easyblocks/local-text"
+            "widgetId": "@heliumblocks/local-text"
           },
           "icon": {
             "value": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"red\" width=\"100px\" height=\"100px\"><path d=\"M20 11H7.83l5.59-5.59L12 4l-8 8 8 8 1.41-1.41L7.83 13H20v-2z\"/></svg>",
             "tokenId": "arrowLeft",
-            "widgetId": "@easyblocks/icon"
+            "widgetId": "@heliumblocks/icon"
           },
           "color": {
             "$res": true,
             "xl": {
               "value": "#000000",
               "tokenId": "black",
-              "widgetId": "@easyblocks/color"
+              "widgetId": "@heliumblocks/color"
             }
           },
           "minHeight": {
@@ -1021,7 +1021,7 @@
             "xl": {
               "value": "16px",
               "tokenId": "16",
-              "widgetId": "@easyblocks/space"
+              "widgetId": "@heliumblocks/space"
             }
           },
           "gap": {
@@ -1029,7 +1029,7 @@
             "xl": {
               "value": "6px",
               "tokenId": "6",
-              "widgetId": "@easyblocks/space"
+              "widgetId": "@heliumblocks/space"
             }
           },
           "cornerMode": {
@@ -1066,7 +1066,7 @@
             "xl": {
               "value": "#D8D8D880",
               "tokenId": "transparent-grey-light",
-              "widgetId": "@easyblocks/color"
+              "widgetId": "@heliumblocks/color"
             }
           },
           "hasBorder": false,
@@ -1079,7 +1079,7 @@
             "xl": {
               "value": "#000000",
               "tokenId": "black",
-              "widgetId": "@easyblocks/color"
+              "widgetId": "@heliumblocks/color"
             }
           },
           "boxShadow": {
@@ -1100,7 +1100,7 @@
         "xl": {
           "value": "0px",
           "tokenId": "0",
-          "widgetId": "@easyblocks/space"
+          "widgetId": "@heliumblocks/space"
         }
       },
       "RightArrow": [
@@ -1119,19 +1119,19 @@
             "value": {
               "en-US": "Click me"
             },
-            "widgetId": "@easyblocks/local-text"
+            "widgetId": "@heliumblocks/local-text"
           },
           "icon": {
             "value": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"currentColor\"><path d=\"M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8-8-8z\"/></svg>",
             "tokenId": "arrowRight",
-            "widgetId": "@easyblocks/icon"
+            "widgetId": "@heliumblocks/icon"
           },
           "color": {
             "$res": true,
             "xl": {
               "value": "#000000",
               "tokenId": "black",
-              "widgetId": "@easyblocks/color"
+              "widgetId": "@heliumblocks/color"
             }
           },
           "minHeight": {
@@ -1147,7 +1147,7 @@
             "xl": {
               "value": "16px",
               "tokenId": "16",
-              "widgetId": "@easyblocks/space"
+              "widgetId": "@heliumblocks/space"
             }
           },
           "gap": {
@@ -1155,7 +1155,7 @@
             "xl": {
               "value": "6px",
               "tokenId": "6",
-              "widgetId": "@easyblocks/space"
+              "widgetId": "@heliumblocks/space"
             }
           },
           "cornerMode": {
@@ -1192,7 +1192,7 @@
             "xl": {
               "value": "#D8D8D880",
               "tokenId": "transparent-grey-light",
-              "widgetId": "@easyblocks/color"
+              "widgetId": "@heliumblocks/color"
             }
           },
           "hasBorder": false,
@@ -1205,7 +1205,7 @@
             "xl": {
               "value": "#000000",
               "tokenId": "black",
-              "widgetId": "@easyblocks/color"
+              "widgetId": "@heliumblocks/color"
             }
           },
           "boxShadow": {
@@ -1226,7 +1226,7 @@
         "xl": {
           "value": "0px",
           "tokenId": "0",
-          "widgetId": "@easyblocks/space"
+          "widgetId": "@heliumblocks/space"
         }
       },
       "headerMode": "1-stack",
@@ -1244,7 +1244,7 @@
         "xl": {
           "value": "12px",
           "tokenId": "12",
-          "widgetId": "@easyblocks/space"
+          "widgetId": "@heliumblocks/space"
         }
       },
       "headerSectionGap": {
@@ -1252,7 +1252,7 @@
         "xl": {
           "value": "24px",
           "tokenId": "24",
-          "widgetId": "@easyblocks/space"
+          "widgetId": "@heliumblocks/space"
         }
       },
       "footerSectionGap": {
@@ -1260,7 +1260,7 @@
         "xl": {
           "value": "12px",
           "tokenId": "12",
-          "widgetId": "@easyblocks/space"
+          "widgetId": "@heliumblocks/space"
         }
       },
       "HeaderStack": [
@@ -1270,7 +1270,7 @@
           "Items": [
             {
               "_id": "08845b79-085c-4cc5-98dc-2b1372d5bdff",
-              "_component": "@easyblocks/rich-text",
+              "_component": "@heliumblocks/rich-text",
               "_itemProps": {
                 "Stack": {
                   "Items": {
@@ -1283,7 +1283,7 @@
                       "xl": {
                         "value": "0px",
                         "tokenId": "0",
-                        "widgetId": "@easyblocks/space"
+                        "widgetId": "@heliumblocks/space"
                       }
                     },
                     "align": {
@@ -1297,16 +1297,16 @@
                 "en-US": [
                   {
                     "_id": "f10436be-dcf2-4eba-8cee-e3fbeac6f46e",
-                    "_component": "@easyblocks/rich-text-block-element",
+                    "_component": "@heliumblocks/rich-text-block-element",
                     "type": "paragraph",
                     "elements": [
                       {
                         "_id": "01645d2c-664d-428f-b38f-00d2508170e4",
-                        "_component": "@easyblocks/rich-text-line-element",
+                        "_component": "@heliumblocks/rich-text-line-element",
                         "elements": [
                           {
                             "_id": "bf5f9e1e-7a93-4783-aeea-ecb71947866c",
-                            "_component": "@easyblocks/rich-text-part",
+                            "_component": "@heliumblocks/rich-text-part",
                             "value": "New arrivals",
                             "font": {
                               "$res": true,
@@ -1324,7 +1324,7 @@
                               "xl": {
                                 "value": "#252525",
                                 "tokenId": "grey_05",
-                                "widgetId": "@easyblocks/color"
+                                "widgetId": "@heliumblocks/color"
                               }
                             },
                             "TextWrapper": []
@@ -1357,7 +1357,7 @@
                 "xl": {
                   "value": "#252525",
                   "tokenId": "grey_05",
-                  "widgetId": "@easyblocks/color"
+                  "widgetId": "@heliumblocks/color"
                 }
               }
             }
@@ -1377,7 +1377,7 @@
         "xl": {
           "value": "24px",
           "tokenId": "24",
-          "widgetId": "@easyblocks/space"
+          "widgetId": "@heliumblocks/space"
         }
       }
     },
@@ -1392,7 +1392,7 @@
               "xl": {
                 "value": "0px",
                 "tokenId": "0",
-                "widgetId": "@easyblocks/space"
+                "widgetId": "@heliumblocks/space"
               }
             },
             "bottomMargin": {
@@ -1400,7 +1400,7 @@
               "xl": {
                 "value": "0px",
                 "tokenId": "0",
-                "widgetId": "@easyblocks/space"
+                "widgetId": "@heliumblocks/space"
               }
             }
           }
@@ -1415,7 +1415,7 @@
             "lg": "8vw"
           },
           "tokenId": "containerMargin.standard",
-          "widgetId": "@easyblocks/space"
+          "widgetId": "@heliumblocks/space"
         }
       },
       "containerMaxWidth": {
@@ -1460,7 +1460,7 @@
                     "$res": true,
                     "xl": {
                       "value": "1:1",
-                      "widgetId": "@easyblocks/aspectRatio"
+                      "widgetId": "@heliumblocks/aspectRatio"
                     }
                   }
                 }
@@ -1469,7 +1469,7 @@
                 "$res": true,
                 "xl": {
                   "value": "natural",
-                  "widgetId": "@easyblocks/aspectRatio"
+                  "widgetId": "@heliumblocks/aspectRatio"
                 }
               },
               "enableBorder": {
@@ -1481,7 +1481,7 @@
                 "xl": {
                   "value": "#000000",
                   "tokenId": "black",
-                  "widgetId": "@easyblocks/color"
+                  "widgetId": "@heliumblocks/color"
                 }
               },
               "borderLeft": "1",
@@ -1507,7 +1507,7 @@
             "xl": {
               "value": "16px",
               "tokenId": "16",
-              "widgetId": "@easyblocks/space"
+              "widgetId": "@heliumblocks/space"
             }
           },
           "paddingRight": {
@@ -1515,7 +1515,7 @@
             "xl": {
               "value": "16px",
               "tokenId": "16",
-              "widgetId": "@easyblocks/space"
+              "widgetId": "@heliumblocks/space"
             }
           },
           "paddingTop": {
@@ -1523,7 +1523,7 @@
             "xl": {
               "value": "16px",
               "tokenId": "16",
-              "widgetId": "@easyblocks/space"
+              "widgetId": "@heliumblocks/space"
             }
           },
           "paddingBottom": {
@@ -1531,7 +1531,7 @@
             "xl": {
               "value": "16px",
               "tokenId": "16",
-              "widgetId": "@easyblocks/space"
+              "widgetId": "@heliumblocks/space"
             }
           },
           "noFillPaddingLeft": {
@@ -1539,7 +1539,7 @@
             "xl": {
               "value": "0px",
               "tokenId": "0",
-              "widgetId": "@easyblocks/space"
+              "widgetId": "@heliumblocks/space"
             }
           },
           "noFillPaddingRight": {
@@ -1547,7 +1547,7 @@
             "xl": {
               "value": "0px",
               "tokenId": "0",
-              "widgetId": "@easyblocks/space"
+              "widgetId": "@heliumblocks/space"
             }
           },
           "noFillPaddingTop": {
@@ -1555,7 +1555,7 @@
             "xl": {
               "value": "0px",
               "tokenId": "0",
-              "widgetId": "@easyblocks/space"
+              "widgetId": "@heliumblocks/space"
             }
           },
           "noFillPaddingBottom": {
@@ -1563,7 +1563,7 @@
             "xl": {
               "value": "0px",
               "tokenId": "0",
-              "widgetId": "@easyblocks/space"
+              "widgetId": "@heliumblocks/space"
             }
           },
           "paddingInternal": {
@@ -1571,7 +1571,7 @@
             "xl": {
               "tokenId": "48",
               "value": "48px",
-              "widgetId": "@easyblocks/space"
+              "widgetId": "@heliumblocks/space"
             }
           },
           "forceStandardHorizontalPaddings": {
@@ -1587,7 +1587,7 @@
             "xl": {
               "value": "#000000",
               "tokenId": "black",
-              "widgetId": "@easyblocks/color"
+              "widgetId": "@heliumblocks/color"
             }
           },
           "enableBorder": {
@@ -1599,7 +1599,7 @@
             "xl": {
               "value": "#000000",
               "tokenId": "black",
-              "widgetId": "@easyblocks/color"
+              "widgetId": "@heliumblocks/color"
             }
           },
           "borderLeft": "1",
@@ -1617,7 +1617,7 @@
               "Items": [
                 {
                   "_id": "65cddb0c-f59f-4ea6-8a3d-10fa39115556",
-                  "_component": "@easyblocks/rich-text",
+                  "_component": "@heliumblocks/rich-text",
                   "_itemProps": {
                     "Stack": {
                       "Items": {
@@ -1630,7 +1630,7 @@
                           "xl": {
                             "value": "24px",
                             "tokenId": "24",
-                            "widgetId": "@easyblocks/space"
+                            "widgetId": "@heliumblocks/space"
                           }
                         },
                         "align": {
@@ -1644,16 +1644,16 @@
                     "en-US": [
                       {
                         "_id": "56902180-d465-47f6-b668-9533ee9c6481",
-                        "_component": "@easyblocks/rich-text-block-element",
+                        "_component": "@heliumblocks/rich-text-block-element",
                         "type": "paragraph",
                         "elements": [
                           {
                             "_id": "2841c309-8002-4cd8-afc1-4f09375acf61",
-                            "_component": "@easyblocks/rich-text-line-element",
+                            "_component": "@heliumblocks/rich-text-line-element",
                             "elements": [
                               {
                                 "_id": "6d3c8acf-3db6-4525-9c4d-d68c5b26f7ec",
-                                "_component": "@easyblocks/rich-text-part",
+                                "_component": "@heliumblocks/rich-text-part",
                                 "value": "Kitchen essentials",
                                 "font": {
                                   "$res": true,
@@ -1681,7 +1681,7 @@
                                   "xl": {
                                     "value": "#252525",
                                     "tokenId": "grey_05",
-                                    "widgetId": "@easyblocks/color"
+                                    "widgetId": "@heliumblocks/color"
                                   }
                                 },
                                 "TextWrapper": []
@@ -1714,13 +1714,13 @@
                     "xl": {
                       "value": "#252525",
                       "tokenId": "grey_05",
-                      "widgetId": "@easyblocks/color"
+                      "widgetId": "@heliumblocks/color"
                     }
                   }
                 },
                 {
                   "_id": "71362b92-b38e-43c1-8b32-36b90ce6decf",
-                  "_component": "@easyblocks/rich-text",
+                  "_component": "@heliumblocks/rich-text",
                   "_itemProps": {
                     "Stack": {
                       "Items": {
@@ -1733,7 +1733,7 @@
                           "xl": {
                             "value": "24px",
                             "tokenId": "24",
-                            "widgetId": "@easyblocks/space"
+                            "widgetId": "@heliumblocks/space"
                           }
                         },
                         "align": {
@@ -1747,16 +1747,16 @@
                     "en-US": [
                       {
                         "_id": "4c2a5e9b-47cd-4ae4-a517-ed95fcddb6c1",
-                        "_component": "@easyblocks/rich-text-block-element",
+                        "_component": "@heliumblocks/rich-text-block-element",
                         "type": "paragraph",
                         "elements": [
                           {
                             "_id": "f587dc6c-8369-4d3d-8a7f-65e71f69ddda",
-                            "_component": "@easyblocks/rich-text-line-element",
+                            "_component": "@heliumblocks/rich-text-line-element",
                             "elements": [
                               {
                                 "_id": "38bfb2b0-31a0-4f8c-b61c-4f31692f3fec",
-                                "_component": "@easyblocks/rich-text-part",
+                                "_component": "@heliumblocks/rich-text-part",
                                 "value": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
                                 "font": {
                                   "$res": true,
@@ -1774,7 +1774,7 @@
                                   "xl": {
                                     "value": "#252525",
                                     "tokenId": "grey_05",
-                                    "widgetId": "@easyblocks/color"
+                                    "widgetId": "@heliumblocks/color"
                                   }
                                 },
                                 "TextWrapper": []
@@ -1807,7 +1807,7 @@
                     "xl": {
                       "value": "#252525",
                       "tokenId": "grey_05",
-                      "widgetId": "@easyblocks/color"
+                      "widgetId": "@heliumblocks/color"
                     }
                   }
                 },
@@ -1826,7 +1826,7 @@
                           "xl": {
                             "value": "48px",
                             "tokenId": "48",
-                            "widgetId": "@easyblocks/space"
+                            "widgetId": "@heliumblocks/space"
                           }
                         },
                         "align": {
@@ -1842,7 +1842,7 @@
                     "xl": {
                       "value": "12px",
                       "tokenId": "12",
-                      "widgetId": "@easyblocks/space"
+                      "widgetId": "@heliumblocks/space"
                     }
                   },
                   "Buttons": [
@@ -1861,18 +1861,18 @@
                         "value": {
                           "en-US": "Show now"
                         },
-                        "widgetId": "@easyblocks/local-text"
+                        "widgetId": "@heliumblocks/local-text"
                       },
                       "icon": {
                         "value": "<svg viewBox=\"0 -960 960 960\"><path fill=\"currentColor\" d=\"m480-120-58-52q-101-91-167-157T150-447.5Q111-500 95.5-544T80-634q0-94 63-157t157-63q52 0 99 22t81 62q34-40 81-62t99-22q94 0 157 63t63 157q0 46-15.5 90T810-447.5Q771-395 705-329T538-172l-58 52Zm0-108q96-86 158-147.5t98-107q36-45.5 50-81t14-70.5q0-60-40-100t-100-40q-47 0-87 26.5T518-680h-76q-15-41-55-67.5T300-774q-60 0-100 40t-40 100q0 35 14 70.5t50 81q36 45.5 98 107T480-228Zm0-273Z\"/></svg>",
-                        "widgetId": "@easyblocks/icon"
+                        "widgetId": "@heliumblocks/icon"
                       },
                       "color": {
                         "$res": true,
                         "xl": {
                           "value": "#f9f8f3",
                           "tokenId": "grey_01",
-                          "widgetId": "@easyblocks/color"
+                          "widgetId": "@heliumblocks/color"
                         }
                       },
                       "minHeight": {
@@ -1888,7 +1888,7 @@
                         "xl": {
                           "value": "16px",
                           "tokenId": "16",
-                          "widgetId": "@easyblocks/space"
+                          "widgetId": "@heliumblocks/space"
                         }
                       },
                       "gap": {
@@ -1896,7 +1896,7 @@
                         "xl": {
                           "value": "6px",
                           "tokenId": "6",
-                          "widgetId": "@easyblocks/space"
+                          "widgetId": "@heliumblocks/space"
                         }
                       },
                       "cornerMode": {
@@ -1933,7 +1933,7 @@
                         "xl": {
                           "value": "#252525",
                           "tokenId": "grey_05",
-                          "widgetId": "@easyblocks/color"
+                          "widgetId": "@heliumblocks/color"
                         }
                       },
                       "hasBorder": false,
@@ -1946,7 +1946,7 @@
                         "xl": {
                           "value": "#000000",
                           "tokenId": "black",
-                          "widgetId": "@easyblocks/color"
+                          "widgetId": "@heliumblocks/color"
                         }
                       },
                       "boxShadow": {
@@ -1998,7 +1998,7 @@
                     "$res": true,
                     "xl": {
                       "value": "1:1",
-                      "widgetId": "@easyblocks/aspectRatio"
+                      "widgetId": "@heliumblocks/aspectRatio"
                     }
                   }
                 }
@@ -2007,7 +2007,7 @@
                 "$res": true,
                 "xl": {
                   "value": "natural",
-                  "widgetId": "@easyblocks/aspectRatio"
+                  "widgetId": "@heliumblocks/aspectRatio"
                 }
               },
               "enableBorder": {
@@ -2019,7 +2019,7 @@
                 "xl": {
                   "value": "#000000",
                   "tokenId": "black",
-                  "widgetId": "@easyblocks/color"
+                  "widgetId": "@heliumblocks/color"
                 }
               },
               "borderLeft": "1",
@@ -2045,7 +2045,7 @@
             "xl": {
               "value": "16px",
               "tokenId": "16",
-              "widgetId": "@easyblocks/space"
+              "widgetId": "@heliumblocks/space"
             }
           },
           "paddingRight": {
@@ -2053,7 +2053,7 @@
             "xl": {
               "value": "16px",
               "tokenId": "16",
-              "widgetId": "@easyblocks/space"
+              "widgetId": "@heliumblocks/space"
             }
           },
           "paddingTop": {
@@ -2061,7 +2061,7 @@
             "xl": {
               "value": "16px",
               "tokenId": "16",
-              "widgetId": "@easyblocks/space"
+              "widgetId": "@heliumblocks/space"
             }
           },
           "paddingBottom": {
@@ -2069,7 +2069,7 @@
             "xl": {
               "value": "16px",
               "tokenId": "16",
-              "widgetId": "@easyblocks/space"
+              "widgetId": "@heliumblocks/space"
             }
           },
           "noFillPaddingLeft": {
@@ -2077,7 +2077,7 @@
             "xl": {
               "value": "0px",
               "tokenId": "0",
-              "widgetId": "@easyblocks/space"
+              "widgetId": "@heliumblocks/space"
             }
           },
           "noFillPaddingRight": {
@@ -2085,7 +2085,7 @@
             "xl": {
               "value": "0px",
               "tokenId": "0",
-              "widgetId": "@easyblocks/space"
+              "widgetId": "@heliumblocks/space"
             }
           },
           "noFillPaddingTop": {
@@ -2093,7 +2093,7 @@
             "xl": {
               "value": "0px",
               "tokenId": "0",
-              "widgetId": "@easyblocks/space"
+              "widgetId": "@heliumblocks/space"
             }
           },
           "noFillPaddingBottom": {
@@ -2101,7 +2101,7 @@
             "xl": {
               "value": "0px",
               "tokenId": "0",
-              "widgetId": "@easyblocks/space"
+              "widgetId": "@heliumblocks/space"
             }
           },
           "paddingInternal": {
@@ -2109,7 +2109,7 @@
             "xl": {
               "value": "16px",
               "tokenId": "16",
-              "widgetId": "@easyblocks/space"
+              "widgetId": "@heliumblocks/space"
             }
           },
           "forceStandardHorizontalPaddings": {
@@ -2125,7 +2125,7 @@
             "xl": {
               "value": "#000000",
               "tokenId": "black",
-              "widgetId": "@easyblocks/color"
+              "widgetId": "@heliumblocks/color"
             }
           },
           "enableBorder": {
@@ -2137,7 +2137,7 @@
             "xl": {
               "value": "#000000",
               "tokenId": "black",
-              "widgetId": "@easyblocks/color"
+              "widgetId": "@heliumblocks/color"
             }
           },
           "borderLeft": "1",
@@ -2190,7 +2190,7 @@
         "xl": {
           "value": "0px",
           "tokenId": "0",
-          "widgetId": "@easyblocks/space"
+          "widgetId": "@heliumblocks/space"
         }
       },
       "verticalGap": {
@@ -2198,7 +2198,7 @@
         "xl": {
           "value": "24px",
           "tokenId": "24",
-          "widgetId": "@easyblocks/space"
+          "widgetId": "@heliumblocks/space"
         }
       },
       "invertCollapsed": false,
@@ -2217,7 +2217,7 @@
         "xl": {
           "value": "12px",
           "tokenId": "12",
-          "widgetId": "@easyblocks/space"
+          "widgetId": "@heliumblocks/space"
         }
       },
       "headerSectionGap": {
@@ -2225,7 +2225,7 @@
         "xl": {
           "value": "12px",
           "tokenId": "12",
-          "widgetId": "@easyblocks/space"
+          "widgetId": "@heliumblocks/space"
         }
       },
       "footerSectionGap": {
@@ -2233,7 +2233,7 @@
         "xl": {
           "value": "12px",
           "tokenId": "12",
-          "widgetId": "@easyblocks/space"
+          "widgetId": "@heliumblocks/space"
         }
       },
       "HeaderStack": [
@@ -2264,7 +2264,7 @@
             "xl": {
               "value": "#FCF0C5",
               "tokenId": "yellow",
-              "widgetId": "@easyblocks/color"
+              "widgetId": "@heliumblocks/color"
             }
           }
         }
@@ -2274,7 +2274,7 @@
         "xl": {
           "value": "64px",
           "tokenId": "64",
-          "widgetId": "@easyblocks/space"
+          "widgetId": "@heliumblocks/space"
         }
       }
     },
@@ -2289,7 +2289,7 @@
               "xl": {
                 "value": "0px",
                 "tokenId": "0",
-                "widgetId": "@easyblocks/space"
+                "widgetId": "@heliumblocks/space"
               }
             },
             "bottomMargin": {
@@ -2297,7 +2297,7 @@
               "xl": {
                 "value": "96px",
                 "tokenId": "96",
-                "widgetId": "@easyblocks/space"
+                "widgetId": "@heliumblocks/space"
               }
             }
           }
@@ -2312,7 +2312,7 @@
             "lg": "8vw"
           },
           "tokenId": "containerMargin.standard",
-          "widgetId": "@easyblocks/space"
+          "widgetId": "@heliumblocks/space"
         }
       },
       "containerMaxWidth": {
@@ -2352,7 +2352,7 @@
                 "$res": true,
                 "xl": {
                   "value": "1:1",
-                  "widgetId": "@easyblocks/aspectRatio"
+                  "widgetId": "@heliumblocks/aspectRatio"
                 }
               }
             }
@@ -2361,7 +2361,7 @@
             "$res": true,
             "xl": {
               "value": "natural",
-              "widgetId": "@easyblocks/aspectRatio"
+              "widgetId": "@heliumblocks/aspectRatio"
             }
           },
           "enableBorder": {
@@ -2373,7 +2373,7 @@
             "xl": {
               "value": "#000000",
               "tokenId": "black",
-              "widgetId": "@easyblocks/color"
+              "widgetId": "@heliumblocks/color"
             }
           },
           "borderLeft": "1",
@@ -2399,7 +2399,7 @@
         "xl": {
           "value": "16px",
           "tokenId": "16",
-          "widgetId": "@easyblocks/space"
+          "widgetId": "@heliumblocks/space"
         }
       },
       "paddingRight": {
@@ -2407,7 +2407,7 @@
         "xl": {
           "value": "16px",
           "tokenId": "16",
-          "widgetId": "@easyblocks/space"
+          "widgetId": "@heliumblocks/space"
         }
       },
       "paddingTop": {
@@ -2415,7 +2415,7 @@
         "xl": {
           "value": "64px",
           "tokenId": "64",
-          "widgetId": "@easyblocks/space"
+          "widgetId": "@heliumblocks/space"
         }
       },
       "paddingBottom": {
@@ -2423,7 +2423,7 @@
         "xl": {
           "value": "64px",
           "tokenId": "64",
-          "widgetId": "@easyblocks/space"
+          "widgetId": "@heliumblocks/space"
         }
       },
       "noFillPaddingLeft": {
@@ -2431,7 +2431,7 @@
         "xl": {
           "value": "0px",
           "tokenId": "0",
-          "widgetId": "@easyblocks/space"
+          "widgetId": "@heliumblocks/space"
         }
       },
       "noFillPaddingRight": {
@@ -2439,7 +2439,7 @@
         "xl": {
           "value": "0px",
           "tokenId": "0",
-          "widgetId": "@easyblocks/space"
+          "widgetId": "@heliumblocks/space"
         }
       },
       "noFillPaddingTop": {
@@ -2447,7 +2447,7 @@
         "xl": {
           "value": "0px",
           "tokenId": "0",
-          "widgetId": "@easyblocks/space"
+          "widgetId": "@heliumblocks/space"
         }
       },
       "noFillPaddingBottom": {
@@ -2455,7 +2455,7 @@
         "xl": {
           "value": "0px",
           "tokenId": "0",
-          "widgetId": "@easyblocks/space"
+          "widgetId": "@heliumblocks/space"
         }
       },
       "paddingInternal": {
@@ -2463,7 +2463,7 @@
         "xl": {
           "value": "16px",
           "tokenId": "16",
-          "widgetId": "@easyblocks/space"
+          "widgetId": "@heliumblocks/space"
         }
       },
       "forceStandardHorizontalPaddings": {
@@ -2479,7 +2479,7 @@
         "xl": {
           "value": "#FCF0C5",
           "tokenId": "yellow",
-          "widgetId": "@easyblocks/color"
+          "widgetId": "@heliumblocks/color"
         }
       },
       "enableBorder": {
@@ -2491,7 +2491,7 @@
         "xl": {
           "value": "#000000",
           "tokenId": "black",
-          "widgetId": "@easyblocks/color"
+          "widgetId": "@heliumblocks/color"
         }
       },
       "borderLeft": "1",
@@ -2509,7 +2509,7 @@
           "Items": [
             {
               "_id": "25621346-4790-4f82-8043-65e082231b37",
-              "_component": "@easyblocks/rich-text",
+              "_component": "@heliumblocks/rich-text",
               "_itemProps": {
                 "Stack": {
                   "Items": {
@@ -2522,7 +2522,7 @@
                       "xl": {
                         "value": "32px",
                         "tokenId": "32",
-                        "widgetId": "@easyblocks/space"
+                        "widgetId": "@heliumblocks/space"
                       }
                     },
                     "align": {
@@ -2536,16 +2536,16 @@
                 "en-US": [
                   {
                     "_id": "6b0efac3-5185-4283-912d-a47caa3c7b20",
-                    "_component": "@easyblocks/rich-text-block-element",
+                    "_component": "@heliumblocks/rich-text-block-element",
                     "type": "paragraph",
                     "elements": [
                       {
                         "_id": "70f5968d-722b-4ae8-9173-04cc93e625aa",
-                        "_component": "@easyblocks/rich-text-line-element",
+                        "_component": "@heliumblocks/rich-text-line-element",
                         "elements": [
                           {
                             "_id": "775676bb-783f-4c70-885b-801a3353e35b",
-                            "_component": "@easyblocks/rich-text-part",
+                            "_component": "@heliumblocks/rich-text-part",
                             "value": "Living room",
                             "font": {
                               "$res": true,
@@ -2573,7 +2573,7 @@
                               "xl": {
                                 "value": "#f9f8f3",
                                 "tokenId": "grey_01",
-                                "widgetId": "@easyblocks/color"
+                                "widgetId": "@heliumblocks/color"
                               }
                             },
                             "TextWrapper": []
@@ -2606,13 +2606,13 @@
                 "xl": {
                   "value": "#252525",
                   "tokenId": "grey_05",
-                  "widgetId": "@easyblocks/color"
+                  "widgetId": "@heliumblocks/color"
                 }
               }
             },
             {
               "_id": "c4a9df28-1e34-4d22-a436-401d6f32ded5",
-              "_component": "@easyblocks/rich-text",
+              "_component": "@heliumblocks/rich-text",
               "_itemProps": {
                 "Stack": {
                   "Items": {
@@ -2625,7 +2625,7 @@
                       "xl": {
                         "value": "32px",
                         "tokenId": "32",
-                        "widgetId": "@easyblocks/space"
+                        "widgetId": "@heliumblocks/space"
                       }
                     },
                     "align": {
@@ -2639,16 +2639,16 @@
                 "en-US": [
                   {
                     "_id": "b367f509-eec0-48ca-a548-a40dcbd7d81c",
-                    "_component": "@easyblocks/rich-text-block-element",
+                    "_component": "@heliumblocks/rich-text-block-element",
                     "type": "paragraph",
                     "elements": [
                       {
                         "_id": "15d442da-935f-401f-a58c-40c052cbd85f",
-                        "_component": "@easyblocks/rich-text-line-element",
+                        "_component": "@heliumblocks/rich-text-line-element",
                         "elements": [
                           {
                             "_id": "3376d88d-4cdb-47db-9afa-66b3ef64cd3b",
-                            "_component": "@easyblocks/rich-text-part",
+                            "_component": "@heliumblocks/rich-text-part",
                             "value": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.",
                             "font": {
                               "$res": true,
@@ -2666,7 +2666,7 @@
                               "xl": {
                                 "value": "#f9f8f3",
                                 "tokenId": "grey_01",
-                                "widgetId": "@easyblocks/color"
+                                "widgetId": "@heliumblocks/color"
                               }
                             },
                             "TextWrapper": []
@@ -2699,7 +2699,7 @@
                 "xl": {
                   "value": "#252525",
                   "tokenId": "grey_05",
-                  "widgetId": "@easyblocks/color"
+                  "widgetId": "@heliumblocks/color"
                 }
               }
             },
@@ -2718,7 +2718,7 @@
                       "xl": {
                         "value": "0px",
                         "tokenId": "0",
-                        "widgetId": "@easyblocks/space"
+                        "widgetId": "@heliumblocks/space"
                       }
                     },
                     "align": {
@@ -2734,7 +2734,7 @@
                 "xl": {
                   "value": "0px",
                   "tokenId": "0",
-                  "widgetId": "@easyblocks/space"
+                  "widgetId": "@heliumblocks/space"
                 }
               },
               "Buttons": [
@@ -2753,18 +2753,18 @@
                     "value": {
                       "en-US": "Discover"
                     },
-                    "widgetId": "@easyblocks/local-text"
+                    "widgetId": "@heliumblocks/local-text"
                   },
                   "icon": {
                     "value": "<svg viewBox=\"0 -960 960 960\"><path fill=\"currentColor\" d=\"m480-120-58-52q-101-91-167-157T150-447.5Q111-500 95.5-544T80-634q0-94 63-157t157-63q52 0 99 22t81 62q34-40 81-62t99-22q94 0 157 63t63 157q0 46-15.5 90T810-447.5Q771-395 705-329T538-172l-58 52Zm0-108q96-86 158-147.5t98-107q36-45.5 50-81t14-70.5q0-60-40-100t-100-40q-47 0-87 26.5T518-680h-76q-15-41-55-67.5T300-774q-60 0-100 40t-40 100q0 35 14 70.5t50 81q36 45.5 98 107T480-228Zm0-273Z\"/></svg>",
-                    "widgetId": "@easyblocks/icon"
+                    "widgetId": "@heliumblocks/icon"
                   },
                   "color": {
                     "$res": true,
                     "xl": {
                       "value": "#252525",
                       "tokenId": "grey_05",
-                      "widgetId": "@easyblocks/color"
+                      "widgetId": "@heliumblocks/color"
                     }
                   },
                   "minHeight": {
@@ -2780,7 +2780,7 @@
                     "xl": {
                       "value": "16px",
                       "tokenId": "16",
-                      "widgetId": "@easyblocks/space"
+                      "widgetId": "@heliumblocks/space"
                     }
                   },
                   "gap": {
@@ -2788,7 +2788,7 @@
                     "xl": {
                       "value": "6px",
                       "tokenId": "6",
-                      "widgetId": "@easyblocks/space"
+                      "widgetId": "@heliumblocks/space"
                     }
                   },
                   "cornerMode": {
@@ -2825,7 +2825,7 @@
                     "xl": {
                       "value": "#f9f8f3",
                       "tokenId": "grey_01",
-                      "widgetId": "@easyblocks/color"
+                      "widgetId": "@heliumblocks/color"
                     }
                   },
                   "hasBorder": false,
@@ -2838,7 +2838,7 @@
                     "xl": {
                       "value": "#000000",
                       "tokenId": "black",
-                      "widgetId": "@easyblocks/color"
+                      "widgetId": "@heliumblocks/color"
                     }
                   },
                   "boxShadow": {
@@ -2868,7 +2868,7 @@
         "xl": {
           "value": "12px",
           "tokenId": "12",
-          "widgetId": "@easyblocks/space"
+          "widgetId": "@heliumblocks/space"
         }
       },
       "headerSectionGap": {
@@ -2876,7 +2876,7 @@
         "xl": {
           "value": "12px",
           "tokenId": "12",
-          "widgetId": "@easyblocks/space"
+          "widgetId": "@heliumblocks/space"
         }
       },
       "footerSectionGap": {
@@ -2884,7 +2884,7 @@
         "xl": {
           "value": "12px",
           "tokenId": "12",
-          "widgetId": "@easyblocks/space"
+          "widgetId": "@heliumblocks/space"
         }
       },
       "HeaderStack": [
@@ -2907,7 +2907,7 @@
         "xl": {
           "value": "24px",
           "tokenId": "24",
-          "widgetId": "@easyblocks/space"
+          "widgetId": "@heliumblocks/space"
         }
       }
     },
@@ -2922,7 +2922,7 @@
               "xl": {
                 "value": "0px",
                 "tokenId": "0",
-                "widgetId": "@easyblocks/space"
+                "widgetId": "@heliumblocks/space"
               }
             },
             "bottomMargin": {
@@ -2930,7 +2930,7 @@
               "xl": {
                 "value": "96px",
                 "tokenId": "96",
-                "widgetId": "@easyblocks/space"
+                "widgetId": "@heliumblocks/space"
               }
             }
           }
@@ -2945,7 +2945,7 @@
             "lg": "8vw"
           },
           "tokenId": "containerMargin.standard",
-          "widgetId": "@easyblocks/space"
+          "widgetId": "@heliumblocks/space"
         }
       },
       "containerMaxWidth": {
@@ -3003,7 +3003,7 @@
                     "$res": true,
                     "xl": {
                       "value": "1:1",
-                      "widgetId": "@easyblocks/aspectRatio"
+                      "widgetId": "@heliumblocks/aspectRatio"
                     }
                   }
                 }
@@ -3013,7 +3013,7 @@
                 "xl": {
                   "value": "4:5",
                   "tokenId": "portrait",
-                  "widgetId": "@easyblocks/aspectRatio"
+                  "widgetId": "@heliumblocks/aspectRatio"
                 }
               },
               "enableBorder": {
@@ -3025,7 +3025,7 @@
                 "xl": {
                   "value": "#000000",
                   "tokenId": "black",
-                  "widgetId": "@easyblocks/color"
+                  "widgetId": "@heliumblocks/color"
                 }
               },
               "borderLeft": "1",
@@ -3051,7 +3051,7 @@
             "xl": {
               "value": "16px",
               "tokenId": "16",
-              "widgetId": "@easyblocks/space"
+              "widgetId": "@heliumblocks/space"
             }
           },
           "paddingRight": {
@@ -3059,7 +3059,7 @@
             "xl": {
               "value": "16px",
               "tokenId": "16",
-              "widgetId": "@easyblocks/space"
+              "widgetId": "@heliumblocks/space"
             }
           },
           "paddingTop": {
@@ -3067,7 +3067,7 @@
             "xl": {
               "value": "16px",
               "tokenId": "16",
-              "widgetId": "@easyblocks/space"
+              "widgetId": "@heliumblocks/space"
             }
           },
           "paddingBottom": {
@@ -3075,7 +3075,7 @@
             "xl": {
               "value": "16px",
               "tokenId": "16",
-              "widgetId": "@easyblocks/space"
+              "widgetId": "@heliumblocks/space"
             }
           },
           "noFillPaddingLeft": {
@@ -3083,7 +3083,7 @@
             "xl": {
               "value": "0px",
               "tokenId": "0",
-              "widgetId": "@easyblocks/space"
+              "widgetId": "@heliumblocks/space"
             }
           },
           "noFillPaddingRight": {
@@ -3091,7 +3091,7 @@
             "xl": {
               "value": "0px",
               "tokenId": "0",
-              "widgetId": "@easyblocks/space"
+              "widgetId": "@heliumblocks/space"
             }
           },
           "noFillPaddingTop": {
@@ -3099,7 +3099,7 @@
             "xl": {
               "value": "0px",
               "tokenId": "0",
-              "widgetId": "@easyblocks/space"
+              "widgetId": "@heliumblocks/space"
             }
           },
           "noFillPaddingBottom": {
@@ -3107,7 +3107,7 @@
             "xl": {
               "value": "0px",
               "tokenId": "0",
-              "widgetId": "@easyblocks/space"
+              "widgetId": "@heliumblocks/space"
             }
           },
           "paddingInternal": {
@@ -3115,7 +3115,7 @@
             "xl": {
               "value": "16px",
               "tokenId": "16",
-              "widgetId": "@easyblocks/space"
+              "widgetId": "@heliumblocks/space"
             }
           },
           "forceStandardHorizontalPaddings": {
@@ -3131,7 +3131,7 @@
             "xl": {
               "value": "#000000",
               "tokenId": "black",
-              "widgetId": "@easyblocks/color"
+              "widgetId": "@heliumblocks/color"
             }
           },
           "enableBorder": {
@@ -3143,7 +3143,7 @@
             "xl": {
               "value": "#000000",
               "tokenId": "black",
-              "widgetId": "@easyblocks/color"
+              "widgetId": "@heliumblocks/color"
             }
           },
           "borderLeft": "1",
@@ -3161,7 +3161,7 @@
               "Items": [
                 {
                   "_id": "b393c24d-3d7b-4ba5-a839-59f8e62cdecb",
-                  "_component": "@easyblocks/rich-text",
+                  "_component": "@heliumblocks/rich-text",
                   "_itemProps": {
                     "Stack": {
                       "Items": {
@@ -3174,7 +3174,7 @@
                           "xl": {
                             "value": "8px",
                             "tokenId": "8",
-                            "widgetId": "@easyblocks/space"
+                            "widgetId": "@heliumblocks/space"
                           }
                         },
                         "align": {
@@ -3188,16 +3188,16 @@
                     "en-US": [
                       {
                         "_id": "62611464-e24e-4b2d-a405-de1ee9571146",
-                        "_component": "@easyblocks/rich-text-block-element",
+                        "_component": "@heliumblocks/rich-text-block-element",
                         "type": "paragraph",
                         "elements": [
                           {
                             "_id": "46cb900b-2062-4bdb-8873-2f2ea4bd168c",
-                            "_component": "@easyblocks/rich-text-line-element",
+                            "_component": "@heliumblocks/rich-text-line-element",
                             "elements": [
                               {
                                 "_id": "f4f6b089-0962-4f1e-bada-eda3639e63a2",
-                                "_component": "@easyblocks/rich-text-part",
+                                "_component": "@heliumblocks/rich-text-part",
                                 "value": "Make it stand out",
                                 "font": {
                                   "$res": true,
@@ -3216,7 +3216,7 @@
                                   "xl": {
                                     "value": "#252525",
                                     "tokenId": "grey_05",
-                                    "widgetId": "@easyblocks/color"
+                                    "widgetId": "@heliumblocks/color"
                                   }
                                 },
                                 "TextWrapper": []
@@ -3249,13 +3249,13 @@
                     "xl": {
                       "value": "#252525",
                       "tokenId": "grey_05",
-                      "widgetId": "@easyblocks/color"
+                      "widgetId": "@heliumblocks/color"
                     }
                   }
                 },
                 {
                   "_id": "9ed232f6-9612-4eb6-94b2-b37c61af9f43",
-                  "_component": "@easyblocks/rich-text",
+                  "_component": "@heliumblocks/rich-text",
                   "_itemProps": {
                     "Stack": {
                       "Items": {
@@ -3268,7 +3268,7 @@
                           "xl": {
                             "value": "0px",
                             "tokenId": "0",
-                            "widgetId": "@easyblocks/space"
+                            "widgetId": "@heliumblocks/space"
                           }
                         },
                         "align": {
@@ -3282,16 +3282,16 @@
                     "en-US": [
                       {
                         "_id": "a86bf67a-f98a-4d57-9218-0fb708dd4657",
-                        "_component": "@easyblocks/rich-text-block-element",
+                        "_component": "@heliumblocks/rich-text-block-element",
                         "type": "paragraph",
                         "elements": [
                           {
                             "_id": "fb0d3a89-99b3-44e4-970d-b9e2fbe4f233",
-                            "_component": "@easyblocks/rich-text-line-element",
+                            "_component": "@heliumblocks/rich-text-line-element",
                             "elements": [
                               {
                                 "_id": "bcd161f0-ce97-4e04-b9b3-e877c25e2721",
-                                "_component": "@easyblocks/rich-text-part",
+                                "_component": "@heliumblocks/rich-text-part",
                                 "value": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                                 "font": {
                                   "$res": true,
@@ -3309,7 +3309,7 @@
                                   "xl": {
                                     "value": "#000000",
                                     "tokenId": "black",
-                                    "widgetId": "@easyblocks/color"
+                                    "widgetId": "@heliumblocks/color"
                                   }
                                 },
                                 "TextWrapper": []
@@ -3342,7 +3342,7 @@
                     "xl": {
                       "value": "#252525",
                       "tokenId": "grey_05",
-                      "widgetId": "@easyblocks/color"
+                      "widgetId": "@heliumblocks/color"
                     }
                   }
                 }
@@ -3393,7 +3393,7 @@
                     "$res": true,
                     "xl": {
                       "value": "1:1",
-                      "widgetId": "@easyblocks/aspectRatio"
+                      "widgetId": "@heliumblocks/aspectRatio"
                     }
                   }
                 }
@@ -3403,7 +3403,7 @@
                 "xl": {
                   "value": "4:5",
                   "tokenId": "portrait",
-                  "widgetId": "@easyblocks/aspectRatio"
+                  "widgetId": "@heliumblocks/aspectRatio"
                 }
               },
               "enableBorder": {
@@ -3415,7 +3415,7 @@
                 "xl": {
                   "value": "#000000",
                   "tokenId": "black",
-                  "widgetId": "@easyblocks/color"
+                  "widgetId": "@heliumblocks/color"
                 }
               },
               "borderLeft": "1",
@@ -3441,7 +3441,7 @@
             "xl": {
               "value": "16px",
               "tokenId": "16",
-              "widgetId": "@easyblocks/space"
+              "widgetId": "@heliumblocks/space"
             }
           },
           "paddingRight": {
@@ -3449,7 +3449,7 @@
             "xl": {
               "value": "16px",
               "tokenId": "16",
-              "widgetId": "@easyblocks/space"
+              "widgetId": "@heliumblocks/space"
             }
           },
           "paddingTop": {
@@ -3457,7 +3457,7 @@
             "xl": {
               "value": "16px",
               "tokenId": "16",
-              "widgetId": "@easyblocks/space"
+              "widgetId": "@heliumblocks/space"
             }
           },
           "paddingBottom": {
@@ -3465,7 +3465,7 @@
             "xl": {
               "value": "16px",
               "tokenId": "16",
-              "widgetId": "@easyblocks/space"
+              "widgetId": "@heliumblocks/space"
             }
           },
           "noFillPaddingLeft": {
@@ -3473,7 +3473,7 @@
             "xl": {
               "value": "0px",
               "tokenId": "0",
-              "widgetId": "@easyblocks/space"
+              "widgetId": "@heliumblocks/space"
             }
           },
           "noFillPaddingRight": {
@@ -3481,7 +3481,7 @@
             "xl": {
               "value": "0px",
               "tokenId": "0",
-              "widgetId": "@easyblocks/space"
+              "widgetId": "@heliumblocks/space"
             }
           },
           "noFillPaddingTop": {
@@ -3489,7 +3489,7 @@
             "xl": {
               "value": "0px",
               "tokenId": "0",
-              "widgetId": "@easyblocks/space"
+              "widgetId": "@heliumblocks/space"
             }
           },
           "noFillPaddingBottom": {
@@ -3497,7 +3497,7 @@
             "xl": {
               "value": "0px",
               "tokenId": "0",
-              "widgetId": "@easyblocks/space"
+              "widgetId": "@heliumblocks/space"
             }
           },
           "paddingInternal": {
@@ -3505,7 +3505,7 @@
             "xl": {
               "value": "16px",
               "tokenId": "16",
-              "widgetId": "@easyblocks/space"
+              "widgetId": "@heliumblocks/space"
             }
           },
           "forceStandardHorizontalPaddings": {
@@ -3521,7 +3521,7 @@
             "xl": {
               "value": "#000000",
               "tokenId": "black",
-              "widgetId": "@easyblocks/color"
+              "widgetId": "@heliumblocks/color"
             }
           },
           "enableBorder": {
@@ -3533,7 +3533,7 @@
             "xl": {
               "value": "#000000",
               "tokenId": "black",
-              "widgetId": "@easyblocks/color"
+              "widgetId": "@heliumblocks/color"
             }
           },
           "borderLeft": "1",
@@ -3551,7 +3551,7 @@
               "Items": [
                 {
                   "_id": "c1457534-37d8-4475-933c-ee24a12fd599",
-                  "_component": "@easyblocks/rich-text",
+                  "_component": "@heliumblocks/rich-text",
                   "_itemProps": {
                     "Stack": {
                       "Items": {
@@ -3564,7 +3564,7 @@
                           "xl": {
                             "value": "8px",
                             "tokenId": "8",
-                            "widgetId": "@easyblocks/space"
+                            "widgetId": "@heliumblocks/space"
                           }
                         },
                         "align": {
@@ -3578,16 +3578,16 @@
                     "en-US": [
                       {
                         "_id": "a29d408c-2a20-4549-b1a3-859e2aea0e10",
-                        "_component": "@easyblocks/rich-text-block-element",
+                        "_component": "@heliumblocks/rich-text-block-element",
                         "type": "paragraph",
                         "elements": [
                           {
                             "_id": "871ccd79-ef76-4d6f-b7ba-f9f0600f9fa1",
-                            "_component": "@easyblocks/rich-text-line-element",
+                            "_component": "@heliumblocks/rich-text-line-element",
                             "elements": [
                               {
                                 "_id": "dbb7c0b2-eeda-432d-baeb-ca976426a6ec",
-                                "_component": "@easyblocks/rich-text-part",
+                                "_component": "@heliumblocks/rich-text-part",
                                 "value": "Make it stand out",
                                 "font": {
                                   "$res": true,
@@ -3606,7 +3606,7 @@
                                   "xl": {
                                     "value": "#252525",
                                     "tokenId": "grey_05",
-                                    "widgetId": "@easyblocks/color"
+                                    "widgetId": "@heliumblocks/color"
                                   }
                                 },
                                 "TextWrapper": []
@@ -3639,13 +3639,13 @@
                     "xl": {
                       "value": "#252525",
                       "tokenId": "grey_05",
-                      "widgetId": "@easyblocks/color"
+                      "widgetId": "@heliumblocks/color"
                     }
                   }
                 },
                 {
                   "_id": "a5e6652d-ea5c-4ef4-81b9-b6b634d449bc",
-                  "_component": "@easyblocks/rich-text",
+                  "_component": "@heliumblocks/rich-text",
                   "_itemProps": {
                     "Stack": {
                       "Items": {
@@ -3658,7 +3658,7 @@
                           "xl": {
                             "value": "0px",
                             "tokenId": "0",
-                            "widgetId": "@easyblocks/space"
+                            "widgetId": "@heliumblocks/space"
                           }
                         },
                         "align": {
@@ -3672,16 +3672,16 @@
                     "en-US": [
                       {
                         "_id": "bf87b769-8b4b-44b7-856c-d651ba85576d",
-                        "_component": "@easyblocks/rich-text-block-element",
+                        "_component": "@heliumblocks/rich-text-block-element",
                         "type": "paragraph",
                         "elements": [
                           {
                             "_id": "504b03b5-8128-4b38-8134-8d51b79fbcc5",
-                            "_component": "@easyblocks/rich-text-line-element",
+                            "_component": "@heliumblocks/rich-text-line-element",
                             "elements": [
                               {
                                 "_id": "add6b10b-af78-4366-9852-85837e176286",
-                                "_component": "@easyblocks/rich-text-part",
+                                "_component": "@heliumblocks/rich-text-part",
                                 "value": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                                 "font": {
                                   "$res": true,
@@ -3699,7 +3699,7 @@
                                   "xl": {
                                     "value": "#000000",
                                     "tokenId": "black",
-                                    "widgetId": "@easyblocks/color"
+                                    "widgetId": "@heliumblocks/color"
                                   }
                                 },
                                 "TextWrapper": []
@@ -3732,7 +3732,7 @@
                     "xl": {
                       "value": "#252525",
                       "tokenId": "grey_05",
-                      "widgetId": "@easyblocks/color"
+                      "widgetId": "@heliumblocks/color"
                     }
                   }
                 }
@@ -3758,7 +3758,7 @@
         "xl": {
           "value": "16px",
           "tokenId": "16",
-          "widgetId": "@easyblocks/space"
+          "widgetId": "@heliumblocks/space"
         }
       },
       "rowGap": {
@@ -3766,7 +3766,7 @@
         "xl": {
           "value": "16px",
           "tokenId": "16",
-          "widgetId": "@easyblocks/space"
+          "widgetId": "@heliumblocks/space"
         }
       },
       "verticalAlign": {
@@ -3785,7 +3785,7 @@
         "$res": true,
         "xl": {
           "value": "1:1",
-          "widgetId": "@easyblocks/aspectRatio"
+          "widgetId": "@heliumblocks/aspectRatio"
         }
       },
       "paddingTop": {
@@ -3793,7 +3793,7 @@
         "xl": {
           "value": "0px",
           "tokenId": "0",
-          "widgetId": "@easyblocks/space"
+          "widgetId": "@heliumblocks/space"
         }
       },
       "paddingBottom": {
@@ -3801,7 +3801,7 @@
         "xl": {
           "value": "0px",
           "tokenId": "0",
-          "widgetId": "@easyblocks/space"
+          "widgetId": "@heliumblocks/space"
         }
       },
       "paddingLeft": {
@@ -3809,7 +3809,7 @@
         "xl": {
           "value": "0px",
           "tokenId": "0",
-          "widgetId": "@easyblocks/space"
+          "widgetId": "@heliumblocks/space"
         }
       },
       "paddingRight": {
@@ -3817,7 +3817,7 @@
         "xl": {
           "value": "0px",
           "tokenId": "0",
-          "widgetId": "@easyblocks/space"
+          "widgetId": "@heliumblocks/space"
         }
       },
       "LeftArrow": [
@@ -3836,19 +3836,19 @@
             "value": {
               "en-US": "Click me"
             },
-            "widgetId": "@easyblocks/local-text"
+            "widgetId": "@heliumblocks/local-text"
           },
           "icon": {
             "value": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"red\" width=\"100px\" height=\"100px\"><path d=\"M20 11H7.83l5.59-5.59L12 4l-8 8 8 8 1.41-1.41L7.83 13H20v-2z\"/></svg>",
             "tokenId": "arrowLeft",
-            "widgetId": "@easyblocks/icon"
+            "widgetId": "@heliumblocks/icon"
           },
           "color": {
             "$res": true,
             "xl": {
               "value": "#000000",
               "tokenId": "black",
-              "widgetId": "@easyblocks/color"
+              "widgetId": "@heliumblocks/color"
             }
           },
           "minHeight": {
@@ -3864,7 +3864,7 @@
             "xl": {
               "value": "16px",
               "tokenId": "16",
-              "widgetId": "@easyblocks/space"
+              "widgetId": "@heliumblocks/space"
             }
           },
           "gap": {
@@ -3872,7 +3872,7 @@
             "xl": {
               "value": "6px",
               "tokenId": "6",
-              "widgetId": "@easyblocks/space"
+              "widgetId": "@heliumblocks/space"
             }
           },
           "cornerMode": {
@@ -3909,7 +3909,7 @@
             "xl": {
               "value": "#D8D8D880",
               "tokenId": "transparent-grey-light",
-              "widgetId": "@easyblocks/color"
+              "widgetId": "@heliumblocks/color"
             }
           },
           "hasBorder": false,
@@ -3922,7 +3922,7 @@
             "xl": {
               "value": "#000000",
               "tokenId": "black",
-              "widgetId": "@easyblocks/color"
+              "widgetId": "@heliumblocks/color"
             }
           },
           "boxShadow": {
@@ -3943,7 +3943,7 @@
         "xl": {
           "value": "0px",
           "tokenId": "0",
-          "widgetId": "@easyblocks/space"
+          "widgetId": "@heliumblocks/space"
         }
       },
       "RightArrow": [
@@ -3962,19 +3962,19 @@
             "value": {
               "en-US": "Click me"
             },
-            "widgetId": "@easyblocks/local-text"
+            "widgetId": "@heliumblocks/local-text"
           },
           "icon": {
             "value": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"currentColor\"><path d=\"M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8-8-8z\"/></svg>",
             "tokenId": "arrowRight",
-            "widgetId": "@easyblocks/icon"
+            "widgetId": "@heliumblocks/icon"
           },
           "color": {
             "$res": true,
             "xl": {
               "value": "#000000",
               "tokenId": "black",
-              "widgetId": "@easyblocks/color"
+              "widgetId": "@heliumblocks/color"
             }
           },
           "minHeight": {
@@ -3990,7 +3990,7 @@
             "xl": {
               "value": "16px",
               "tokenId": "16",
-              "widgetId": "@easyblocks/space"
+              "widgetId": "@heliumblocks/space"
             }
           },
           "gap": {
@@ -3998,7 +3998,7 @@
             "xl": {
               "value": "6px",
               "tokenId": "6",
-              "widgetId": "@easyblocks/space"
+              "widgetId": "@heliumblocks/space"
             }
           },
           "cornerMode": {
@@ -4035,7 +4035,7 @@
             "xl": {
               "value": "#D8D8D880",
               "tokenId": "transparent-grey-light",
-              "widgetId": "@easyblocks/color"
+              "widgetId": "@heliumblocks/color"
             }
           },
           "hasBorder": false,
@@ -4048,7 +4048,7 @@
             "xl": {
               "value": "#000000",
               "tokenId": "black",
-              "widgetId": "@easyblocks/color"
+              "widgetId": "@heliumblocks/color"
             }
           },
           "boxShadow": {
@@ -4069,7 +4069,7 @@
         "xl": {
           "value": "0px",
           "tokenId": "0",
-          "widgetId": "@easyblocks/space"
+          "widgetId": "@heliumblocks/space"
         }
       },
       "headerMode": "2-stacks",
@@ -4087,7 +4087,7 @@
         "xl": {
           "value": "12px",
           "tokenId": "12",
-          "widgetId": "@easyblocks/space"
+          "widgetId": "@heliumblocks/space"
         }
       },
       "headerSectionGap": {
@@ -4095,7 +4095,7 @@
         "xl": {
           "value": "48px",
           "tokenId": "48",
-          "widgetId": "@easyblocks/space"
+          "widgetId": "@heliumblocks/space"
         }
       },
       "footerSectionGap": {
@@ -4103,7 +4103,7 @@
         "xl": {
           "value": "48px",
           "tokenId": "48",
-          "widgetId": "@easyblocks/space"
+          "widgetId": "@heliumblocks/space"
         }
       },
       "HeaderStack": [
@@ -4113,7 +4113,7 @@
           "Items": [
             {
               "_id": "ad8e06cc-af42-4c82-893c-5e04a27d3eef",
-              "_component": "@easyblocks/rich-text",
+              "_component": "@heliumblocks/rich-text",
               "_itemProps": {
                 "Stack": {
                   "Items": {
@@ -4126,7 +4126,7 @@
                       "xl": {
                         "value": "0px",
                         "tokenId": "0",
-                        "widgetId": "@easyblocks/space"
+                        "widgetId": "@heliumblocks/space"
                       }
                     },
                     "align": {
@@ -4140,16 +4140,16 @@
                 "en-US": [
                   {
                     "_id": "539b9390-e08a-4b79-90b4-e9d7a9ec114e",
-                    "_component": "@easyblocks/rich-text-block-element",
+                    "_component": "@heliumblocks/rich-text-block-element",
                     "type": "paragraph",
                     "elements": [
                       {
                         "_id": "5b12b85d-eaab-4dda-a17e-35717e4c082e",
-                        "_component": "@easyblocks/rich-text-line-element",
+                        "_component": "@heliumblocks/rich-text-line-element",
                         "elements": [
                           {
                             "_id": "a452df79-daca-469c-b60f-5fb97702407d",
-                            "_component": "@easyblocks/rich-text-part",
+                            "_component": "@heliumblocks/rich-text-part",
                             "value": "Side tables",
                             "font": {
                               "$res": true,
@@ -4177,7 +4177,7 @@
                               "xl": {
                                 "value": "#252525",
                                 "tokenId": "grey_05",
-                                "widgetId": "@easyblocks/color"
+                                "widgetId": "@heliumblocks/color"
                               }
                             },
                             "TextWrapper": []
@@ -4210,7 +4210,7 @@
                 "xl": {
                   "value": "#252525",
                   "tokenId": "grey_05",
-                  "widgetId": "@easyblocks/color"
+                  "widgetId": "@heliumblocks/color"
                 }
               }
             }
@@ -4237,7 +4237,7 @@
                       "xl": {
                         "value": "0px",
                         "tokenId": "0",
-                        "widgetId": "@easyblocks/space"
+                        "widgetId": "@heliumblocks/space"
                       }
                     },
                     "align": {
@@ -4253,7 +4253,7 @@
                 "xl": {
                   "value": "12px",
                   "tokenId": "12",
-                  "widgetId": "@easyblocks/space"
+                  "widgetId": "@heliumblocks/space"
                 }
               },
               "Buttons": [
@@ -4272,18 +4272,18 @@
                     "value": {
                       "en-US": "Shop Atik Tables"
                     },
-                    "widgetId": "@easyblocks/local-text"
+                    "widgetId": "@heliumblocks/local-text"
                   },
                   "icon": {
                     "value": "<svg viewBox=\"0 -960 960 960\"><path fill=\"currentColor\" d=\"m480-120-58-52q-101-91-167-157T150-447.5Q111-500 95.5-544T80-634q0-94 63-157t157-63q52 0 99 22t81 62q34-40 81-62t99-22q94 0 157 63t63 157q0 46-15.5 90T810-447.5Q771-395 705-329T538-172l-58 52Zm0-108q96-86 158-147.5t98-107q36-45.5 50-81t14-70.5q0-60-40-100t-100-40q-47 0-87 26.5T518-680h-76q-15-41-55-67.5T300-774q-60 0-100 40t-40 100q0 35 14 70.5t50 81q36 45.5 98 107T480-228Zm0-273Z\"/></svg>",
-                    "widgetId": "@easyblocks/icon"
+                    "widgetId": "@heliumblocks/icon"
                   },
                   "color": {
                     "$res": true,
                     "xl": {
                       "value": "#f9f8f3",
                       "tokenId": "grey_01",
-                      "widgetId": "@easyblocks/color"
+                      "widgetId": "@heliumblocks/color"
                     }
                   },
                   "minHeight": {
@@ -4299,7 +4299,7 @@
                     "xl": {
                       "value": "16px",
                       "tokenId": "16",
-                      "widgetId": "@easyblocks/space"
+                      "widgetId": "@heliumblocks/space"
                     }
                   },
                   "gap": {
@@ -4307,7 +4307,7 @@
                     "xl": {
                       "value": "6px",
                       "tokenId": "6",
-                      "widgetId": "@easyblocks/space"
+                      "widgetId": "@heliumblocks/space"
                     }
                   },
                   "cornerMode": {
@@ -4344,7 +4344,7 @@
                     "xl": {
                       "value": "#252525",
                       "tokenId": "grey_05",
-                      "widgetId": "@easyblocks/color"
+                      "widgetId": "@heliumblocks/color"
                     }
                   },
                   "hasBorder": false,
@@ -4357,7 +4357,7 @@
                     "xl": {
                       "value": "#000000",
                       "tokenId": "black",
-                      "widgetId": "@easyblocks/color"
+                      "widgetId": "@heliumblocks/color"
                     }
                   },
                   "boxShadow": {
@@ -4378,7 +4378,7 @@
         "xl": {
           "value": "24px",
           "tokenId": "24",
-          "widgetId": "@easyblocks/space"
+          "widgetId": "@heliumblocks/space"
         }
       }
     },
@@ -4393,7 +4393,7 @@
               "xl": {
                 "value": "0px",
                 "tokenId": "0",
-                "widgetId": "@easyblocks/space"
+                "widgetId": "@heliumblocks/space"
               }
             },
             "bottomMargin": {
@@ -4401,7 +4401,7 @@
               "xl": {
                 "value": "96px",
                 "tokenId": "96",
-                "widgetId": "@easyblocks/space"
+                "widgetId": "@heliumblocks/space"
               }
             }
           }
@@ -4416,7 +4416,7 @@
             "lg": "8vw"
           },
           "tokenId": "containerMargin.standard",
-          "widgetId": "@easyblocks/space"
+          "widgetId": "@heliumblocks/space"
         }
       },
       "containerMaxWidth": {
@@ -4699,7 +4699,7 @@
         "xl": {
           "value": "16px",
           "tokenId": "16",
-          "widgetId": "@easyblocks/space"
+          "widgetId": "@heliumblocks/space"
         }
       },
       "rowGap": {
@@ -4707,7 +4707,7 @@
         "xl": {
           "value": "16px",
           "tokenId": "16",
-          "widgetId": "@easyblocks/space"
+          "widgetId": "@heliumblocks/space"
         }
       },
       "verticalAlign": {
@@ -4726,7 +4726,7 @@
         "$res": true,
         "xl": {
           "value": "1:1",
-          "widgetId": "@easyblocks/aspectRatio"
+          "widgetId": "@heliumblocks/aspectRatio"
         }
       },
       "paddingTop": {
@@ -4734,7 +4734,7 @@
         "xl": {
           "value": "0px",
           "tokenId": "0",
-          "widgetId": "@easyblocks/space"
+          "widgetId": "@heliumblocks/space"
         }
       },
       "paddingBottom": {
@@ -4742,7 +4742,7 @@
         "xl": {
           "value": "0px",
           "tokenId": "0",
-          "widgetId": "@easyblocks/space"
+          "widgetId": "@heliumblocks/space"
         }
       },
       "paddingLeft": {
@@ -4750,7 +4750,7 @@
         "xl": {
           "value": "0px",
           "tokenId": "0",
-          "widgetId": "@easyblocks/space"
+          "widgetId": "@heliumblocks/space"
         }
       },
       "paddingRight": {
@@ -4758,7 +4758,7 @@
         "xl": {
           "value": "0px",
           "tokenId": "0",
-          "widgetId": "@easyblocks/space"
+          "widgetId": "@heliumblocks/space"
         }
       },
       "LeftArrow": [
@@ -4777,19 +4777,19 @@
             "value": {
               "en-US": "Click me"
             },
-            "widgetId": "@easyblocks/local-text"
+            "widgetId": "@heliumblocks/local-text"
           },
           "icon": {
             "value": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"red\" width=\"100px\" height=\"100px\"><path d=\"M20 11H7.83l5.59-5.59L12 4l-8 8 8 8 1.41-1.41L7.83 13H20v-2z\"/></svg>",
             "tokenId": "arrowLeft",
-            "widgetId": "@easyblocks/icon"
+            "widgetId": "@heliumblocks/icon"
           },
           "color": {
             "$res": true,
             "xl": {
               "value": "#000000",
               "tokenId": "black",
-              "widgetId": "@easyblocks/color"
+              "widgetId": "@heliumblocks/color"
             }
           },
           "minHeight": {
@@ -4805,7 +4805,7 @@
             "xl": {
               "value": "16px",
               "tokenId": "16",
-              "widgetId": "@easyblocks/space"
+              "widgetId": "@heliumblocks/space"
             }
           },
           "gap": {
@@ -4813,7 +4813,7 @@
             "xl": {
               "value": "6px",
               "tokenId": "6",
-              "widgetId": "@easyblocks/space"
+              "widgetId": "@heliumblocks/space"
             }
           },
           "cornerMode": {
@@ -4850,7 +4850,7 @@
             "xl": {
               "value": "#D8D8D880",
               "tokenId": "transparent-grey-light",
-              "widgetId": "@easyblocks/color"
+              "widgetId": "@heliumblocks/color"
             }
           },
           "hasBorder": false,
@@ -4863,7 +4863,7 @@
             "xl": {
               "value": "#000000",
               "tokenId": "black",
-              "widgetId": "@easyblocks/color"
+              "widgetId": "@heliumblocks/color"
             }
           },
           "boxShadow": {
@@ -4884,7 +4884,7 @@
         "xl": {
           "value": "0px",
           "tokenId": "0",
-          "widgetId": "@easyblocks/space"
+          "widgetId": "@heliumblocks/space"
         }
       },
       "RightArrow": [
@@ -4903,19 +4903,19 @@
             "value": {
               "en-US": "Click me"
             },
-            "widgetId": "@easyblocks/local-text"
+            "widgetId": "@heliumblocks/local-text"
           },
           "icon": {
             "value": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"currentColor\"><path d=\"M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8-8-8z\"/></svg>",
             "tokenId": "arrowRight",
-            "widgetId": "@easyblocks/icon"
+            "widgetId": "@heliumblocks/icon"
           },
           "color": {
             "$res": true,
             "xl": {
               "value": "#000000",
               "tokenId": "black",
-              "widgetId": "@easyblocks/color"
+              "widgetId": "@heliumblocks/color"
             }
           },
           "minHeight": {
@@ -4931,7 +4931,7 @@
             "xl": {
               "value": "16px",
               "tokenId": "16",
-              "widgetId": "@easyblocks/space"
+              "widgetId": "@heliumblocks/space"
             }
           },
           "gap": {
@@ -4939,7 +4939,7 @@
             "xl": {
               "value": "6px",
               "tokenId": "6",
-              "widgetId": "@easyblocks/space"
+              "widgetId": "@heliumblocks/space"
             }
           },
           "cornerMode": {
@@ -4976,7 +4976,7 @@
             "xl": {
               "value": "#D8D8D880",
               "tokenId": "transparent-grey-light",
-              "widgetId": "@easyblocks/color"
+              "widgetId": "@heliumblocks/color"
             }
           },
           "hasBorder": false,
@@ -4989,7 +4989,7 @@
             "xl": {
               "value": "#000000",
               "tokenId": "black",
-              "widgetId": "@easyblocks/color"
+              "widgetId": "@heliumblocks/color"
             }
           },
           "boxShadow": {
@@ -5010,7 +5010,7 @@
         "xl": {
           "value": "0px",
           "tokenId": "0",
-          "widgetId": "@easyblocks/space"
+          "widgetId": "@heliumblocks/space"
         }
       },
       "headerMode": "1-stack",
@@ -5028,7 +5028,7 @@
         "xl": {
           "value": "12px",
           "tokenId": "12",
-          "widgetId": "@easyblocks/space"
+          "widgetId": "@heliumblocks/space"
         }
       },
       "headerSectionGap": {
@@ -5036,7 +5036,7 @@
         "xl": {
           "value": "24px",
           "tokenId": "24",
-          "widgetId": "@easyblocks/space"
+          "widgetId": "@heliumblocks/space"
         }
       },
       "footerSectionGap": {
@@ -5044,7 +5044,7 @@
         "xl": {
           "value": "12px",
           "tokenId": "12",
-          "widgetId": "@easyblocks/space"
+          "widgetId": "@heliumblocks/space"
         }
       },
       "HeaderStack": [
@@ -5054,7 +5054,7 @@
           "Items": [
             {
               "_id": "bb7338a1-6052-4a55-ba47-d1df26c6409d",
-              "_component": "@easyblocks/rich-text",
+              "_component": "@heliumblocks/rich-text",
               "_itemProps": {
                 "Stack": {
                   "Items": {
@@ -5067,7 +5067,7 @@
                       "xl": {
                         "value": "0px",
                         "tokenId": "0",
-                        "widgetId": "@easyblocks/space"
+                        "widgetId": "@heliumblocks/space"
                       }
                     },
                     "align": {
@@ -5081,16 +5081,16 @@
                 "en-US": [
                   {
                     "_id": "3e198951-427d-4658-a224-a034cbbf1fad",
-                    "_component": "@easyblocks/rich-text-block-element",
+                    "_component": "@heliumblocks/rich-text-block-element",
                     "type": "paragraph",
                     "elements": [
                       {
                         "_id": "1a5945b4-4039-444a-8428-41d8383a7d3d",
-                        "_component": "@easyblocks/rich-text-line-element",
+                        "_component": "@heliumblocks/rich-text-line-element",
                         "elements": [
                           {
                             "_id": "82291110-acbd-42f5-8d2d-e99c7ee42082",
-                            "_component": "@easyblocks/rich-text-part",
+                            "_component": "@heliumblocks/rich-text-part",
                             "value": "Accessories",
                             "font": {
                               "$res": true,
@@ -5108,7 +5108,7 @@
                               "xl": {
                                 "value": "#252525",
                                 "tokenId": "grey_05",
-                                "widgetId": "@easyblocks/color"
+                                "widgetId": "@heliumblocks/color"
                               }
                             },
                             "TextWrapper": []
@@ -5141,7 +5141,7 @@
                 "xl": {
                   "value": "#252525",
                   "tokenId": "grey_05",
-                  "widgetId": "@easyblocks/color"
+                  "widgetId": "@heliumblocks/color"
                 }
               }
             }
@@ -5161,7 +5161,7 @@
         "xl": {
           "value": "24px",
           "tokenId": "24",
-          "widgetId": "@easyblocks/space"
+          "widgetId": "@heliumblocks/space"
         }
       }
     },
@@ -5176,7 +5176,7 @@
               "xl": {
                 "value": "0px",
                 "tokenId": "0",
-                "widgetId": "@easyblocks/space"
+                "widgetId": "@heliumblocks/space"
               }
             },
             "bottomMargin": {
@@ -5184,7 +5184,7 @@
               "xl": {
                 "value": "0px",
                 "tokenId": "0",
-                "widgetId": "@easyblocks/space"
+                "widgetId": "@heliumblocks/space"
               }
             }
           }
@@ -5199,7 +5199,7 @@
             "lg": "8vw"
           },
           "tokenId": "containerMargin.standard",
-          "widgetId": "@easyblocks/space"
+          "widgetId": "@heliumblocks/space"
         }
       },
       "containerMaxWidth": {
@@ -5244,7 +5244,7 @@
                     "$res": true,
                     "xl": {
                       "value": "1:1",
-                      "widgetId": "@easyblocks/aspectRatio"
+                      "widgetId": "@heliumblocks/aspectRatio"
                     }
                   }
                 }
@@ -5253,7 +5253,7 @@
                 "$res": true,
                 "xl": {
                   "value": "natural",
-                  "widgetId": "@easyblocks/aspectRatio"
+                  "widgetId": "@heliumblocks/aspectRatio"
                 }
               },
               "enableBorder": {
@@ -5265,7 +5265,7 @@
                 "xl": {
                   "value": "#000000",
                   "tokenId": "black",
-                  "widgetId": "@easyblocks/color"
+                  "widgetId": "@heliumblocks/color"
                 }
               },
               "borderLeft": "1",
@@ -5291,7 +5291,7 @@
             "xl": {
               "value": "16px",
               "tokenId": "16",
-              "widgetId": "@easyblocks/space"
+              "widgetId": "@heliumblocks/space"
             }
           },
           "paddingRight": {
@@ -5299,7 +5299,7 @@
             "xl": {
               "value": "16px",
               "tokenId": "16",
-              "widgetId": "@easyblocks/space"
+              "widgetId": "@heliumblocks/space"
             }
           },
           "paddingTop": {
@@ -5307,7 +5307,7 @@
             "xl": {
               "value": "48px",
               "tokenId": "48",
-              "widgetId": "@easyblocks/space"
+              "widgetId": "@heliumblocks/space"
             }
           },
           "paddingBottom": {
@@ -5315,7 +5315,7 @@
             "xl": {
               "value": "48px",
               "tokenId": "48",
-              "widgetId": "@easyblocks/space"
+              "widgetId": "@heliumblocks/space"
             }
           },
           "noFillPaddingLeft": {
@@ -5323,7 +5323,7 @@
             "xl": {
               "value": "0px",
               "tokenId": "0",
-              "widgetId": "@easyblocks/space"
+              "widgetId": "@heliumblocks/space"
             }
           },
           "noFillPaddingRight": {
@@ -5331,7 +5331,7 @@
             "xl": {
               "value": "0px",
               "tokenId": "0",
-              "widgetId": "@easyblocks/space"
+              "widgetId": "@heliumblocks/space"
             }
           },
           "noFillPaddingTop": {
@@ -5339,7 +5339,7 @@
             "xl": {
               "value": "0px",
               "tokenId": "0",
-              "widgetId": "@easyblocks/space"
+              "widgetId": "@heliumblocks/space"
             }
           },
           "noFillPaddingBottom": {
@@ -5347,7 +5347,7 @@
             "xl": {
               "value": "0px",
               "tokenId": "0",
-              "widgetId": "@easyblocks/space"
+              "widgetId": "@heliumblocks/space"
             }
           },
           "paddingInternal": {
@@ -5355,7 +5355,7 @@
             "xl": {
               "value": "16px",
               "tokenId": "16",
-              "widgetId": "@easyblocks/space"
+              "widgetId": "@heliumblocks/space"
             }
           },
           "forceStandardHorizontalPaddings": {
@@ -5371,7 +5371,7 @@
             "xl": {
               "value": "#000000",
               "tokenId": "black",
-              "widgetId": "@easyblocks/color"
+              "widgetId": "@heliumblocks/color"
             }
           },
           "enableBorder": {
@@ -5383,7 +5383,7 @@
             "xl": {
               "value": "#000000",
               "tokenId": "black",
-              "widgetId": "@easyblocks/color"
+              "widgetId": "@heliumblocks/color"
             }
           },
           "borderLeft": "1",
@@ -5401,7 +5401,7 @@
               "Items": [
                 {
                   "_id": "34158a11-c96b-4d37-8c99-879503edc54e",
-                  "_component": "@easyblocks/rich-text",
+                  "_component": "@heliumblocks/rich-text",
                   "_itemProps": {
                     "Stack": {
                       "Items": {
@@ -5414,7 +5414,7 @@
                           "xl": {
                             "value": "24px",
                             "tokenId": "24",
-                            "widgetId": "@easyblocks/space"
+                            "widgetId": "@heliumblocks/space"
                           }
                         },
                         "align": {
@@ -5428,16 +5428,16 @@
                     "en-US": [
                       {
                         "_id": "2cd7f02e-5bfa-4640-ae53-cd2f4ae88574",
-                        "_component": "@easyblocks/rich-text-block-element",
+                        "_component": "@heliumblocks/rich-text-block-element",
                         "type": "paragraph",
                         "elements": [
                           {
                             "_id": "9147f6f3-b281-4d79-9149-991d574ebd47",
-                            "_component": "@easyblocks/rich-text-line-element",
+                            "_component": "@heliumblocks/rich-text-line-element",
                             "elements": [
                               {
                                 "_id": "adea1d46-5825-43ce-8ee7-12ce2247747f",
-                                "_component": "@easyblocks/rich-text-part",
+                                "_component": "@heliumblocks/rich-text-part",
                                 "value": "Home",
                                 "font": {
                                   "$res": true,
@@ -5465,7 +5465,7 @@
                                   "xl": {
                                     "value": "#f9f8f3",
                                     "tokenId": "grey_01",
-                                    "widgetId": "@easyblocks/color"
+                                    "widgetId": "@heliumblocks/color"
                                   }
                                 },
                                 "TextWrapper": []
@@ -5498,13 +5498,13 @@
                     "xl": {
                       "value": "#252525",
                       "tokenId": "grey_05",
-                      "widgetId": "@easyblocks/color"
+                      "widgetId": "@heliumblocks/color"
                     }
                   }
                 },
                 {
                   "_id": "d34d2de5-1676-4d51-be74-2134f76206f8",
-                  "_component": "@easyblocks/rich-text",
+                  "_component": "@heliumblocks/rich-text",
                   "_itemProps": {
                     "Stack": {
                       "Items": {
@@ -5517,7 +5517,7 @@
                           "xl": {
                             "value": "24px",
                             "tokenId": "24",
-                            "widgetId": "@easyblocks/space"
+                            "widgetId": "@heliumblocks/space"
                           }
                         },
                         "align": {
@@ -5531,16 +5531,16 @@
                     "en-US": [
                       {
                         "_id": "d86521cc-28a8-4a6b-815b-475a1445640f",
-                        "_component": "@easyblocks/rich-text-block-element",
+                        "_component": "@heliumblocks/rich-text-block-element",
                         "type": "paragraph",
                         "elements": [
                           {
                             "_id": "7c43bc46-b89c-4929-a5da-c24cf44b1cb9",
-                            "_component": "@easyblocks/rich-text-line-element",
+                            "_component": "@heliumblocks/rich-text-line-element",
                             "elements": [
                               {
                                 "_id": "100c692e-2509-4ea6-9b54-05a9d7b1c286",
-                                "_component": "@easyblocks/rich-text-part",
+                                "_component": "@heliumblocks/rich-text-part",
                                 "value": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.",
                                 "font": {
                                   "$res": true,
@@ -5559,7 +5559,7 @@
                                   "$res": true,
                                   "xl": {
                                     "value": "#f9f8f3",
-                                    "widgetId": "@easyblocks/color"
+                                    "widgetId": "@heliumblocks/color"
                                   }
                                 },
                                 "TextWrapper": []
@@ -5592,7 +5592,7 @@
                     "xl": {
                       "value": "#252525",
                       "tokenId": "grey_05",
-                      "widgetId": "@easyblocks/color"
+                      "widgetId": "@heliumblocks/color"
                     }
                   }
                 },
@@ -5611,7 +5611,7 @@
                           "xl": {
                             "value": "0px",
                             "tokenId": "0",
-                            "widgetId": "@easyblocks/space"
+                            "widgetId": "@heliumblocks/space"
                           }
                         },
                         "align": {
@@ -5627,7 +5627,7 @@
                     "xl": {
                       "value": "12px",
                       "tokenId": "12",
-                      "widgetId": "@easyblocks/space"
+                      "widgetId": "@heliumblocks/space"
                     }
                   },
                   "Buttons": [
@@ -5646,18 +5646,18 @@
                         "value": {
                           "en-US": "Discover"
                         },
-                        "widgetId": "@easyblocks/local-text"
+                        "widgetId": "@heliumblocks/local-text"
                       },
                       "icon": {
                         "value": "<svg viewBox=\"0 -960 960 960\"><path fill=\"currentColor\" d=\"m480-120-58-52q-101-91-167-157T150-447.5Q111-500 95.5-544T80-634q0-94 63-157t157-63q52 0 99 22t81 62q34-40 81-62t99-22q94 0 157 63t63 157q0 46-15.5 90T810-447.5Q771-395 705-329T538-172l-58 52Zm0-108q96-86 158-147.5t98-107q36-45.5 50-81t14-70.5q0-60-40-100t-100-40q-47 0-87 26.5T518-680h-76q-15-41-55-67.5T300-774q-60 0-100 40t-40 100q0 35 14 70.5t50 81q36 45.5 98 107T480-228Zm0-273Z\"/></svg>",
-                        "widgetId": "@easyblocks/icon"
+                        "widgetId": "@heliumblocks/icon"
                       },
                       "color": {
                         "$res": true,
                         "xl": {
                           "value": "#252525",
                           "tokenId": "grey_05",
-                          "widgetId": "@easyblocks/color"
+                          "widgetId": "@heliumblocks/color"
                         }
                       },
                       "minHeight": {
@@ -5673,7 +5673,7 @@
                         "xl": {
                           "value": "16px",
                           "tokenId": "16",
-                          "widgetId": "@easyblocks/space"
+                          "widgetId": "@heliumblocks/space"
                         }
                       },
                       "gap": {
@@ -5681,7 +5681,7 @@
                         "xl": {
                           "value": "6px",
                           "tokenId": "6",
-                          "widgetId": "@easyblocks/space"
+                          "widgetId": "@heliumblocks/space"
                         }
                       },
                       "cornerMode": {
@@ -5718,7 +5718,7 @@
                         "xl": {
                           "value": "#f9f8f3",
                           "tokenId": "grey_01",
-                          "widgetId": "@easyblocks/color"
+                          "widgetId": "@heliumblocks/color"
                         }
                       },
                       "hasBorder": false,
@@ -5731,7 +5731,7 @@
                         "xl": {
                           "value": "#000000",
                           "tokenId": "black",
-                          "widgetId": "@easyblocks/color"
+                          "widgetId": "@heliumblocks/color"
                         }
                       },
                       "boxShadow": {
@@ -5784,7 +5784,7 @@
                     "$res": true,
                     "xl": {
                       "value": "1:1",
-                      "widgetId": "@easyblocks/aspectRatio"
+                      "widgetId": "@heliumblocks/aspectRatio"
                     }
                   }
                 }
@@ -5793,7 +5793,7 @@
                 "$res": true,
                 "xl": {
                   "value": "natural",
-                  "widgetId": "@easyblocks/aspectRatio"
+                  "widgetId": "@heliumblocks/aspectRatio"
                 }
               },
               "enableBorder": {
@@ -5805,7 +5805,7 @@
                 "xl": {
                   "value": "#000000",
                   "tokenId": "black",
-                  "widgetId": "@easyblocks/color"
+                  "widgetId": "@heliumblocks/color"
                 }
               },
               "borderLeft": "1",
@@ -5831,7 +5831,7 @@
             "xl": {
               "value": "16px",
               "tokenId": "16",
-              "widgetId": "@easyblocks/space"
+              "widgetId": "@heliumblocks/space"
             }
           },
           "paddingRight": {
@@ -5839,7 +5839,7 @@
             "xl": {
               "value": "16px",
               "tokenId": "16",
-              "widgetId": "@easyblocks/space"
+              "widgetId": "@heliumblocks/space"
             }
           },
           "paddingTop": {
@@ -5847,7 +5847,7 @@
             "xl": {
               "value": "48px",
               "tokenId": "48",
-              "widgetId": "@easyblocks/space"
+              "widgetId": "@heliumblocks/space"
             }
           },
           "paddingBottom": {
@@ -5855,7 +5855,7 @@
             "xl": {
               "value": "48px",
               "tokenId": "48",
-              "widgetId": "@easyblocks/space"
+              "widgetId": "@heliumblocks/space"
             }
           },
           "noFillPaddingLeft": {
@@ -5863,7 +5863,7 @@
             "xl": {
               "value": "0px",
               "tokenId": "0",
-              "widgetId": "@easyblocks/space"
+              "widgetId": "@heliumblocks/space"
             }
           },
           "noFillPaddingRight": {
@@ -5871,7 +5871,7 @@
             "xl": {
               "value": "0px",
               "tokenId": "0",
-              "widgetId": "@easyblocks/space"
+              "widgetId": "@heliumblocks/space"
             }
           },
           "noFillPaddingTop": {
@@ -5879,7 +5879,7 @@
             "xl": {
               "value": "0px",
               "tokenId": "0",
-              "widgetId": "@easyblocks/space"
+              "widgetId": "@heliumblocks/space"
             }
           },
           "noFillPaddingBottom": {
@@ -5887,7 +5887,7 @@
             "xl": {
               "value": "0px",
               "tokenId": "0",
-              "widgetId": "@easyblocks/space"
+              "widgetId": "@heliumblocks/space"
             }
           },
           "paddingInternal": {
@@ -5895,7 +5895,7 @@
             "xl": {
               "value": "16px",
               "tokenId": "16",
-              "widgetId": "@easyblocks/space"
+              "widgetId": "@heliumblocks/space"
             }
           },
           "forceStandardHorizontalPaddings": {
@@ -5911,7 +5911,7 @@
             "xl": {
               "value": "#000000",
               "tokenId": "black",
-              "widgetId": "@easyblocks/color"
+              "widgetId": "@heliumblocks/color"
             }
           },
           "enableBorder": {
@@ -5923,7 +5923,7 @@
             "xl": {
               "value": "#000000",
               "tokenId": "black",
-              "widgetId": "@easyblocks/color"
+              "widgetId": "@heliumblocks/color"
             }
           },
           "borderLeft": "1",
@@ -5941,7 +5941,7 @@
               "Items": [
                 {
                   "_id": "f0ef309d-83fd-464a-af88-12c571ee3349",
-                  "_component": "@easyblocks/rich-text",
+                  "_component": "@heliumblocks/rich-text",
                   "_itemProps": {
                     "Stack": {
                       "Items": {
@@ -5954,7 +5954,7 @@
                           "xl": {
                             "value": "24px",
                             "tokenId": "24",
-                            "widgetId": "@easyblocks/space"
+                            "widgetId": "@heliumblocks/space"
                           }
                         },
                         "align": {
@@ -5968,16 +5968,16 @@
                     "en-US": [
                       {
                         "_id": "8daa2b66-3436-4d6f-a885-247cac5c3cc0",
-                        "_component": "@easyblocks/rich-text-block-element",
+                        "_component": "@heliumblocks/rich-text-block-element",
                         "type": "paragraph",
                         "elements": [
                           {
                             "_id": "641e4000-709b-4192-a0fb-adf321396a4b",
-                            "_component": "@easyblocks/rich-text-line-element",
+                            "_component": "@heliumblocks/rich-text-line-element",
                             "elements": [
                               {
                                 "_id": "be1ca0b1-14da-4513-82b0-6c9e55f448fa",
-                                "_component": "@easyblocks/rich-text-part",
+                                "_component": "@heliumblocks/rich-text-part",
                                 "value": "Office",
                                 "font": {
                                   "$res": true,
@@ -6005,7 +6005,7 @@
                                   "xl": {
                                     "value": "#f9f8f3",
                                     "tokenId": "grey_01",
-                                    "widgetId": "@easyblocks/color"
+                                    "widgetId": "@heliumblocks/color"
                                   }
                                 },
                                 "TextWrapper": []
@@ -6038,13 +6038,13 @@
                     "xl": {
                       "value": "#252525",
                       "tokenId": "grey_05",
-                      "widgetId": "@easyblocks/color"
+                      "widgetId": "@heliumblocks/color"
                     }
                   }
                 },
                 {
                   "_id": "f00e3006-84f8-4354-a7c8-8429e2f84112",
-                  "_component": "@easyblocks/rich-text",
+                  "_component": "@heliumblocks/rich-text",
                   "_itemProps": {
                     "Stack": {
                       "Items": {
@@ -6057,7 +6057,7 @@
                           "xl": {
                             "value": "24px",
                             "tokenId": "24",
-                            "widgetId": "@easyblocks/space"
+                            "widgetId": "@heliumblocks/space"
                           }
                         },
                         "align": {
@@ -6071,16 +6071,16 @@
                     "en-US": [
                       {
                         "_id": "ab40384f-1f87-4f7d-b174-eeebf62d5cd1",
-                        "_component": "@easyblocks/rich-text-block-element",
+                        "_component": "@heliumblocks/rich-text-block-element",
                         "type": "paragraph",
                         "elements": [
                           {
                             "_id": "afe7778d-84fd-4f9a-bb44-9e1fb7c4b16b",
-                            "_component": "@easyblocks/rich-text-line-element",
+                            "_component": "@heliumblocks/rich-text-line-element",
                             "elements": [
                               {
                                 "_id": "89c9ae16-0871-40a4-8b8f-d3f9d2e1869c",
-                                "_component": "@easyblocks/rich-text-part",
+                                "_component": "@heliumblocks/rich-text-part",
                                 "value": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.",
                                 "font": {
                                   "$res": true,
@@ -6099,7 +6099,7 @@
                                   "$res": true,
                                   "xl": {
                                     "value": "#f9f8f3",
-                                    "widgetId": "@easyblocks/color"
+                                    "widgetId": "@heliumblocks/color"
                                   }
                                 },
                                 "TextWrapper": []
@@ -6132,7 +6132,7 @@
                     "xl": {
                       "value": "#252525",
                       "tokenId": "grey_05",
-                      "widgetId": "@easyblocks/color"
+                      "widgetId": "@heliumblocks/color"
                     }
                   }
                 },
@@ -6151,7 +6151,7 @@
                           "xl": {
                             "value": "0px",
                             "tokenId": "0",
-                            "widgetId": "@easyblocks/space"
+                            "widgetId": "@heliumblocks/space"
                           }
                         },
                         "align": {
@@ -6167,7 +6167,7 @@
                     "xl": {
                       "value": "12px",
                       "tokenId": "12",
-                      "widgetId": "@easyblocks/space"
+                      "widgetId": "@heliumblocks/space"
                     }
                   },
                   "Buttons": [
@@ -6186,18 +6186,18 @@
                         "value": {
                           "en-US": "Discover"
                         },
-                        "widgetId": "@easyblocks/local-text"
+                        "widgetId": "@heliumblocks/local-text"
                       },
                       "icon": {
                         "value": "<svg viewBox=\"0 -960 960 960\"><path fill=\"currentColor\" d=\"m480-120-58-52q-101-91-167-157T150-447.5Q111-500 95.5-544T80-634q0-94 63-157t157-63q52 0 99 22t81 62q34-40 81-62t99-22q94 0 157 63t63 157q0 46-15.5 90T810-447.5Q771-395 705-329T538-172l-58 52Zm0-108q96-86 158-147.5t98-107q36-45.5 50-81t14-70.5q0-60-40-100t-100-40q-47 0-87 26.5T518-680h-76q-15-41-55-67.5T300-774q-60 0-100 40t-40 100q0 35 14 70.5t50 81q36 45.5 98 107T480-228Zm0-273Z\"/></svg>",
-                        "widgetId": "@easyblocks/icon"
+                        "widgetId": "@heliumblocks/icon"
                       },
                       "color": {
                         "$res": true,
                         "xl": {
                           "value": "#252525",
                           "tokenId": "grey_05",
-                          "widgetId": "@easyblocks/color"
+                          "widgetId": "@heliumblocks/color"
                         }
                       },
                       "minHeight": {
@@ -6213,7 +6213,7 @@
                         "xl": {
                           "value": "16px",
                           "tokenId": "16",
-                          "widgetId": "@easyblocks/space"
+                          "widgetId": "@heliumblocks/space"
                         }
                       },
                       "gap": {
@@ -6221,7 +6221,7 @@
                         "xl": {
                           "value": "6px",
                           "tokenId": "6",
-                          "widgetId": "@easyblocks/space"
+                          "widgetId": "@heliumblocks/space"
                         }
                       },
                       "cornerMode": {
@@ -6258,7 +6258,7 @@
                         "xl": {
                           "value": "#f9f8f3",
                           "tokenId": "grey_01",
-                          "widgetId": "@easyblocks/color"
+                          "widgetId": "@heliumblocks/color"
                         }
                       },
                       "hasBorder": false,
@@ -6271,7 +6271,7 @@
                         "xl": {
                           "value": "#000000",
                           "tokenId": "black",
-                          "widgetId": "@easyblocks/color"
+                          "widgetId": "@heliumblocks/color"
                         }
                       },
                       "boxShadow": {
@@ -6322,7 +6322,7 @@
         "xl": {
           "value": "0px",
           "tokenId": "0",
-          "widgetId": "@easyblocks/space"
+          "widgetId": "@heliumblocks/space"
         }
       },
       "verticalGap": {
@@ -6330,7 +6330,7 @@
         "xl": {
           "value": "24px",
           "tokenId": "24",
-          "widgetId": "@easyblocks/space"
+          "widgetId": "@heliumblocks/space"
         }
       },
       "invertCollapsed": false,
@@ -6349,7 +6349,7 @@
         "xl": {
           "value": "12px",
           "tokenId": "12",
-          "widgetId": "@easyblocks/space"
+          "widgetId": "@heliumblocks/space"
         }
       },
       "headerSectionGap": {
@@ -6357,7 +6357,7 @@
         "xl": {
           "value": "12px",
           "tokenId": "12",
-          "widgetId": "@easyblocks/space"
+          "widgetId": "@heliumblocks/space"
         }
       },
       "footerSectionGap": {
@@ -6365,7 +6365,7 @@
         "xl": {
           "value": "12px",
           "tokenId": "12",
-          "widgetId": "@easyblocks/space"
+          "widgetId": "@heliumblocks/space"
         }
       },
       "HeaderStack": [
@@ -6388,7 +6388,7 @@
         "xl": {
           "value": "24px",
           "tokenId": "24",
-          "widgetId": "@easyblocks/space"
+          "widgetId": "@heliumblocks/space"
         }
       }
     }

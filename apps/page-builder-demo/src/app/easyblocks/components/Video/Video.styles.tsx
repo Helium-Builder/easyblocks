@@ -1,7 +1,7 @@
 import type {
   NoCodeComponentStylesFunctionInput,
   NoCodeComponentStylesFunctionResult,
-} from "@easyblocks/core";
+} from "@heliumblocks/core";
 import { imageStyles } from "../Image/Image.styles";
 
 export default function styles(

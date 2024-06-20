@@ -1,4 +1,4 @@
-import { Devices, Locale } from "@easyblocks/core";
+import { Devices, Locale } from "@heliumblocks/core";
 import {
   ButtonGhost,
   Colors,
@@ -11,7 +11,7 @@ import {
   TooltipContent,
   TooltipTrigger,
   Typography,
-} from "@easyblocks/design-system";
+} from "@heliumblocks/design-system";
 import React, { ReactNode, useRef } from "react";
 import styled from "styled-components";
 import { useOnClickNTimes } from "./useOnClickNTimes";

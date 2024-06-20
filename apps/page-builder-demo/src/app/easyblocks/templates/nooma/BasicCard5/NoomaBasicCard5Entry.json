@@ -46,7 +46,7 @@
             "$res": true,
             "xl": {
               "value": "1:1",
-              "widgetId": "@easyblocks/aspectRatio"
+              "widgetId": "@heliumblocks/aspectRatio"
             }
           },
           "enablePlaybackControls": true,
@@ -85,7 +85,7 @@
             "xl": {
               "tokenId": "8",
               "value": "8px",
-              "widgetId": "@easyblocks/space"
+              "widgetId": "@heliumblocks/space"
             }
           },
           "gap": {
@@ -93,7 +93,7 @@
             "xl": {
               "tokenId": "6",
               "value": "6px",
-              "widgetId": "@easyblocks/space"
+              "widgetId": "@heliumblocks/space"
             }
           }
         }
@@ -103,7 +103,7 @@
         "xl": {
           "tokenId": "portrait",
           "value": "4:5",
-          "widgetId": "@easyblocks/aspectRatio"
+          "widgetId": "@heliumblocks/aspectRatio"
         }
       },
       "enableBorder": {
@@ -114,7 +114,7 @@
         "$res": true,
         "xl": {
           "value": "#000000",
-          "widgetId": "@easyblocks/color",
+          "widgetId": "@heliumblocks/color",
           "tokenId": "black"
         }
       },
@@ -141,7 +141,7 @@
     "xl": {
       "value": "16px",
       "tokenId": "16",
-      "widgetId": "@easyblocks/space"
+      "widgetId": "@heliumblocks/space"
     }
   },
   "paddingRight": {
@@ -149,7 +149,7 @@
     "xl": {
       "value": "16px",
       "tokenId": "16",
-      "widgetId": "@easyblocks/space"
+      "widgetId": "@heliumblocks/space"
     }
   },
   "paddingTop": {
@@ -157,7 +157,7 @@
     "xl": {
       "value": "16px",
       "tokenId": "16",
-      "widgetId": "@easyblocks/space"
+      "widgetId": "@heliumblocks/space"
     }
   },
   "paddingBottom": {
@@ -165,7 +165,7 @@
     "xl": {
       "value": "16px",
       "tokenId": "16",
-      "widgetId": "@easyblocks/space"
+      "widgetId": "@heliumblocks/space"
     }
   },
   "noFillPaddingLeft": {
@@ -173,7 +173,7 @@
     "xl": {
       "value": "0px",
       "tokenId": "0",
-      "widgetId": "@easyblocks/space"
+      "widgetId": "@heliumblocks/space"
     }
   },
   "noFillPaddingRight": {
@@ -181,7 +181,7 @@
     "xl": {
       "value": "0px",
       "tokenId": "0",
-      "widgetId": "@easyblocks/space"
+      "widgetId": "@heliumblocks/space"
     }
   },
   "noFillPaddingTop": {
@@ -189,7 +189,7 @@
     "xl": {
       "value": "0px",
       "tokenId": "0",
-      "widgetId": "@easyblocks/space"
+      "widgetId": "@heliumblocks/space"
     }
   },
   "noFillPaddingBottom": {
@@ -197,7 +197,7 @@
     "xl": {
       "value": "0px",
       "tokenId": "0",
-      "widgetId": "@easyblocks/space"
+      "widgetId": "@heliumblocks/space"
     }
   },
   "paddingInternal": {
@@ -205,7 +205,7 @@
     "xl": {
       "value": "16px",
       "tokenId": "16",
-      "widgetId": "@easyblocks/space"
+      "widgetId": "@heliumblocks/space"
     }
   },
   "forceStandardHorizontalPaddings": {
@@ -220,7 +220,7 @@
     "$res": true,
     "xl": {
       "value": "#000000",
-      "widgetId": "@easyblocks/color",
+      "widgetId": "@heliumblocks/color",
       "tokenId": "black"
     }
   },
@@ -232,7 +232,7 @@
     "$res": true,
     "xl": {
       "value": "#000000",
-      "widgetId": "@easyblocks/color",
+      "widgetId": "@heliumblocks/color",
       "tokenId": "black"
     }
   },
@@ -251,7 +251,7 @@
       "Items": [
         {
           "_id": "205ecf6d-a880-4d8d-8dbb-1bb1499defdf",
-          "_component": "@easyblocks/rich-text",
+          "_component": "@heliumblocks/rich-text",
           "_itemProps": {
             "Stack": {
               "Items": {
@@ -264,7 +264,7 @@
                   "xl": {
                     "value": "0px",
                     "tokenId": "0",
-                    "widgetId": "@easyblocks/space"
+                    "widgetId": "@heliumblocks/space"
                   }
                 },
                 "align": {
@@ -277,20 +277,20 @@
           "elements": {
             "en-US": [
               {
-                "_component": "@easyblocks/rich-text-block-element",
+                "_component": "@heliumblocks/rich-text-block-element",
                 "elements": [
                   {
-                    "_component": "@easyblocks/rich-text-line-element",
+                    "_component": "@heliumblocks/rich-text-line-element",
                     "elements": [
                       {
                         "_id": "cd9a6626-d929-4dda-b28d-a91ae62c6d08",
-                        "_component": "@easyblocks/rich-text-part",
+                        "_component": "@heliumblocks/rich-text-part",
                         "color": {
                           "$res": true,
                           "xl": {
                             "tokenId": "grey_01",
                             "value": "#f9f8f3",
-                            "widgetId": "@easyblocks/color"
+                            "widgetId": "@heliumblocks/color"
                           }
                         },
                         "font": {
@@ -311,17 +311,17 @@
                     "_id": "d6d715b7-eb3e-4567-ac4b-00e70bae86bd"
                   },
                   {
-                    "_component": "@easyblocks/rich-text-line-element",
+                    "_component": "@heliumblocks/rich-text-line-element",
                     "elements": [
                       {
                         "_id": "06e588d7-452a-4914-8cbe-aed5f30edb82",
-                        "_component": "@easyblocks/rich-text-part",
+                        "_component": "@heliumblocks/rich-text-part",
                         "color": {
                           "$res": true,
                           "xl": {
                             "tokenId": "grey_01",
                             "value": "#f9f8f3",
-                            "widgetId": "@easyblocks/color"
+                            "widgetId": "@heliumblocks/color"
                           }
                         },
                         "font": {
@@ -379,7 +379,7 @@
             "xl": {
               "value": "#252525",
               "tokenId": "grey_05",
-              "widgetId": "@easyblocks/color"
+              "widgetId": "@heliumblocks/color"
             }
           }
         }

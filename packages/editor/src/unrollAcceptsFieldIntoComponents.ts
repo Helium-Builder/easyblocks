@@ -2,8 +2,8 @@ import { EditorContextType } from "./EditorContext";
 import { getAllComponentTypes } from "./getAllComponentTypes";
 import { normalizeToStringArray } from "./normalizeToStringArray";
 import { getAllComponentsOfType } from "./getAllComponentsOfType";
-import { findComponentDefinitionById } from "@easyblocks/core/_internals";
-import { ComponentDefinitionShared } from "@easyblocks/core";
+import { findComponentDefinitionById } from "@heliumblocks/core/_internals";
+import { ComponentDefinitionShared } from "@heliumblocks/core";
 
 export function unrollAcceptsFieldIntoComponents(
   accepts: string | string[] | undefined,

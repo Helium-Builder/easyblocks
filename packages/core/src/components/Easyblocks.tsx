@@ -24,12 +24,12 @@ export type EasyblocksProps = {
 export type ComponentOverrides = Record<string, ReactElement>;
 
 const builtinComponents: ComponentBuilderProps["components"] = {
-  "@easyblocks/missing-component": MissingComponent,
-  "@easyblocks/rich-text.client": RichTextClient,
-  "@easyblocks/rich-text-block-element": RichTextBlockElementClient,
-  "@easyblocks/rich-text-line-element": RichTextLineElementClient,
-  "@easyblocks/rich-text-part": RichTextPartClient,
-  "@easyblocks/text.client": TextClient,
+  "@heliumblocks/missing-component": MissingComponent,
+  "@heliumblocks/rich-text.client": RichTextClient,
+  "@heliumblocks/rich-text-block-element": RichTextBlockElementClient,
+  "@heliumblocks/rich-text-line-element": RichTextLineElementClient,
+  "@heliumblocks/rich-text-part": RichTextPartClient,
+  "@heliumblocks/text.client": TextClient,
   "EditableComponentBuilder.client": ComponentBuilder,
 };
 

@@ -3,7 +3,7 @@ import {
   Devices,
   TrulyResponsiveValue,
   responsiveValueSet,
-} from "@easyblocks/core";
+} from "@heliumblocks/core";
 import { DecomposedValues, decomposeValues } from "./decomposeValues";
 
 export type ResponsiveAutoCallback = (

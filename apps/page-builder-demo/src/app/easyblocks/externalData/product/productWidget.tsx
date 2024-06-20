@@ -1,8 +1,8 @@
 "use client";
-import type { Widget, WidgetComponentProps } from "@easyblocks/core";
+import type { Widget, WidgetComponentProps } from "@heliumblocks/core";
 
 import { fetchProductById, fetchProducts } from "@/data/shopify";
-import { SimplePicker } from "@easyblocks/design-system";
+import { SimplePicker } from "@heliumblocks/design-system";
 
 import { PRODUCT_WIDGET_ID } from "./productShared";
 

@@ -1,9 +1,9 @@
-import { SchemaProp } from "@easyblocks/core";
+import { SchemaProp } from "@heliumblocks/core";
 import {
   InternalComponentDefinition,
   InternalField,
-} from "@easyblocks/core/_internals";
-import { last } from "@easyblocks/utils";
+} from "@heliumblocks/core/_internals";
+import { last } from "@heliumblocks/utils";
 import { getUniqueValues } from "../../fields/components/getUniqueValues";
 
 export interface MergeCommonFieldsParameters {
@@ -43,11 +43,13 @@ function mergeCommonFields({
      */
     const uniqueDefinitionIds = getUniqueValues(fieldDefinitionIds);
 
-    // It's common when interacting with $richText to pass fields of parent or ancestor down to @easyblocks/rich-text-part.
+    // It's common when interacting with $richText to pass fields of parent or ancestor down to @heliumblocks/rich-text-part.
     // Verify if the all unique ids aren't fields of $richText components.
     if (
       uniqueDefinitionIds.length > 1 &&
-      !uniqueDefinitionIds.every((id) => id.startsWith("@easyblocks/rich-text"))
+      !uniqueDefinitionIds.every((id) =>
+        id.startsWith("@heliumblocks/rich-text")
+      )
     ) {
       continue;
     }

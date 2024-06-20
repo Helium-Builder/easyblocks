@@ -3,7 +3,7 @@ import {
   MultiSelect,
   Input,
   Typography,
-} from "@easyblocks/design-system";
+} from "@heliumblocks/design-system";
 
 export function MultiSelectStories() {
   return (

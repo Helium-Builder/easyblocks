@@ -1,8 +1,8 @@
-import { NoCodeComponentDefinition } from "@easyblocks/core";
+import { NoCodeComponentDefinition } from "@heliumblocks/core";
 
 const codeDefinition: NoCodeComponentDefinition = {
   id: "Code",
-  type: "@easyblocks/text-wrapper",
+  type: "@heliumblocks/text-wrapper",
   schema: [],
   styles() {
     return {

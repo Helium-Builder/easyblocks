@@ -1,4 +1,4 @@
-import { RequestedExternalData, ExternalData } from "@easyblocks/core";
+import { RequestedExternalData, ExternalData } from "@heliumblocks/core";
 import { fetchPexelsResources } from "./externalData/pexels/fetchPexelsResources";
 import { fetchProductResources } from "./externalData/product/fetchProductResources";
 import { fetchMockImages } from "./externalData/mockMedia/fetchMockImages";

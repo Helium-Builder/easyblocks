@@ -1,9 +1,12 @@
 import { useDndContext } from "@dnd-kit/core";
 import { useSortable } from "@dnd-kit/sortable";
-import { PlaceholderAppearance } from "@easyblocks/core";
-import { parsePath, useEasyblocksMetadata } from "@easyblocks/core/_internals";
-import { Colors, Fonts } from "@easyblocks/design-system";
-import { toArray } from "@easyblocks/utils";
+import { PlaceholderAppearance } from "@heliumblocks/core";
+import {
+  parsePath,
+  useEasyblocksMetadata,
+} from "@heliumblocks/core/_internals";
+import { Colors, Fonts } from "@heliumblocks/design-system";
+import { toArray } from "@heliumblocks/utils";
 import React from "react";
 import { EditorContextType } from "./EditorContext";
 

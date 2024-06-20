@@ -6,10 +6,11 @@ const config: Config.InitialOptions = {
   },
   moduleNameMapper: {
     /**
-     *  Currently used jest version doesn't accept "exports" in package.json of @easyblocks/core. That's why we remap _internals to dist/cjs/_internals directly.
+     *  Currently used jest version doesn't accept "exports" in package.json of @heliumblocks/core. That's why we remap _internals to dist/cjs/_internals directly.
      *  It seems that new updates in jest support this so when jest is upgraded, we can think of removing this.
      **/
-    "@easyblocks/core/_internals": "@easyblocks/core/dist/cjs/_internals.cjs",
+    "@heliumblocks/core/_internals":
+      "@heliumblocks/core/dist/cjs/_internals.cjs",
   },
 };
 

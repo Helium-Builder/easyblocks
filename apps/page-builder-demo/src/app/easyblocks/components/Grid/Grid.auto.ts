@@ -9,7 +9,7 @@ import {
   responsiveValueMap,
   responsiveValueFlatten,
   spacingToPx,
-} from "@easyblocks/core";
+} from "@heliumblocks/core";
 
 import { responsiveAuto } from "../utils/responsiveAuto";
 import {

@@ -1,4 +1,4 @@
-import { uniqueId } from "@easyblocks/utils";
+import { uniqueId } from "@heliumblocks/utils";
 import { SetOptional } from "type-fest";
 import type { TokenValue } from "../../../types";
 import type { RichTextComponentConfig } from "./$richText";
@@ -24,7 +24,7 @@ function buildRichTextNoCodeEntry(options?: {
 
   const colorTokenValue: TokenValue = {
     value: "#000000",
-    widgetId: "@easyblocks/color",
+    widgetId: "@heliumblocks/color",
   };
 
   if (color) {
@@ -44,7 +44,7 @@ function buildRichTextNoCodeEntry(options?: {
 
   return {
     _id: uniqueId(),
-    _component: "@easyblocks/rich-text",
+    _component: "@heliumblocks/rich-text",
     accessibilityRole: accessibilityRole ?? "div",
     elements: {
       [locale ?? "en"]: [
@@ -84,7 +84,7 @@ function buildRichTextComponentConfig({
   }): RichTextComponentConfig {
   return {
     _id: uniqueId(),
-    _component: "@easyblocks/rich-text",
+    _component: "@heliumblocks/rich-text",
     accessibilityRole: accessibilityRole ?? "div",
     elements: {
       [locale]: elements,
@@ -100,7 +100,7 @@ function buildRichTextBlockElementComponentConfig(
   elements: RichTextBlockElementComponentConfig["elements"]
 ): RichTextBlockElementComponentConfig {
   return {
-    _component: "@easyblocks/rich-text-block-element",
+    _component: "@heliumblocks/rich-text-block-element",
     elements,
     type,
     _id: uniqueId(),
@@ -114,7 +114,7 @@ function buildRichTextParagraphBlockElementComponentConfig({
   "elements"
 >): RichTextBlockElementComponentConfig {
   return {
-    _component: "@easyblocks/rich-text-block-element",
+    _component: "@heliumblocks/rich-text-block-element",
     elements,
     type: "paragraph",
     _id: uniqueId(),
@@ -128,7 +128,7 @@ function buildRichTextBulletedListBlockElementComponentConfig({
   "elements"
 >): RichTextBlockElementComponentConfig {
   return {
-    _component: "@easyblocks/rich-text-block-element",
+    _component: "@heliumblocks/rich-text-block-element",
     elements,
     type: "bulleted-list",
     _id: uniqueId(),
@@ -142,7 +142,7 @@ function buildRichTextLineElementComponentConfig({
   "elements"
 >): RichTextLineElementComponentConfig {
   return {
-    _component: "@easyblocks/rich-text-line-element",
+    _component: "@heliumblocks/rich-text-line-element",
     elements,
     _id: uniqueId(),
   };
@@ -160,7 +160,7 @@ function buildRichTextPartComponentConfig({
 >): RichTextPartComponentConfig {
   return {
     _id: id ?? uniqueId(),
-    _component: "@easyblocks/rich-text-part",
+    _component: "@heliumblocks/rich-text-part",
     color,
     font,
     value,

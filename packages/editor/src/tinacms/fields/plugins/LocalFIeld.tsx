@@ -1,5 +1,5 @@
-import { LocalValue } from "@easyblocks/core";
-import { InternalField } from "@easyblocks/core/_internals";
+import { LocalValue } from "@heliumblocks/core";
+import { InternalField } from "@heliumblocks/core/_internals";
 import React from "react";
 import { FieldRenderProps } from "react-final-form";
 import { EditorContextType, useEditorContext } from "../../../EditorContext";

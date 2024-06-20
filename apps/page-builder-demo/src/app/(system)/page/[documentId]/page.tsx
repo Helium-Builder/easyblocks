@@ -1,7 +1,7 @@
 import { easyblocksConfig } from "@/app/easyblocks/easyblocks.config";
 import { createMyCustomFetch } from "@/app/easyblocks/myCustomFetch";
 import { components } from "@/app/easyblocks/components";
-import { buildDocument } from "@easyblocks/core";
+import { buildDocument } from "@heliumblocks/core";
 import { EasyblocksContent } from "./EasyblocksContent";
 import { useSearchParams } from "next/navigation";
 

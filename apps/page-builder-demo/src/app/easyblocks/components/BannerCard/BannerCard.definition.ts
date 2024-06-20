@@ -2,7 +2,7 @@ import {
   NoCodeComponentDefinition,
   SchemaProp,
   EditingField,
-} from "@easyblocks/core";
+} from "@heliumblocks/core";
 
 import { toStartEnd } from "@/app/easyblocks/components/utils/toStartEnd";
 import {
@@ -86,7 +86,7 @@ export const bannerCardDefinition: NoCodeComponentDefinition = {
     },
     {
       prop: "CoverCard",
-      label: "Cover",
+      label: "Hello",
       group: "Cover",
       type: "component",
       required: true,

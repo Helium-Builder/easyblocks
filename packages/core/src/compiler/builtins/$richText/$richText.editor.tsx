@@ -1,5 +1,5 @@
 "use client";
-import { deepClone, deepCompare, dotNotationGet } from "@easyblocks/utils";
+import { deepClone, deepCompare, dotNotationGet } from "@heliumblocks/utils";
 import throttle from "lodash/throttle";
 import React, {
   useCallback,
@@ -270,7 +270,7 @@ function RichTextEditor(props: RichTextProps) {
         return;
       }
 
-      if (event.data.type === "@easyblocks-editor/rich-text-changed") {
+      if (event.data.type === "@heliumblocks-editor/rich-text-changed") {
         const { payload } = event.data;
         const { editorContext } = (window.parent as any).editorWindowAPI;
 
@@ -365,7 +365,7 @@ function RichTextEditor(props: RichTextProps) {
     }
 
     const compiledStyles = (() => {
-      if (Element._component === "@easyblocks/rich-text-block-element") {
+      if (Element._component === "@heliumblocks/rich-text-block-element") {
         if (Element.props.type === "bulleted-list") {
           return Element.styled.BulletedList;
         } else if (Element.props.type === "numbered-list") {
@@ -373,7 +373,9 @@ function RichTextEditor(props: RichTextProps) {
         } else if (Element.props.type === "paragraph") {
           return Element.styled.Paragraph;
         }
-      } else if (Element._component === "@easyblocks/rich-text-line-element") {
+      } else if (
+        Element._component === "@heliumblocks/rich-text-line-element"
+      ) {
         if (element.type === "text-line") {
           return Element.styled.TextLine;
         } else if (element.type === "list-item") {

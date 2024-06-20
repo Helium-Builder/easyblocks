@@ -1,8 +1,8 @@
 import {
   EditorContextType,
   duplicateConfig,
-} from "@easyblocks/core/_internals";
-import { dotNotationGet, preOrderPathComparator } from "@easyblocks/utils";
+} from "@heliumblocks/core/_internals";
+import { dotNotationGet, preOrderPathComparator } from "@heliumblocks/utils";
 import { useEffect } from "react";
 
 const GLOBAL_SHORTCUTS_KEYS = [

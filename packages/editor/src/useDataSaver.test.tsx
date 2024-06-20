@@ -9,10 +9,10 @@ test("idle", () => {
 //   DocumentDTO,
 //   DocumentWithResolvedConfigDTO,
 //   ResponsiveValue,
-// } from "@easyblocks/core";
-// import { normalize } from "@easyblocks/core/_internals";
-// import { mock, mockConsoleMethod } from "@easyblocks/test-utils";
-// import { assertDefined, deepClone, dotNotationSet } from "@easyblocks/utils";
+// } from "@heliumblocks/core";
+// import { normalize } from "@heliumblocks/core/_internals";
+// import { mock, mockConsoleMethod } from "@heliumblocks/test-utils";
+// import { assertDefined, deepClone, dotNotationSet } from "@heliumblocks/utils";
 // import { renderHook } from "@testing-library/react";
 // import React from "react";
 // import { PartialDeep } from "type-fest";
@@ -92,13 +92,13 @@ test("idle", () => {
 
 // const textItems: Array<NoCodeComponentEntry> = [
 //   {
-//     _component: "@easyblocks/text",
+//     _component: "@heliumblocks/text",
 //     value: {
 //       id: "123",
 //     },
 //   },
 //   {
-//     _component: "@easyblocks/text",
+//     _component: "@heliumblocks/text",
 //     value: {
 //       id: "345",
 //     },
@@ -289,14 +289,14 @@ test("idle", () => {
 //             Items: [
 //               ...textItems,
 //               {
-//                 _component: "@easyblocks/text",
+//                 _component: "@heliumblocks/text",
 //                 value: {
 //                   id: "local.123",
 //                   value: { en: "Lorem ipsum" },
 //                 },
 //               },
 //               {
-//                 _component: "@easyblocks/text",
+//                 _component: "@heliumblocks/text",
 //                 value: {
 //                   id: "local.345",
 //                   value: { en: "Dolor sit amet" },
@@ -1150,7 +1150,7 @@ test("idle", () => {
 //     "Adding new text",
 //     undefined,
 //     {
-//       _component: "@easyblocks/text",
+//       _component: "@heliumblocks/text",
 //       value: {
 //         id: "local.123",
 //         value: "Lorem ipsum",
@@ -1162,14 +1162,14 @@ test("idle", () => {
 //   runTestsForAddOrModify(
 //     "Modifying existing text",
 //     {
-//       _component: "@easyblocks/text",
+//       _component: "@heliumblocks/text",
 //       value: {
 //         id: "new.123",
 //         value: "Blablabla",
 //       },
 //     },
 //     {
-//       _component: "@easyblocks/text",
+//       _component: "@heliumblocks/text",
 //       value: {
 //         id: "new.123",
 //         value: "Lorem ipsum",
@@ -1180,7 +1180,7 @@ test("idle", () => {
 
 //   describe("mode without text CRUD", () => {
 //     const text1 = {
-//       _component: "@easyblocks/text",
+//       _component: "@heliumblocks/text",
 //       value: {
 //         id: "local.123",
 //         value: { en: "Lorem ipsum" },
@@ -1188,7 +1188,7 @@ test("idle", () => {
 //     };
 
 //     const text2 = {
-//       _component: "@easyblocks/text",
+//       _component: "@heliumblocks/text",
 //       value: {
 //         id: "local.345",
 //         value: { en: "Dolor sit amet" },
@@ -1196,7 +1196,7 @@ test("idle", () => {
 //     };
 
 //     const text3 = {
-//       _component: "@easyblocks/text",
+//       _component: "@heliumblocks/text",
 //       value: {
 //         id: "local.xxx",
 //         value: { en: "Blabla" },
@@ -1279,7 +1279,7 @@ test("idle", () => {
 //   describe("Saving to remote storage", () => {
 //     const localTextItems = [
 //       {
-//         _component: "@easyblocks/text",
+//         _component: "@heliumblocks/text",
 //         value: {
 //           id: "local.123",
 //           value: {
@@ -1289,7 +1289,7 @@ test("idle", () => {
 //         },
 //       },
 //       {
-//         _component: "@easyblocks/text",
+//         _component: "@heliumblocks/text",
 //         value: {
 //           id: "local.345",
 //           value: {

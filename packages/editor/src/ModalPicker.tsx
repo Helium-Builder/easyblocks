@@ -2,13 +2,13 @@ import {
   NoCodeComponentEntry,
   ComponentSchemaProp,
   Template,
-} from "@easyblocks/core";
+} from "@heliumblocks/core";
 import {
   duplicateConfig,
   findComponentDefinition,
   normalize,
-} from "@easyblocks/core/_internals";
-import { dotNotationGet } from "@easyblocks/utils";
+} from "@heliumblocks/core/_internals";
+import { dotNotationGet } from "@heliumblocks/utils";
 import React, { FC } from "react";
 import { useEditorContext } from "./EditorContext";
 import { SearchableSmallPickerModal } from "./SearchableSmallPickerModal";

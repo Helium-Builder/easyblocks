@@ -9,7 +9,7 @@
           "xl": {
             "value": "0px",
             "tokenId": "0",
-            "widgetId": "@easyblocks/space"
+            "widgetId": "@heliumblocks/space"
           }
         },
         "bottomMargin": {
@@ -17,7 +17,7 @@
           "xl": {
             "value": "32px",
             "tokenId": "32",
-            "widgetId": "@easyblocks/space"
+            "widgetId": "@heliumblocks/space"
           }
         }
       }
@@ -32,7 +32,7 @@
         "lg": "8vw"
       },
       "tokenId": "containerMargin.standard",
-      "widgetId": "@easyblocks/space"
+      "widgetId": "@heliumblocks/space"
     }
   },
   "containerMaxWidth": {
@@ -90,7 +90,7 @@
                 "$res": true,
                 "xl": {
                   "value": "1:1",
-                  "widgetId": "@easyblocks/aspectRatio"
+                  "widgetId": "@heliumblocks/aspectRatio"
                 }
               }
             }
@@ -100,7 +100,7 @@
             "xl": {
               "value": "4:5",
               "tokenId": "portrait",
-              "widgetId": "@easyblocks/aspectRatio"
+              "widgetId": "@heliumblocks/aspectRatio"
             }
           },
           "enableBorder": {
@@ -112,7 +112,7 @@
             "xl": {
               "value": "#000000",
               "tokenId": "black",
-              "widgetId": "@easyblocks/color"
+              "widgetId": "@heliumblocks/color"
             }
           },
           "borderLeft": "1",
@@ -138,7 +138,7 @@
         "xl": {
           "value": "16px",
           "tokenId": "16",
-          "widgetId": "@easyblocks/space"
+          "widgetId": "@heliumblocks/space"
         }
       },
       "paddingRight": {
@@ -146,7 +146,7 @@
         "xl": {
           "value": "16px",
           "tokenId": "16",
-          "widgetId": "@easyblocks/space"
+          "widgetId": "@heliumblocks/space"
         }
       },
       "paddingTop": {
@@ -154,7 +154,7 @@
         "xl": {
           "value": "16px",
           "tokenId": "16",
-          "widgetId": "@easyblocks/space"
+          "widgetId": "@heliumblocks/space"
         }
       },
       "paddingBottom": {
@@ -162,7 +162,7 @@
         "xl": {
           "value": "16px",
           "tokenId": "16",
-          "widgetId": "@easyblocks/space"
+          "widgetId": "@heliumblocks/space"
         }
       },
       "noFillPaddingLeft": {
@@ -170,7 +170,7 @@
         "xl": {
           "value": "0px",
           "tokenId": "0",
-          "widgetId": "@easyblocks/space"
+          "widgetId": "@heliumblocks/space"
         }
       },
       "noFillPaddingRight": {
@@ -178,7 +178,7 @@
         "xl": {
           "value": "0px",
           "tokenId": "0",
-          "widgetId": "@easyblocks/space"
+          "widgetId": "@heliumblocks/space"
         }
       },
       "noFillPaddingTop": {
@@ -186,7 +186,7 @@
         "xl": {
           "value": "0px",
           "tokenId": "0",
-          "widgetId": "@easyblocks/space"
+          "widgetId": "@heliumblocks/space"
         }
       },
       "noFillPaddingBottom": {
@@ -194,7 +194,7 @@
         "xl": {
           "value": "0px",
           "tokenId": "0",
-          "widgetId": "@easyblocks/space"
+          "widgetId": "@heliumblocks/space"
         }
       },
       "paddingInternal": {
@@ -202,7 +202,7 @@
         "xl": {
           "value": "16px",
           "tokenId": "16",
-          "widgetId": "@easyblocks/space"
+          "widgetId": "@heliumblocks/space"
         }
       },
       "forceStandardHorizontalPaddings": {
@@ -218,7 +218,7 @@
         "xl": {
           "value": "#000000",
           "tokenId": "black",
-          "widgetId": "@easyblocks/color"
+          "widgetId": "@heliumblocks/color"
         }
       },
       "enableBorder": {
@@ -230,7 +230,7 @@
         "xl": {
           "value": "#000000",
           "tokenId": "black",
-          "widgetId": "@easyblocks/color"
+          "widgetId": "@heliumblocks/color"
         }
       },
       "borderLeft": "1",
@@ -248,7 +248,7 @@
           "Items": [
             {
               "_id": "dbdd7649-bafd-4bd0-bd12-882aa14ddea7",
-              "_component": "@easyblocks/rich-text",
+              "_component": "@heliumblocks/rich-text",
               "_itemProps": {
                 "Stack": {
                   "Items": {
@@ -261,7 +261,7 @@
                       "xl": {
                         "value": "8px",
                         "tokenId": "8",
-                        "widgetId": "@easyblocks/space"
+                        "widgetId": "@heliumblocks/space"
                       }
                     },
                     "align": {
@@ -275,16 +275,16 @@
                 "en-US": [
                   {
                     "_id": "3cf90b6f-5acc-472d-b654-0b177ffe85df",
-                    "_component": "@easyblocks/rich-text-block-element",
+                    "_component": "@heliumblocks/rich-text-block-element",
                     "type": "paragraph",
                     "elements": [
                       {
                         "_id": "44891f1c-c51d-47d2-a7e7-eebeb368b35e",
-                        "_component": "@easyblocks/rich-text-line-element",
+                        "_component": "@heliumblocks/rich-text-line-element",
                         "elements": [
                           {
                             "_id": "beea786d-22c0-4987-ba86-b79d5fdc61ab",
-                            "_component": "@easyblocks/rich-text-part",
+                            "_component": "@heliumblocks/rich-text-part",
                             "value": "Make it stand out",
                             "font": {
                               "$res": true,
@@ -303,7 +303,7 @@
                               "xl": {
                                 "value": "#252525",
                                 "tokenId": "grey_05",
-                                "widgetId": "@easyblocks/color"
+                                "widgetId": "@heliumblocks/color"
                               }
                             },
                             "TextWrapper": []
@@ -336,13 +336,13 @@
                 "xl": {
                   "value": "#252525",
                   "tokenId": "grey_05",
-                  "widgetId": "@easyblocks/color"
+                  "widgetId": "@heliumblocks/color"
                 }
               }
             },
             {
               "_id": "d7448d30-07d0-4bee-9c44-f1d2b14fbcf2",
-              "_component": "@easyblocks/rich-text",
+              "_component": "@heliumblocks/rich-text",
               "_itemProps": {
                 "Stack": {
                   "Items": {
@@ -355,7 +355,7 @@
                       "xl": {
                         "value": "0px",
                         "tokenId": "0",
-                        "widgetId": "@easyblocks/space"
+                        "widgetId": "@heliumblocks/space"
                       }
                     },
                     "align": {
@@ -369,16 +369,16 @@
                 "en-US": [
                   {
                     "_id": "da260a18-5718-4149-ae1b-8c7d335acf04",
-                    "_component": "@easyblocks/rich-text-block-element",
+                    "_component": "@heliumblocks/rich-text-block-element",
                     "type": "paragraph",
                     "elements": [
                       {
                         "_id": "712d264d-d325-41b2-a968-283e684e4204",
-                        "_component": "@easyblocks/rich-text-line-element",
+                        "_component": "@heliumblocks/rich-text-line-element",
                         "elements": [
                           {
                             "_id": "4b9419f8-eb64-41b2-b0b4-783c91dc2e62",
-                            "_component": "@easyblocks/rich-text-part",
+                            "_component": "@heliumblocks/rich-text-part",
                             "value": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                             "font": {
                               "$res": true,
@@ -396,7 +396,7 @@
                               "xl": {
                                 "value": "#000000",
                                 "tokenId": "black",
-                                "widgetId": "@easyblocks/color"
+                                "widgetId": "@heliumblocks/color"
                               }
                             },
                             "TextWrapper": []
@@ -429,7 +429,7 @@
                 "xl": {
                   "value": "#252525",
                   "tokenId": "grey_05",
-                  "widgetId": "@easyblocks/color"
+                  "widgetId": "@heliumblocks/color"
                 }
               }
             }
@@ -480,7 +480,7 @@
                 "$res": true,
                 "xl": {
                   "value": "1:1",
-                  "widgetId": "@easyblocks/aspectRatio"
+                  "widgetId": "@heliumblocks/aspectRatio"
                 }
               }
             }
@@ -490,7 +490,7 @@
             "xl": {
               "value": "4:5",
               "tokenId": "portrait",
-              "widgetId": "@easyblocks/aspectRatio"
+              "widgetId": "@heliumblocks/aspectRatio"
             }
           },
           "enableBorder": {
@@ -502,7 +502,7 @@
             "xl": {
               "value": "#000000",
               "tokenId": "black",
-              "widgetId": "@easyblocks/color"
+              "widgetId": "@heliumblocks/color"
             }
           },
           "borderLeft": "1",
@@ -528,7 +528,7 @@
         "xl": {
           "value": "16px",
           "tokenId": "16",
-          "widgetId": "@easyblocks/space"
+          "widgetId": "@heliumblocks/space"
         }
       },
       "paddingRight": {
@@ -536,7 +536,7 @@
         "xl": {
           "value": "16px",
           "tokenId": "16",
-          "widgetId": "@easyblocks/space"
+          "widgetId": "@heliumblocks/space"
         }
       },
       "paddingTop": {
@@ -544,7 +544,7 @@
         "xl": {
           "value": "16px",
           "tokenId": "16",
-          "widgetId": "@easyblocks/space"
+          "widgetId": "@heliumblocks/space"
         }
       },
       "paddingBottom": {
@@ -552,7 +552,7 @@
         "xl": {
           "value": "16px",
           "tokenId": "16",
-          "widgetId": "@easyblocks/space"
+          "widgetId": "@heliumblocks/space"
         }
       },
       "noFillPaddingLeft": {
@@ -560,7 +560,7 @@
         "xl": {
           "value": "0px",
           "tokenId": "0",
-          "widgetId": "@easyblocks/space"
+          "widgetId": "@heliumblocks/space"
         }
       },
       "noFillPaddingRight": {
@@ -568,7 +568,7 @@
         "xl": {
           "value": "0px",
           "tokenId": "0",
-          "widgetId": "@easyblocks/space"
+          "widgetId": "@heliumblocks/space"
         }
       },
       "noFillPaddingTop": {
@@ -576,7 +576,7 @@
         "xl": {
           "value": "0px",
           "tokenId": "0",
-          "widgetId": "@easyblocks/space"
+          "widgetId": "@heliumblocks/space"
         }
       },
       "noFillPaddingBottom": {
@@ -584,7 +584,7 @@
         "xl": {
           "value": "0px",
           "tokenId": "0",
-          "widgetId": "@easyblocks/space"
+          "widgetId": "@heliumblocks/space"
         }
       },
       "paddingInternal": {
@@ -592,7 +592,7 @@
         "xl": {
           "value": "16px",
           "tokenId": "16",
-          "widgetId": "@easyblocks/space"
+          "widgetId": "@heliumblocks/space"
         }
       },
       "forceStandardHorizontalPaddings": {
@@ -608,7 +608,7 @@
         "xl": {
           "value": "#000000",
           "tokenId": "black",
-          "widgetId": "@easyblocks/color"
+          "widgetId": "@heliumblocks/color"
         }
       },
       "enableBorder": {
@@ -620,7 +620,7 @@
         "xl": {
           "value": "#000000",
           "tokenId": "black",
-          "widgetId": "@easyblocks/color"
+          "widgetId": "@heliumblocks/color"
         }
       },
       "borderLeft": "1",
@@ -638,7 +638,7 @@
           "Items": [
             {
               "_id": "76426bd9-4aa3-467f-8d52-32c2c9b1c52c",
-              "_component": "@easyblocks/rich-text",
+              "_component": "@heliumblocks/rich-text",
               "_itemProps": {
                 "Stack": {
                   "Items": {
@@ -651,7 +651,7 @@
                       "xl": {
                         "value": "8px",
                         "tokenId": "8",
-                        "widgetId": "@easyblocks/space"
+                        "widgetId": "@heliumblocks/space"
                       }
                     },
                     "align": {
@@ -665,16 +665,16 @@
                 "en-US": [
                   {
                     "_id": "f744c685-84ae-4c02-8140-c7a111287234",
-                    "_component": "@easyblocks/rich-text-block-element",
+                    "_component": "@heliumblocks/rich-text-block-element",
                     "type": "paragraph",
                     "elements": [
                       {
                         "_id": "0749df8a-126b-4e39-af4d-472f986f3dd2",
-                        "_component": "@easyblocks/rich-text-line-element",
+                        "_component": "@heliumblocks/rich-text-line-element",
                         "elements": [
                           {
                             "_id": "7d31e675-8952-4308-81cb-6e6996014bcd",
-                            "_component": "@easyblocks/rich-text-part",
+                            "_component": "@heliumblocks/rich-text-part",
                             "value": "Make it stand out",
                             "font": {
                               "$res": true,
@@ -693,7 +693,7 @@
                               "xl": {
                                 "value": "#252525",
                                 "tokenId": "grey_05",
-                                "widgetId": "@easyblocks/color"
+                                "widgetId": "@heliumblocks/color"
                               }
                             },
                             "TextWrapper": []
@@ -726,13 +726,13 @@
                 "xl": {
                   "value": "#252525",
                   "tokenId": "grey_05",
-                  "widgetId": "@easyblocks/color"
+                  "widgetId": "@heliumblocks/color"
                 }
               }
             },
             {
               "_id": "d02ff21b-1349-4f36-aeb1-a3482b999c6f",
-              "_component": "@easyblocks/rich-text",
+              "_component": "@heliumblocks/rich-text",
               "_itemProps": {
                 "Stack": {
                   "Items": {
@@ -745,7 +745,7 @@
                       "xl": {
                         "value": "0px",
                         "tokenId": "0",
-                        "widgetId": "@easyblocks/space"
+                        "widgetId": "@heliumblocks/space"
                       }
                     },
                     "align": {
@@ -759,16 +759,16 @@
                 "en-US": [
                   {
                     "_id": "f2cb5675-ac63-473c-afc9-344433d40d3e",
-                    "_component": "@easyblocks/rich-text-block-element",
+                    "_component": "@heliumblocks/rich-text-block-element",
                     "type": "paragraph",
                     "elements": [
                       {
                         "_id": "48291057-2f7b-4270-abf9-7a3fe990435e",
-                        "_component": "@easyblocks/rich-text-line-element",
+                        "_component": "@heliumblocks/rich-text-line-element",
                         "elements": [
                           {
                             "_id": "f16aad0c-e0bf-48ab-9cac-2402199bd48b",
-                            "_component": "@easyblocks/rich-text-part",
+                            "_component": "@heliumblocks/rich-text-part",
                             "value": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                             "font": {
                               "$res": true,
@@ -786,7 +786,7 @@
                               "xl": {
                                 "value": "#000000",
                                 "tokenId": "black",
-                                "widgetId": "@easyblocks/color"
+                                "widgetId": "@heliumblocks/color"
                               }
                             },
                             "TextWrapper": []
@@ -819,7 +819,7 @@
                 "xl": {
                   "value": "#252525",
                   "tokenId": "grey_05",
-                  "widgetId": "@easyblocks/color"
+                  "widgetId": "@heliumblocks/color"
                 }
               }
             }
@@ -870,7 +870,7 @@
                 "$res": true,
                 "xl": {
                   "value": "1:1",
-                  "widgetId": "@easyblocks/aspectRatio"
+                  "widgetId": "@heliumblocks/aspectRatio"
                 }
               }
             }
@@ -880,7 +880,7 @@
             "xl": {
               "value": "4:5",
               "tokenId": "portrait",
-              "widgetId": "@easyblocks/aspectRatio"
+              "widgetId": "@heliumblocks/aspectRatio"
             }
           },
           "enableBorder": {
@@ -892,7 +892,7 @@
             "xl": {
               "value": "#000000",
               "tokenId": "black",
-              "widgetId": "@easyblocks/color"
+              "widgetId": "@heliumblocks/color"
             }
           },
           "borderLeft": "1",
@@ -918,7 +918,7 @@
         "xl": {
           "value": "16px",
           "tokenId": "16",
-          "widgetId": "@easyblocks/space"
+          "widgetId": "@heliumblocks/space"
         }
       },
       "paddingRight": {
@@ -926,7 +926,7 @@
         "xl": {
           "value": "16px",
           "tokenId": "16",
-          "widgetId": "@easyblocks/space"
+          "widgetId": "@heliumblocks/space"
         }
       },
       "paddingTop": {
@@ -934,7 +934,7 @@
         "xl": {
           "value": "16px",
           "tokenId": "16",
-          "widgetId": "@easyblocks/space"
+          "widgetId": "@heliumblocks/space"
         }
       },
       "paddingBottom": {
@@ -942,7 +942,7 @@
         "xl": {
           "value": "16px",
           "tokenId": "16",
-          "widgetId": "@easyblocks/space"
+          "widgetId": "@heliumblocks/space"
         }
       },
       "noFillPaddingLeft": {
@@ -950,7 +950,7 @@
         "xl": {
           "value": "0px",
           "tokenId": "0",
-          "widgetId": "@easyblocks/space"
+          "widgetId": "@heliumblocks/space"
         }
       },
       "noFillPaddingRight": {
@@ -958,7 +958,7 @@
         "xl": {
           "value": "0px",
           "tokenId": "0",
-          "widgetId": "@easyblocks/space"
+          "widgetId": "@heliumblocks/space"
         }
       },
       "noFillPaddingTop": {
@@ -966,7 +966,7 @@
         "xl": {
           "value": "0px",
           "tokenId": "0",
-          "widgetId": "@easyblocks/space"
+          "widgetId": "@heliumblocks/space"
         }
       },
       "noFillPaddingBottom": {
@@ -974,7 +974,7 @@
         "xl": {
           "value": "0px",
           "tokenId": "0",
-          "widgetId": "@easyblocks/space"
+          "widgetId": "@heliumblocks/space"
         }
       },
       "paddingInternal": {
@@ -982,7 +982,7 @@
         "xl": {
           "value": "16px",
           "tokenId": "16",
-          "widgetId": "@easyblocks/space"
+          "widgetId": "@heliumblocks/space"
         }
       },
       "forceStandardHorizontalPaddings": {
@@ -998,7 +998,7 @@
         "xl": {
           "value": "#000000",
           "tokenId": "black",
-          "widgetId": "@easyblocks/color"
+          "widgetId": "@heliumblocks/color"
         }
       },
       "enableBorder": {
@@ -1010,7 +1010,7 @@
         "xl": {
           "value": "#000000",
           "tokenId": "black",
-          "widgetId": "@easyblocks/color"
+          "widgetId": "@heliumblocks/color"
         }
       },
       "borderLeft": "1",
@@ -1028,7 +1028,7 @@
           "Items": [
             {
               "_id": "da555de9-194c-4104-8176-f3c7056ba97d",
-              "_component": "@easyblocks/rich-text",
+              "_component": "@heliumblocks/rich-text",
               "_itemProps": {
                 "Stack": {
                   "Items": {
@@ -1041,7 +1041,7 @@
                       "xl": {
                         "value": "8px",
                         "tokenId": "8",
-                        "widgetId": "@easyblocks/space"
+                        "widgetId": "@heliumblocks/space"
                       }
                     },
                     "align": {
@@ -1055,16 +1055,16 @@
                 "en-US": [
                   {
                     "_id": "082e22f4-63ec-4c23-ad39-41f111d7591e",
-                    "_component": "@easyblocks/rich-text-block-element",
+                    "_component": "@heliumblocks/rich-text-block-element",
                     "type": "paragraph",
                     "elements": [
                       {
                         "_id": "c52924ae-5480-4c8f-aa05-03c134484728",
-                        "_component": "@easyblocks/rich-text-line-element",
+                        "_component": "@heliumblocks/rich-text-line-element",
                         "elements": [
                           {
                             "_id": "f6073e65-a8be-4922-846c-4c42de3b37be",
-                            "_component": "@easyblocks/rich-text-part",
+                            "_component": "@heliumblocks/rich-text-part",
                             "value": "Make it stand out",
                             "font": {
                               "$res": true,
@@ -1083,7 +1083,7 @@
                               "xl": {
                                 "value": "#252525",
                                 "tokenId": "grey_05",
-                                "widgetId": "@easyblocks/color"
+                                "widgetId": "@heliumblocks/color"
                               }
                             },
                             "TextWrapper": []
@@ -1116,13 +1116,13 @@
                 "xl": {
                   "value": "#252525",
                   "tokenId": "grey_05",
-                  "widgetId": "@easyblocks/color"
+                  "widgetId": "@heliumblocks/color"
                 }
               }
             },
             {
               "_id": "9e27d78b-88da-4386-9cbd-c139fda152d8",
-              "_component": "@easyblocks/rich-text",
+              "_component": "@heliumblocks/rich-text",
               "_itemProps": {
                 "Stack": {
                   "Items": {
@@ -1135,7 +1135,7 @@
                       "xl": {
                         "value": "0px",
                         "tokenId": "0",
-                        "widgetId": "@easyblocks/space"
+                        "widgetId": "@heliumblocks/space"
                       }
                     },
                     "align": {
@@ -1149,16 +1149,16 @@
                 "en-US": [
                   {
                     "_id": "b07ba25b-217c-488b-8131-aec7796f6721",
-                    "_component": "@easyblocks/rich-text-block-element",
+                    "_component": "@heliumblocks/rich-text-block-element",
                     "type": "paragraph",
                     "elements": [
                       {
                         "_id": "f9f10446-e2b2-44dd-bf72-0a69cb882ab8",
-                        "_component": "@easyblocks/rich-text-line-element",
+                        "_component": "@heliumblocks/rich-text-line-element",
                         "elements": [
                           {
                             "_id": "a8bcd16e-a094-40d7-9905-2cc0274294da",
-                            "_component": "@easyblocks/rich-text-part",
+                            "_component": "@heliumblocks/rich-text-part",
                             "value": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                             "font": {
                               "$res": true,
@@ -1176,7 +1176,7 @@
                               "xl": {
                                 "value": "#000000",
                                 "tokenId": "black",
-                                "widgetId": "@easyblocks/color"
+                                "widgetId": "@heliumblocks/color"
                               }
                             },
                             "TextWrapper": []
@@ -1209,7 +1209,7 @@
                 "xl": {
                   "value": "#252525",
                   "tokenId": "grey_05",
-                  "widgetId": "@easyblocks/color"
+                  "widgetId": "@heliumblocks/color"
                 }
               }
             }
@@ -1235,7 +1235,7 @@
     "xl": {
       "value": "16px",
       "tokenId": "16",
-      "widgetId": "@easyblocks/space"
+      "widgetId": "@heliumblocks/space"
     }
   },
   "rowGap": {
@@ -1243,7 +1243,7 @@
     "xl": {
       "value": "16px",
       "tokenId": "16",
-      "widgetId": "@easyblocks/space"
+      "widgetId": "@heliumblocks/space"
     }
   },
   "verticalAlign": {
@@ -1262,7 +1262,7 @@
     "$res": true,
     "xl": {
       "value": "1:1",
-      "widgetId": "@easyblocks/aspectRatio"
+      "widgetId": "@heliumblocks/aspectRatio"
     }
   },
   "paddingTop": {
@@ -1270,7 +1270,7 @@
     "xl": {
       "value": "0px",
       "tokenId": "0",
-      "widgetId": "@easyblocks/space"
+      "widgetId": "@heliumblocks/space"
     }
   },
   "paddingBottom": {
@@ -1278,7 +1278,7 @@
     "xl": {
       "value": "0px",
       "tokenId": "0",
-      "widgetId": "@easyblocks/space"
+      "widgetId": "@heliumblocks/space"
     }
   },
   "paddingLeft": {
@@ -1286,7 +1286,7 @@
     "xl": {
       "value": "0px",
       "tokenId": "0",
-      "widgetId": "@easyblocks/space"
+      "widgetId": "@heliumblocks/space"
     }
   },
   "paddingRight": {
@@ -1294,7 +1294,7 @@
     "xl": {
       "value": "0px",
       "tokenId": "0",
-      "widgetId": "@easyblocks/space"
+      "widgetId": "@heliumblocks/space"
     }
   },
   "LeftArrow": [
@@ -1313,19 +1313,19 @@
         "value": {
           "en-US": "Click me"
         },
-        "widgetId": "@easyblocks/local-text"
+        "widgetId": "@heliumblocks/local-text"
       },
       "icon": {
         "value": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"red\" width=\"100px\" height=\"100px\"><path d=\"M20 11H7.83l5.59-5.59L12 4l-8 8 8 8 1.41-1.41L7.83 13H20v-2z\"/></svg>",
         "tokenId": "arrowLeft",
-        "widgetId": "@easyblocks/icon"
+        "widgetId": "@heliumblocks/icon"
       },
       "color": {
         "$res": true,
         "xl": {
           "value": "#000000",
           "tokenId": "black",
-          "widgetId": "@easyblocks/color"
+          "widgetId": "@heliumblocks/color"
         }
       },
       "minHeight": {
@@ -1341,7 +1341,7 @@
         "xl": {
           "value": "16px",
           "tokenId": "16",
-          "widgetId": "@easyblocks/space"
+          "widgetId": "@heliumblocks/space"
         }
       },
       "gap": {
@@ -1349,7 +1349,7 @@
         "xl": {
           "value": "6px",
           "tokenId": "6",
-          "widgetId": "@easyblocks/space"
+          "widgetId": "@heliumblocks/space"
         }
       },
       "cornerMode": {
@@ -1386,7 +1386,7 @@
         "xl": {
           "value": "#D8D8D880",
           "tokenId": "transparent-grey-light",
-          "widgetId": "@easyblocks/color"
+          "widgetId": "@heliumblocks/color"
         }
       },
       "hasBorder": false,
@@ -1399,7 +1399,7 @@
         "xl": {
           "value": "#000000",
           "tokenId": "black",
-          "widgetId": "@easyblocks/color"
+          "widgetId": "@heliumblocks/color"
         }
       },
       "boxShadow": {
@@ -1420,7 +1420,7 @@
     "xl": {
       "value": "0px",
       "tokenId": "0",
-      "widgetId": "@easyblocks/space"
+      "widgetId": "@heliumblocks/space"
     }
   },
   "RightArrow": [
@@ -1439,19 +1439,19 @@
         "value": {
           "en-US": "Click me"
         },
-        "widgetId": "@easyblocks/local-text"
+        "widgetId": "@heliumblocks/local-text"
       },
       "icon": {
         "value": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"currentColor\"><path d=\"M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8-8-8z\"/></svg>",
         "tokenId": "arrowRight",
-        "widgetId": "@easyblocks/icon"
+        "widgetId": "@heliumblocks/icon"
       },
       "color": {
         "$res": true,
         "xl": {
           "value": "#000000",
           "tokenId": "black",
-          "widgetId": "@easyblocks/color"
+          "widgetId": "@heliumblocks/color"
         }
       },
       "minHeight": {
@@ -1467,7 +1467,7 @@
         "xl": {
           "value": "16px",
           "tokenId": "16",
-          "widgetId": "@easyblocks/space"
+          "widgetId": "@heliumblocks/space"
         }
       },
       "gap": {
@@ -1475,7 +1475,7 @@
         "xl": {
           "value": "6px",
           "tokenId": "6",
-          "widgetId": "@easyblocks/space"
+          "widgetId": "@heliumblocks/space"
         }
       },
       "cornerMode": {
@@ -1512,7 +1512,7 @@
         "xl": {
           "value": "#D8D8D880",
           "tokenId": "transparent-grey-light",
-          "widgetId": "@easyblocks/color"
+          "widgetId": "@heliumblocks/color"
         }
       },
       "hasBorder": false,
@@ -1525,7 +1525,7 @@
         "xl": {
           "value": "#000000",
           "tokenId": "black",
-          "widgetId": "@easyblocks/color"
+          "widgetId": "@heliumblocks/color"
         }
       },
       "boxShadow": {
@@ -1546,7 +1546,7 @@
     "xl": {
       "value": "0px",
       "tokenId": "0",
-      "widgetId": "@easyblocks/space"
+      "widgetId": "@heliumblocks/space"
     }
   },
   "headerMode": "none",
@@ -1564,7 +1564,7 @@
     "xl": {
       "value": "12px",
       "tokenId": "12",
-      "widgetId": "@easyblocks/space"
+      "widgetId": "@heliumblocks/space"
     }
   },
   "headerSectionGap": {
@@ -1572,7 +1572,7 @@
     "xl": {
       "value": "12px",
       "tokenId": "12",
-      "widgetId": "@easyblocks/space"
+      "widgetId": "@heliumblocks/space"
     }
   },
   "footerSectionGap": {
@@ -1580,7 +1580,7 @@
     "xl": {
       "value": "12px",
       "tokenId": "12",
-      "widgetId": "@easyblocks/space"
+      "widgetId": "@heliumblocks/space"
     }
   },
   "HeaderStack": [
@@ -1603,7 +1603,7 @@
     "xl": {
       "value": "24px",
       "tokenId": "24",
-      "widgetId": "@easyblocks/space"
+      "widgetId": "@heliumblocks/space"
     }
   }
 }

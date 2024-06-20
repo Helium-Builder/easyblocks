@@ -1,4 +1,4 @@
-import { NoCodeComponentDefinition } from "@easyblocks/core";
+import { NoCodeComponentDefinition } from "@heliumblocks/core";
 import { assertDefined } from "../../utils/assert";
 import { pxValueNormalize } from "../utils/pxValueNormalize";
 import { buttonStyles } from "./Button.styles";

@@ -1,4 +1,4 @@
-import type { WidgetComponentProps } from "@easyblocks/core";
+import type { WidgetComponentProps } from "@heliumblocks/core";
 import { MediaPicker } from "./MediaPicker";
 
 export function MockVideoPicker({

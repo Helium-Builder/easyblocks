@@ -1,4 +1,4 @@
-import { Config } from "@easyblocks/core";
+import { Config } from "@heliumblocks/core";
 
 export const debugTokens: Config["tokens"] = {
   debug_urls: [

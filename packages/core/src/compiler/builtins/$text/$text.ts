@@ -1,4 +1,4 @@
-import { range } from "@easyblocks/utils";
+import { range } from "@heliumblocks/utils";
 import {
   Color,
   ExternalReference,
@@ -19,7 +19,7 @@ const textEditableComponent: NoCodeComponentDefinition<
   },
   { passedAlign: string }
 > = {
-  id: "@easyblocks/text",
+  id: "@heliumblocks/text",
   label: "Simple Text",
   styles: textStyles,
   type: "item",

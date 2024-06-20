@@ -1,5 +1,5 @@
 {
-  "name": "@easyblocks/core",
+  "name": "@heliumblocks/core",
   "type": "module",
   "version": "1.0.6",
   "description": "No-code ecommerce builder for headless CMS",
@@ -29,10 +29,10 @@
   "devDependencies": {
     "@babel/core": "^7.12.10",
     "@babel/plugin-transform-runtime": "^7.15.0",
-    "@easyblocks/build-tools": "workspace:*",
-    "@easyblocks/reduce-css-calc": "workspace:*",
-    "@easyblocks/test-utils": "workspace:*",
-    "@easyblocks/utils": "workspace:*",
+    "@heliumblocks/build-tools": "workspace:*",
+    "@heliumblocks/reduce-css-calc": "workspace:*",
+    "@heliumblocks/test-utils": "workspace:*",
+    "@heliumblocks/utils": "workspace:*",
     "@jest/types": "^26.6.2",
     "@types/crypto-js": "^4.1.1",
     "@types/jest": "^26.0.20",
